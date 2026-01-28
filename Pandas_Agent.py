@@ -8,7 +8,7 @@ def pandas_agent():
     os.environ["NVIDIA_API_KEY"] = "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"
 
 # 2. Initialize the NVIDIA Model
-# Llama-3.1-70b or 405b are excellent for complex reasoning
+# deepseek-ai/deepseek-v3.2are excellent for complex reasoning
     llm = ChatNVIDIA(model="deepseek-ai/deepseek-v3.2", temperature=0.2, request_timeout=120)
 
 # 3. Load your data
