@@ -64,11 +64,12 @@ Run `audit` to test that the sandbox blocks outside file access and dangerous `o
 **Implementation Plan**
 | Week | Goal | Key Tasks and Deliverables | Review and Testing Focus |
 | --- | --- | --- | --- |
-| 1 | The Pandas Agent | Set up LangChain Pandas DataFrame agent, load a sample CSV, test basic inspection questions. | Accuracy check against manual pandas results. |
-| 2 | Graphing Capability | Prompt the agent to use matplotlib, capture chart output, save `.png`, return URL. | Verify rolling-average plot correctness. |
-| 3 | Safety and Sandboxing | Restrict libraries and file system access, enforce isolated working directory. | Security audit with prompt-injection attempts. |
-| 4 | UI and Persistence | Stream intermediate steps to UI, final polish, end-to-end test. | Verify transparency and stability. |
+| v1 | The Pandas Agent | Set up LangChain Pandas DataFrame agent, load a sample CSV, test basic inspection questions. | Accuracy check against manual pandas results. |
+| v2 | Graphing Capability | Prompt the agent to use matplotlib, capture chart output, save `.png`, return URL. | Verify rolling-average plot correctness. |
+| v3 | Safety and Sandboxing | Restrict libraries and file system access, enforce isolated working directory. | Security audit with prompt-injection attempts. |
+| v4 | UI and Persistence | Stream intermediate steps to UI, final polish, end-to-end test. | Verify transparency and stability. |
 
 **Scope Notes**
 - Local fallback answers support simple stats like mean, median, sum, min, and max when the LLM is disabled.
 - For production, run execution inside Docker and apply resource limits and network isolation.
+
