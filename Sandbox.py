@@ -442,9 +442,14 @@ def plot_data(
             raise ValueError("Box plot requires numeric y values.")
         data = data.copy()
         data[y] = y_numeric
+        top_cats = data[x].value_counts().head(15).index
+        data = data[data[x].isin(top_cats)]
         groups = [g[y].dropna().values for _, g in data.groupby(x)]
         labels = [str(name) for name, _ in data.groupby(x)]
-        plt.boxplot(groups, labels=labels)
+        try:
+            plt.boxplot(groups, tick_labels=labels, patch_artist=True)
+        except TypeError:
+            plt.boxplot(groups, labels=labels)
         plt.xticks(rotation=45, ha="right")
         plt.ylabel(y)
 

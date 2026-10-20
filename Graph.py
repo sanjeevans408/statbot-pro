@@ -2,10 +2,10 @@ import os
 import time
 import re
 import shlex
-import shlex
 from typing import Any, Dict, Optional, Tuple, Literal
 
 import pandas as pd
+import numpy as np
 import matplotlib
 matplotlib.use("Agg")  # headless-safe
 import matplotlib.pyplot as plt
@@ -20,7 +20,7 @@ from langchain_experimental.agents import create_pandas_dataframe_agent
 # =========================
 MODEL_NAME = os.getenv("NVIDIA_MODEL", "deepseek-ai/deepseek-v3.2")
 CSV_PATH = os.getenv("CSV_PATH", "sample.csv")
-CHART_DIR = os.getenv("CHART_DIR", ".")
+CHART_DIR = os.getenv("CHART_DIR", "charts")
 REQUEST_TIMEOUT = int(os.getenv("NVIDIA_REQUEST_TIMEOUT", "90"))
 MAX_COMPLETION_TOKENS = int(os.getenv("NVIDIA_MAX_COMPLETION_TOKENS", "512"))
 ALLOW_DANGEROUS_CODE = os.getenv("ALLOW_DANGEROUS_CODE", "true").lower() in ("1", "true", "yes")
@@ -38,20 +38,28 @@ def _require_api_key() -> None:
 
 def _load_dataframe(path: str) -> pd.DataFrame:
     if not os.path.exists(path):
-        raise FileNotFoundError(f"CSV not found at: {path}")
-    df = pd.read_csv(path)
+        raise FileNotFoundError(f"Dataset not found at: {path}")
+    
+    ext = os.path.splitext(path)[1].lower()
+    if ext in [".xlsx", ".xls"]:
+        df = pd.read_excel(path)
+    elif ext in [".parquet", ".pq"]:
+        df = pd.read_parquet(path)
+    elif ext == ".json":
+        df = pd.read_json(path)
+    else:
+        df = pd.read_csv(path)
 
     # Normalize column names to avoid trailing/extra whitespace issues
     df.columns = [re.sub(r"\s+", " ", str(col).strip()) for col in df.columns]
 
-    # Handle rows where the whole line is quoted and ends up in the first column.
+    # Handle rows where the whole line is quoted and ends up in the first column
     if df.shape[1] >= 2:
         first_col = df.columns[0]
         other_all_nan = df.iloc[:, 1:].isna().all(axis=None)
         has_commas = df[first_col].astype(str).str.contains(",", regex=False).any()
         if other_all_nan and has_commas:
             split = df[first_col].astype(str).str.strip('"').str.split(",", expand=True)
-            # pandas 3.x removed DataFrame.applymap; use column-wise map instead
             split = split.apply(lambda col: col.map(lambda v: v.strip() if isinstance(v, str) else v))
             if split.shape[1] == df.shape[1]:
                 split.columns = df.columns
@@ -69,7 +77,7 @@ def _load_dataframe(path: str) -> pd.DataFrame:
         if converted.notna().sum() >= max(1, int(len(df) * 0.5)):
             df[col] = converted
 
-    # Ensure an explicit index column is available for plotting and queries.
+    # Ensure an explicit index column is available for plotting and queries
     normalized = None
     for col in df.columns:
         if str(col).strip().lower() == "index":
@@ -108,21 +116,16 @@ def _resolve_single_column(tokens: list[str], columns: list[str]) -> Optional[st
 
 
 def _build_llm() -> ChatNVIDIA:
-    # Keep it simple: no streaming; pass timeout in model_kwargs; use max_completion_tokens
     return ChatNVIDIA(
         model=MODEL_NAME,
         temperature=0.1,
         max_completion_tokens=MAX_COMPLETION_TOKENS,
-        model_kwargs={
-            # Avoid streaming to reduce fragility on Integrate endpoint
-            "request_timeout": REQUEST_TIMEOUT
-        },
+        model_kwargs={"request_timeout": REQUEST_TIMEOUT},
     )
 
 
 def create_agent(df: pd.DataFrame):
     llm = _build_llm()
-    # Remove handle_parsing_errors (no longer supported by your installed version)
     return create_pandas_dataframe_agent(
         llm,
         df,
@@ -137,7 +140,6 @@ def _invoke_with_retries(agent: Any, prompt: str, retries: int = RETRIES, backof
         try:
             return agent.invoke(prompt)
         except (ReadTimeout, RequestsConnectionError, Exception) as e:
-            # Treat 5xx/timeout as transient up to retries
             msg = str(e)
             is_transient = any(code in msg for code in ("504", "502", "503", "timeout", "Timeout"))
             attempt += 1
@@ -149,7 +151,7 @@ def _invoke_with_retries(agent: Any, prompt: str, retries: int = RETRIES, backof
 
 
 # =========================
-# Local plotting (no LLM)
+# Local plotting (Safe & Extended)
 # =========================
 def _ensure_chart_path(chart_filename: str) -> str:
     os.makedirs(CHART_DIR, exist_ok=True)
@@ -161,32 +163,24 @@ def _ensure_chart_path(chart_filename: str) -> str:
 
 def plot_data(
     df: pd.DataFrame,
-    kind: Literal["hist", "bar", "line", "scatter", "box"],
+    kind: Literal["hist", "bar", "line", "scatter", "box", "pie", "area", "violin", "heatmap"],
     x: Optional[str] = None,
     y: Optional[str] = None,
-    agg: Optional[Literal["mean", "sum", "count", "median"]] = None,
+    agg: Optional[Literal["mean", "sum", "count", "median", "min", "max"]] = None,
     bins: int = 30,
     title: Optional[str] = None,
     chart_filename: str = "output_chart.png",
 ) -> Dict[str, Optional[str]]:
-    """
-    Safe local plotting without LLM.
-
-    Examples:
-    - Histogram: kind="hist", x="Revenue", bins=30
-    - Bar of avg by Region: kind="bar", x="Region", y="Revenue", agg="mean"
-    - Line: kind="line", x="Date", y="Revenue"
-    - Scatter: kind="scatter", x="Quantity", y="Revenue"
-    - Box by category: kind="box", x="ProductCategory", y="Revenue"
-    """
+    """Safe local plotting with support for multiple graph and chart types."""
     chart_path = _ensure_chart_path(chart_filename)
+    plt.figure(figsize=(9, 5.5))
 
-    plt.figure(figsize=(8, 5))
     if kind == "hist":
         if x is None:
             raise ValueError("For hist, provide x as the numeric column.")
-        df[x].dropna().plot(kind="hist", bins=bins, edgecolor="black")
+        df[x].dropna().plot(kind="hist", bins=bins, color="#4f46e5", edgecolor="black", alpha=0.85)
         plt.xlabel(x)
+        plt.ylabel("Frequency")
 
     elif kind == "bar":
         if x is None or y is None:
@@ -194,54 +188,83 @@ def plot_data(
         data = df[[x, y]].dropna()
         if agg:
             data = data.groupby(x, as_index=False)[y].agg(agg)
-        data = data.sort_values(by=y, ascending=False)
-        plt.bar(data[x].astype(str), data[y])
+        data = data.sort_values(by=y, ascending=False).head(20)
+        plt.bar(data[x].astype(str), data[y], color="#4f46e5", edgecolor="#3730a3")
         plt.xticks(rotation=45, ha="right")
         plt.ylabel(y)
 
     elif kind == "line":
         if x is None or y is None:
-            raise ValueError("For line, provide x (typically time) and y.")
+            raise ValueError("For line, provide x and y.")
         data = df[[x, y]].dropna()
-        # If x looks like dates, try parse
         if pd.api.types.is_string_dtype(data[x]):
             with pd.option_context("mode.chained_assignment", None):
                 try:
                     data[x] = pd.to_datetime(data[x], errors="coerce")
                 except Exception:
                     pass
-        data = data.dropna(subset=[x])
-        data = data.sort_values(by=x)
-        plt.plot(data[x], data[y])
+        data = data.dropna(subset=[x]).sort_values(by=x)
+        plt.plot(data[x], data[y], color="#06b6d4", linewidth=2, marker="o", markersize=4)
         plt.xticks(rotation=45, ha="right")
+        plt.ylabel(y)
+
+    elif kind == "area":
+        if x is None or y is None:
+            raise ValueError("For area, provide x and y.")
+        data = df[[x, y]].dropna().sort_values(by=x)
+        plt.fill_between(range(len(data)), data[y], color="#4f46e5", alpha=0.4)
+        plt.plot(range(len(data)), data[y], color="#4f46e5", linewidth=2)
+        plt.xticks(range(0, len(data), max(1, len(data) // 10)), [str(data[x].iloc[i])[:10] for i in range(0, len(data), max(1, len(data) // 10))], rotation=45, ha="right")
         plt.ylabel(y)
 
     elif kind == "scatter":
         if x is None or y is None:
             raise ValueError("For scatter, provide x and y.")
         data = df[[x, y]].dropna()
-        plt.scatter(data[x], data[y], alpha=0.7)
+        plt.scatter(data[x], data[y], color="#4f46e5", alpha=0.6, edgecolors="none")
         plt.xlabel(x)
         plt.ylabel(y)
 
     elif kind == "box":
         if x is None or y is None:
-            raise ValueError("For box, provide x (category) and y.")
-        # Boxplot by category
+            raise ValueError("For box, provide x (category) and y (numeric).")
         data = df[[x, y]].dropna()
         y_numeric = pd.to_numeric(data[y], errors="coerce")
         if y_numeric.notna().sum() == 0:
-            x_numeric = pd.to_numeric(data[x], errors="coerce")
-            if x_numeric.notna().sum() > 0:
-                raise ValueError(f"Box plot requires numeric y. Did you mean: plot box \"{y}\" \"{x}\" <filename.png>?")
             raise ValueError("Box plot requires numeric y values.")
         data = data.copy()
         data[y] = y_numeric
+        
+        # Limit to top 15 categories by count
+        top_cats = data[x].value_counts().head(15).index
+        data = data[data[x].isin(top_cats)]
         groups = [g[y].dropna().values for _, g in data.groupby(x)]
         labels = [str(name) for name, _ in data.groupby(x)]
-        plt.boxplot(groups, labels=labels)
+        
+        # Modern matplotlib tick_labels handling
+        try:
+            plt.boxplot(groups, tick_labels=labels, patch_artist=True)
+        except TypeError:
+            plt.boxplot(groups, labels=labels)
         plt.xticks(rotation=45, ha="right")
         plt.ylabel(y)
+
+    elif kind == "pie":
+        col = x or y
+        if not col:
+            raise ValueError("For pie, provide column name.")
+        counts = df[col].value_counts().head(8)
+        plt.pie(counts, labels=counts.index, autopct="%1.1f%%", startangle=140, colors=plt.cm.Paired.colors)
+
+    elif kind == "heatmap":
+        numeric_cols = df.select_dtypes(include="number").columns[:10]
+        if len(numeric_cols) < 2:
+            raise ValueError("Heatmap requires at least 2 numeric columns.")
+        corr = df[numeric_cols].corr()
+        cax = plt.matshow(corr, cmap="coolwarm", fignum=1)
+        plt.colorbar(cax)
+        plt.xticks(range(len(numeric_cols)), numeric_cols, rotation=90)
+        plt.yticks(range(len(numeric_cols)), numeric_cols)
 
     else:
         raise ValueError(f"Unsupported kind: {kind}")
@@ -265,7 +288,7 @@ def ask(agent: Any, question: str) -> str:
 
 
 # =========================
-# CLI
+# CLI Interface
 # =========================
 def main():
     _require_api_key()
@@ -273,18 +296,19 @@ def main():
     print("Columns:", df.columns.tolist())
     print("Shape:", df.shape)
 
-    # Build agent for Q&A
     agent = create_agent(df)
 
-    print("Commands:")
-    print("  ask <your question>            -> LLM Q&A about the dataframe")
-    print("  plot bar <x> <y> [mean|sum|count|median] <filename.png>  -> bar chart (optional agg)")
+    print("\nStatBot Pro CLI - Available Commands:")
+    print("  ask <your question>                                       -> LLM Q&A about dataframe")
+    print("  plot bar <x> <y> [mean|sum|count|median] <filename.png>   -> bar chart")
     print("  plot hist <x> <bins> <filename.png>                       -> histogram")
     print("  plot line <x> <y> <filename.png>                          -> line chart")
-    print("  plot scatter <x> <y> <filename.png>                       -> scatter")
+    print("  plot area <x> <y> <filename.png>                          -> area chart")
+    print("  plot scatter <x> <y> <filename.png>                       -> scatter plot")
     print("  plot box <x> <y> <filename.png>                           -> box plot")
-    print("  Tip: wrap column names with spaces in quotes, e.g. plot box \"Avg Daily Distance (km)\" Brand out.png")
-    print("  quit")
+    print("  plot pie <col> <filename.png>                             -> pie chart")
+    print("  plot heatmap <filename.png>                               -> correlation heatmap")
+    print("  quit\n")
 
     while True:
         try:
@@ -314,79 +338,66 @@ def main():
                     continue
                 kind = parts[1].lower()
                 args = parts[2:]
-                if len(args) < 2:
-                    print("Invalid plot command. See usage above.")
-                    continue
                 filename = args[-1]
                 args = args[:-1]
-                if kind == "bar":
-                    # plot bar <x> <y> [agg] <filename>
-                    if len(args) < 2:
-                        print("Usage: plot bar <x> <y> [mean|sum|count|median] <filename.png>")
+
+                if kind == "heatmap":
+                    res = plot_data(df, kind="heatmap", chart_filename=filename, title="Correlation Matrix")
+                    print(res)
+                    continue
+
+                if kind == "pie":
+                    col = _resolve_single_column(args, df.columns.tolist())
+                    if not col:
+                        print(f"Column not found: {args}")
                         continue
+                    res = plot_data(df, kind="pie", x=col, title=f"Proportions of {col}", chart_filename=filename)
+                    print(res)
+                    continue
+
+                if kind == "bar":
                     agg = None
-                    if args and args[-1].lower() in {"mean", "sum", "count", "median"}:
+                    if args and args[-1].lower() in {"mean", "sum", "count", "median", "min", "max"}:
                         agg = args[-1].lower()
                         args = args[:-1]
                     x, y = _split_two_columns(args, df.columns.tolist())
                     if not x or not y:
-                        print("Plot error: column name not found. Use quotes for columns with spaces.")
+                        print("Column not found. Wrap column names with spaces in quotes.")
                         continue
-                    result = plot_data(df, kind="bar", x=x, y=y, agg=agg, title=f"{agg or ''} {y} by {x}".strip(), chart_filename=filename)
-                elif kind == "hist":
-                    # plot hist <x> <bins> <filename>
-                    if len(args) < 2:
-                        print("Usage: plot hist <x> <bins> <filename.png>")
-                        continue
+                    res = plot_data(df, kind="bar", x=x, y=y, agg=agg, title=f"{agg or ''} {y} by {x}".strip(), chart_filename=filename)
+                    print(res)
+                    continue
+
+                if kind == "hist":
                     try:
                         bins = int(args[-1])
+                        col_args = args[:-1]
                     except ValueError:
-                        print("Usage: plot hist <x> <bins> <filename.png>")
-                        continue
-                    x = _resolve_single_column(args[:-1], df.columns.tolist())
+                        bins = 30
+                        col_args = args
+                    x = _resolve_single_column(col_args, df.columns.tolist())
                     if not x:
-                        print("Plot error: column name not found. Use quotes for columns with spaces.")
+                        print("Column not found.")
                         continue
-                    result = plot_data(df, kind="hist", x=x, bins=bins, title=f"Histogram of {x}", chart_filename=filename)
-                elif kind == "line":
-                    # plot line <x> <y> <filename>
-                    if len(args) < 2:
-                        print("Usage: plot line <x> <y> <filename.png>")
-                        continue
-                    x, y = _split_two_columns(args, df.columns.tolist())
-                    if not x or not y:
-                        print("Plot error: column name not found. Use quotes for columns with spaces.")
-                        continue
-                    result = plot_data(df, kind="line", x=x, y=y, title=f"{y} over {x}", chart_filename=filename)
-                elif kind == "scatter":
-                    # plot scatter <x> <y> <filename>
-                    if len(args) < 2:
-                        print("Usage: plot scatter <x> <y> <filename.png>")
-                        continue
-                    x, y = _split_two_columns(args, df.columns.tolist())
-                    if not x or not y:
-                        print("Plot error: column name not found. Use quotes for columns with spaces.")
-                        continue
-                    result = plot_data(df, kind="scatter", x=x, y=y, title=f"{y} vs {x}", chart_filename=filename)
-                elif kind == "box":
-                    # plot box <x> <y> <filename>
-                    if len(args) < 2:
-                        print("Usage: plot box <x> <y> <filename.png>")
-                        continue
-                    x, y = _split_two_columns(args, df.columns.tolist())
-                    if not x or not y:
-                        print("Plot error: column name not found. Use quotes for columns with spaces.")
-                        continue
-                    result = plot_data(df, kind="box", x=x, y=y, title=f"{y} by {x}", chart_filename=filename)
-                else:
-                    print("Unsupported plot kind. Use: bar, hist, line, scatter, box")
+                    res = plot_data(df, kind="hist", x=x, bins=bins, title=f"Histogram of {x}", chart_filename=filename)
+                    print(res)
                     continue
-                print(result)
+
+                if kind in ["line", "area", "scatter", "box"]:
+                    x, y = _split_two_columns(args, df.columns.tolist())
+                    if not x or not y:
+                        print("Columns not found. Wrap names with spaces in quotes.")
+                        continue
+                    res = plot_data(df, kind=kind, x=x, y=y, title=f"{y} vs {x}", chart_filename=filename)
+                    print(res)
+                    continue
+
+                print(f"Unsupported plot type: {kind}")
             except Exception as e:
                 print("Plot error:", e)
             continue
 
-        print("Unknown command. Start with 'ask ' or 'plot ' as shown in usage.")
+        print("Unknown command. Start with 'ask ' or 'plot '.")
 
 if __name__ == "__main__":
     main()

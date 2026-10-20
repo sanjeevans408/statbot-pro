@@ -1,0 +1,1501 @@
+Order ID,Order Date,Ship Mode,Customer Segment,Region,Category,Sub-Category,Sales ($),Quantity,Discount Rate,Profit ($)
+ORD-10000,2023-01-01,Standard Class,Home Office,North America,Furniture,Furnishings,89.54,2,0.15,13.68
+ORD-10001,2023-01-01,Same Day,Home Office,Latin America,Office Supplies,Binders,194.56,4,0.0,65.12
+ORD-10002,2023-01-01,Second Class,Consumer,Europe,Office Supplies,Binders,94.83,4,0.3,8.73
+ORD-10003,2023-01-01,Standard Class,Corporate,Asia Pacific,Furniture,Furnishings,34.89,1,0.0,5.75
+ORD-10004,2023-01-01,First Class,Consumer,Asia Pacific,Technology,Phones,15.31,8,0.2,0.37
+ORD-10005,2023-01-01,Standard Class,Consumer,Europe,Technology,Phones,146.36,1,0.3,-16.57
+ORD-10006,2023-01-02,Standard Class,Consumer,Europe,Technology,Accessories,413.9,8,0.15,53.06
+ORD-10007,2023-01-02,Standard Class,Consumer,Europe,Office Supplies,Paper,201.86,7,0.2,-0.13
+ORD-10008,2023-01-02,Standard Class,Consumer,North America,Office Supplies,Art,1585.81,9,0.2,199.54
+ORD-10009,2023-01-02,First Class,Home Office,Europe,Office Supplies,Paper,89.37,8,0.0,7.73
+ORD-10010,2023-01-02,Standard Class,Consumer,Asia Pacific,Technology,Accessories,87.41,5,0.15,-3.07
+ORD-10011,2023-01-02,First Class,Corporate,Europe,Office Supplies,Art,53.29,8,0.0,5.93
+ORD-10012,2023-01-03,Second Class,Corporate,Asia Pacific,Office Supplies,Paper,54.42,3,0.1,-0.26
+ORD-10013,2023-01-03,Standard Class,Consumer,Europe,Technology,Laptops,88.86,7,0.0,20.97
+ORD-10014,2023-01-03,Same Day,Consumer,Europe,Technology,Machines,361.34,4,0.1,5.13
+ORD-10015,2023-01-03,Standard Class,Consumer,Europe,Technology,Machines,534.61,5,0.2,-33.15
+ORD-10016,2023-01-03,Standard Class,Corporate,Europe,Technology,Laptops,827.32,9,0.5,-286.03
+ORD-10017,2023-01-03,Standard Class,Consumer,Asia Pacific,Furniture,Bookcases,73.16,7,0.0,20.82
+ORD-10018,2023-01-04,First Class,Consumer,North America,Furniture,Furnishings,483.85,4,0.1,103.39
+ORD-10019,2023-01-04,Standard Class,Consumer,Europe,Technology,Laptops,102.53,6,0.1,1.91
+ORD-10020,2023-01-04,Standard Class,Corporate,North America,Office Supplies,Binders,41.34,7,0.3,1.32
+ORD-10021,2023-01-04,Standard Class,Home Office,North America,Technology,Accessories,463.89,9,0.1,46.42
+ORD-10022,2023-01-04,Standard Class,Consumer,Europe,Technology,Accessories,237.4,4,0.15,0.45
+ORD-10023,2023-01-04,First Class,Corporate,Europe,Furniture,Furnishings,54.6,3,0.3,-0.2
+ORD-10024,2023-01-05,Standard Class,Corporate,Latin America,Furniture,Bookcases,138.6,8,0.0,14.35
+ORD-10025,2023-01-05,Standard Class,Home Office,Europe,Office Supplies,Storage,89.5,1,0.3,3.32
+ORD-10026,2023-01-05,Standard Class,Home Office,Asia Pacific,Technology,Phones,308.66,9,0.3,-54.24
+ORD-10027,2023-01-05,Standard Class,Corporate,Europe,Furniture,Chairs,147.89,1,0.3,14.45
+ORD-10028,2023-01-05,Same Day,Corporate,Europe,Furniture,Bookcases,1012.84,2,0.0,72.48
+ORD-10029,2023-01-05,Standard Class,Home Office,North America,Technology,Laptops,27.39,8,0.1,3.94
+ORD-10030,2023-01-06,Same Day,Consumer,North America,Office Supplies,Storage,111.48,9,0.2,17.91
+ORD-10031,2023-01-06,Standard Class,Consumer,North America,Technology,Machines,159.67,7,0.0,8.55
+ORD-10032,2023-01-06,Standard Class,Consumer,Europe,Technology,Laptops,168.88,3,0.15,13.44
+ORD-10033,2023-01-06,First Class,Home Office,North America,Office Supplies,Paper,98.53,7,0.0,15.27
+ORD-10034,2023-01-06,Standard Class,Home Office,North America,Office Supplies,Art,302.44,6,0.0,67.78
+ORD-10035,2023-01-06,Second Class,Consumer,North America,Office Supplies,Storage,472.03,2,0.1,17.77
+ORD-10036,2023-01-07,Same Day,Corporate,Latin America,Technology,Phones,629.3,3,0.1,-6.63
+ORD-10037,2023-01-07,Standard Class,Consumer,North America,Technology,Machines,374.75,5,0.0,89.11
+ORD-10038,2023-01-07,Standard Class,Consumer,Europe,Office Supplies,Storage,433.22,4,0.1,41.18
+ORD-10039,2023-01-07,Second Class,Home Office,North America,Furniture,Bookcases,190.94,2,0.1,29.93
+ORD-10040,2023-01-07,Standard Class,Consumer,Europe,Technology,Laptops,399.57,4,0.15,-2.73
+ORD-10041,2023-01-07,Standard Class,Consumer,North America,Furniture,Furnishings,94.57,8,0.15,2.99
+ORD-10042,2023-01-08,Standard Class,Corporate,North America,Technology,Phones,126.82,5,0.1,17.57
+ORD-10043,2023-01-08,Standard Class,Corporate,Europe,Office Supplies,Paper,98.85,5,0.1,14.62
+ORD-10044,2023-01-08,First Class,Consumer,North America,Technology,Accessories,153.59,3,0.0,24.83
+ORD-10045,2023-01-08,Standard Class,Corporate,North America,Office Supplies,Storage,88.98,8,0.1,4.81
+ORD-10046,2023-01-08,Standard Class,Corporate,North America,Technology,Accessories,732.2,6,0.1,38.16
+ORD-10047,2023-01-08,Second Class,Consumer,North America,Furniture,Tables,97.54,2,0.1,2.19
+ORD-10048,2023-01-09,Standard Class,Consumer,North America,Furniture,Chairs,37.7,2,0.0,5.57
+ORD-10049,2023-01-09,Standard Class,Corporate,North America,Technology,Machines,179.62,9,0.15,-1.83
+ORD-10050,2023-01-09,First Class,Consumer,Asia Pacific,Office Supplies,Art,27.93,7,0.0,6.71
+ORD-10051,2023-01-09,Standard Class,Home Office,Europe,Office Supplies,Paper,40.77,9,0.3,-0.79
+ORD-10052,2023-01-09,First Class,Home Office,Europe,Office Supplies,Art,69.49,6,0.0,11.45
+ORD-10053,2023-01-09,First Class,Home Office,North America,Office Supplies,Binders,152.34,5,0.3,-14.05
+ORD-10054,2023-01-10,Standard Class,Consumer,Latin America,Furniture,Bookcases,139.92,1,0.1,5.78
+ORD-10055,2023-01-10,Standard Class,Home Office,North America,Office Supplies,Paper,368.74,6,0.1,48.17
+ORD-10056,2023-01-10,Standard Class,Consumer,North America,Technology,Laptops,310.91,6,0.0,101.25
+ORD-10057,2023-01-10,Standard Class,Consumer,Europe,Technology,Machines,137.25,3,0.0,35.1
+ORD-10058,2023-01-10,First Class,Consumer,North America,Technology,Laptops,104.32,3,0.0,28.51
+ORD-10059,2023-01-10,First Class,Consumer,North America,Technology,Machines,98.71,3,0.0,29.64
+ORD-10060,2023-01-11,Standard Class,Corporate,Europe,Furniture,Furnishings,342.18,3,0.15,12.14
+ORD-10061,2023-01-11,Second Class,Consumer,Asia Pacific,Technology,Accessories,26.76,7,0.0,1.84
+ORD-10062,2023-01-11,Same Day,Consumer,Europe,Office Supplies,Art,17.84,2,0.2,1.37
+ORD-10063,2023-01-11,Same Day,Corporate,Asia Pacific,Furniture,Tables,364.23,2,0.0,38.83
+ORD-10064,2023-01-11,Standard Class,Consumer,Latin America,Technology,Accessories,157.66,3,0.3,-3.04
+ORD-10065,2023-01-11,Standard Class,Corporate,North America,Furniture,Tables,45.86,7,0.1,8.8
+ORD-10066,2023-01-12,Standard Class,Consumer,North America,Technology,Phones,74.1,3,0.0,21.13
+ORD-10067,2023-01-12,Same Day,Home Office,North America,Office Supplies,Paper,608.05,7,0.1,36.82
+ORD-10068,2023-01-12,Standard Class,Home Office,Europe,Technology,Machines,446.77,9,0.0,91.02
+ORD-10069,2023-01-12,Second Class,Consumer,Europe,Office Supplies,Binders,287.17,4,0.0,67.86
+ORD-10070,2023-01-12,Standard Class,Consumer,Latin America,Office Supplies,Paper,159.81,7,0.1,34.49
+ORD-10071,2023-01-12,Standard Class,Consumer,Asia Pacific,Technology,Accessories,176.62,9,0.15,27.98
+ORD-10072,2023-01-13,Standard Class,Home Office,Europe,Technology,Laptops,828.72,8,0.3,88.17
+ORD-10073,2023-01-13,Same Day,Consumer,North America,Office Supplies,Storage,757.43,8,0.1,-20.89
+ORD-10074,2023-01-13,Standard Class,Consumer,Asia Pacific,Office Supplies,Storage,68.33,9,0.3,-4.01
+ORD-10075,2023-01-13,Second Class,Consumer,Latin America,Office Supplies,Art,381.64,5,0.3,-43.2
+ORD-10076,2023-01-13,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,63.33,5,0.2,-4.69
+ORD-10077,2023-01-13,Standard Class,Consumer,North America,Technology,Laptops,67.85,3,0.1,16.52
+ORD-10078,2023-01-14,Standard Class,Home Office,Europe,Furniture,Chairs,263.01,5,0.0,91.89
+ORD-10079,2023-01-14,Standard Class,Consumer,North America,Technology,Laptops,129.22,8,0.0,13.46
+ORD-10080,2023-01-14,Standard Class,Consumer,North America,Office Supplies,Storage,604.95,5,0.15,-35.37
+ORD-10081,2023-01-14,Standard Class,Home Office,North America,Office Supplies,Storage,35.51,4,0.1,1.86
+ORD-10082,2023-01-14,Standard Class,Home Office,Europe,Technology,Machines,172.62,8,0.0,51.87
+ORD-10083,2023-01-14,Standard Class,Consumer,Europe,Technology,Phones,566.63,7,0.1,32.96
+ORD-10084,2023-01-15,Same Day,Consumer,North America,Technology,Accessories,530.81,6,0.0,35.6
+ORD-10085,2023-01-15,Same Day,Consumer,North America,Technology,Phones,52.45,5,0.15,-2.85
+ORD-10086,2023-01-15,Standard Class,Home Office,Europe,Office Supplies,Binders,115.48,5,0.0,20.58
+ORD-10087,2023-01-15,Second Class,Consumer,North America,Office Supplies,Art,227.36,2,0.15,47.64
+ORD-10088,2023-01-15,Same Day,Home Office,North America,Office Supplies,Art,53.2,4,0.2,-1.29
+ORD-10089,2023-01-15,Standard Class,Corporate,Europe,Furniture,Furnishings,772.4,8,0.0,137.6
+ORD-10090,2023-01-16,First Class,Corporate,Asia Pacific,Technology,Machines,556.68,8,0.1,0.32
+ORD-10091,2023-01-16,Same Day,Consumer,North America,Office Supplies,Binders,55.19,1,0.2,2.1
+ORD-10092,2023-01-16,Standard Class,Consumer,North America,Office Supplies,Storage,43.41,2,0.0,11.24
+ORD-10093,2023-01-16,Standard Class,Consumer,North America,Furniture,Tables,34.64,5,0.0,4.55
+ORD-10094,2023-01-16,Same Day,Consumer,Latin America,Office Supplies,Paper,543.39,9,0.0,75.54
+ORD-10095,2023-01-16,Standard Class,Corporate,Europe,Furniture,Furnishings,62.35,7,0.1,13.88
+ORD-10096,2023-01-17,Standard Class,Home Office,Europe,Furniture,Furnishings,133.44,5,0.1,-3.59
+ORD-10097,2023-01-17,Standard Class,Corporate,North America,Furniture,Chairs,146.07,1,0.0,35.19
+ORD-10098,2023-01-17,Standard Class,Corporate,Europe,Technology,Accessories,216.04,6,0.1,19.05
+ORD-10099,2023-01-17,Second Class,Consumer,North America,Technology,Laptops,31.38,8,0.0,4.38
+ORD-10100,2023-01-17,Second Class,Consumer,Europe,Technology,Laptops,71.58,7,0.2,6.25
+ORD-10101,2023-01-17,Same Day,Consumer,Latin America,Office Supplies,Paper,604.77,2,0.0,181.67
+ORD-10102,2023-01-18,Standard Class,Corporate,Europe,Technology,Laptops,540.9,5,0.2,31.11
+ORD-10103,2023-01-18,Standard Class,Home Office,Asia Pacific,Furniture,Tables,349.4,4,0.1,-7.22
+ORD-10104,2023-01-18,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,19.31,9,0.15,1.32
+ORD-10105,2023-01-18,Standard Class,Consumer,North America,Technology,Phones,102.12,1,0.1,11.11
+ORD-10106,2023-01-18,Standard Class,Consumer,Latin America,Furniture,Tables,232.53,6,0.15,21.66
+ORD-10107,2023-01-18,Same Day,Corporate,North America,Office Supplies,Art,85.81,3,0.0,21.56
+ORD-10108,2023-01-19,First Class,Consumer,Europe,Technology,Phones,543.74,9,0.2,-56.66
+ORD-10109,2023-01-19,Standard Class,Home Office,North America,Technology,Accessories,236.06,5,0.1,28.47
+ORD-10110,2023-01-19,Second Class,Home Office,North America,Technology,Phones,31.42,6,0.1,4.6
+ORD-10111,2023-01-19,Standard Class,Corporate,Europe,Technology,Laptops,542.33,9,0.1,39.59
+ORD-10112,2023-01-19,Standard Class,Consumer,North America,Office Supplies,Binders,711.2,9,0.2,64.37
+ORD-10113,2023-01-19,Second Class,Consumer,Europe,Office Supplies,Art,32.8,8,0.15,-0.05
+ORD-10114,2023-01-20,Standard Class,Consumer,Europe,Office Supplies,Binders,182.21,9,0.0,26.46
+ORD-10115,2023-01-20,Same Day,Consumer,North America,Office Supplies,Paper,94.53,4,0.15,20.69
+ORD-10116,2023-01-20,Second Class,Consumer,North America,Office Supplies,Paper,124.77,6,0.15,4.29
+ORD-10117,2023-01-20,Standard Class,Corporate,Europe,Technology,Accessories,58.57,5,0.3,-5.04
+ORD-10118,2023-01-20,First Class,Corporate,North America,Office Supplies,Art,204.84,5,0.2,14.07
+ORD-10119,2023-01-20,Standard Class,Consumer,Asia Pacific,Furniture,Furnishings,712.31,4,0.15,157.63
+ORD-10120,2023-01-21,Standard Class,Consumer,Europe,Office Supplies,Art,168.85,2,0.0,58.24
+ORD-10121,2023-01-21,Standard Class,Consumer,Asia Pacific,Office Supplies,Paper,34.04,6,0.2,2.18
+ORD-10122,2023-01-21,Standard Class,Consumer,Europe,Technology,Accessories,227.87,9,0.1,-6.76
+ORD-10123,2023-01-21,First Class,Home Office,Europe,Technology,Laptops,106.49,1,0.5,-8.5
+ORD-10124,2023-01-21,Standard Class,Consumer,Europe,Technology,Phones,441.23,7,0.0,97.54
+ORD-10125,2023-01-21,First Class,Consumer,North America,Furniture,Furnishings,140.48,6,0.0,22.45
+ORD-10126,2023-01-22,Second Class,Consumer,North America,Office Supplies,Binders,62.13,3,0.0,18.56
+ORD-10127,2023-01-22,Standard Class,Home Office,Asia Pacific,Office Supplies,Art,61.66,1,0.15,3.08
+ORD-10128,2023-01-22,First Class,Corporate,Europe,Technology,Laptops,337.15,4,0.3,-60.62
+ORD-10129,2023-01-22,Standard Class,Consumer,Asia Pacific,Furniture,Furnishings,82.91,9,0.0,24.57
+ORD-10130,2023-01-22,Standard Class,Corporate,Asia Pacific,Furniture,Furnishings,335.7,2,0.15,31.47
+ORD-10131,2023-01-22,Standard Class,Corporate,Asia Pacific,Technology,Laptops,65.72,3,0.15,2.07
+ORD-10132,2023-01-23,Standard Class,Home Office,Latin America,Technology,Accessories,100.39,2,0.15,0.53
+ORD-10133,2023-01-23,Standard Class,Consumer,Europe,Technology,Phones,152.81,2,0.0,34.86
+ORD-10134,2023-01-23,Second Class,Home Office,North America,Office Supplies,Binders,645.99,8,0.2,-30.74
+ORD-10135,2023-01-23,Standard Class,Home Office,Europe,Technology,Laptops,605.55,3,0.0,89.11
+ORD-10136,2023-01-23,Standard Class,Home Office,North America,Furniture,Furnishings,65.99,7,0.2,5.34
+ORD-10137,2023-01-23,Same Day,Corporate,Europe,Office Supplies,Binders,112.57,8,0.0,35.4
+ORD-10138,2023-01-24,Second Class,Corporate,Asia Pacific,Furniture,Chairs,50.6,3,0.1,6.57
+ORD-10139,2023-01-24,First Class,Consumer,Europe,Office Supplies,Storage,171.93,2,0.2,20.24
+ORD-10140,2023-01-24,Standard Class,Corporate,North America,Office Supplies,Binders,150.8,8,0.0,42.06
+ORD-10141,2023-01-24,Second Class,Corporate,North America,Technology,Phones,523.25,3,0.0,130.45
+ORD-10142,2023-01-24,First Class,Corporate,Europe,Furniture,Bookcases,600.05,7,0.15,2.25
+ORD-10143,2023-01-24,Second Class,Consumer,North America,Technology,Phones,121.44,1,0.1,27.94
+ORD-10144,2023-01-25,Second Class,Corporate,Asia Pacific,Technology,Laptops,163.89,6,0.1,16.53
+ORD-10145,2023-01-25,Standard Class,Home Office,North America,Technology,Machines,513.44,9,0.0,32.48
+ORD-10146,2023-01-25,Standard Class,Consumer,North America,Office Supplies,Binders,376.58,3,0.0,46.46
+ORD-10147,2023-01-25,Standard Class,Home Office,North America,Furniture,Chairs,15.81,7,0.1,3.16
+ORD-10148,2023-01-25,Standard Class,Corporate,Europe,Technology,Laptops,99.87,6,0.0,7.06
+ORD-10149,2023-01-25,First Class,Home Office,Europe,Technology,Phones,135.51,8,0.3,-19.76
+ORD-10150,2023-01-26,Standard Class,Consumer,North America,Office Supplies,Paper,72.42,3,0.0,18.7
+ORD-10151,2023-01-26,Same Day,Consumer,North America,Technology,Accessories,63.97,3,0.1,15.21
+ORD-10152,2023-01-26,Same Day,Home Office,Europe,Technology,Machines,23.47,4,0.0,5.64
+ORD-10153,2023-01-26,Standard Class,Consumer,North America,Furniture,Chairs,241.83,3,0.0,28.22
+ORD-10154,2023-01-26,Standard Class,Home Office,Europe,Office Supplies,Storage,81.99,9,0.15,-4.43
+ORD-10155,2023-01-26,First Class,Consumer,Europe,Technology,Laptops,26.83,4,0.15,3.07
+ORD-10156,2023-01-27,Same Day,Corporate,North America,Office Supplies,Art,72.78,6,0.0,4.67
+ORD-10157,2023-01-27,Standard Class,Consumer,North America,Office Supplies,Storage,371.19,8,0.0,86.79
+ORD-10158,2023-01-27,Standard Class,Corporate,Latin America,Technology,Machines,434.56,8,0.0,51.14
+ORD-10159,2023-01-27,Standard Class,Consumer,Europe,Office Supplies,Storage,160.16,5,0.2,25.85
+ORD-10160,2023-01-27,Second Class,Consumer,Europe,Furniture,Tables,133.35,5,0.1,15.01
+ORD-10161,2023-01-27,Standard Class,Consumer,North America,Office Supplies,Paper,853.22,6,0.0,99.98
+ORD-10162,2023-01-28,Second Class,Consumer,Europe,Office Supplies,Binders,64.25,7,0.1,14.52
+ORD-10163,2023-01-28,Standard Class,Home Office,North America,Furniture,Chairs,68.36,7,0.15,0.42
+ORD-10164,2023-01-28,Standard Class,Home Office,Europe,Technology,Phones,90.93,4,0.2,-1.64
+ORD-10165,2023-01-28,Standard Class,Consumer,Latin America,Office Supplies,Paper,56.72,6,0.3,3.42
+ORD-10166,2023-01-28,Standard Class,Corporate,North America,Technology,Accessories,119.94,7,0.0,17.11
+ORD-10167,2023-01-28,Standard Class,Consumer,North America,Technology,Phones,546.8,5,0.0,94.62
+ORD-10168,2023-01-29,Standard Class,Corporate,North America,Technology,Accessories,225.19,5,0.0,34.75
+ORD-10169,2023-01-29,Standard Class,Home Office,North America,Furniture,Furnishings,131.81,2,0.2,-9.9
+ORD-10170,2023-01-29,Standard Class,Home Office,North America,Office Supplies,Storage,614.36,7,0.3,-109.56
+ORD-10171,2023-01-29,Standard Class,Consumer,North America,Technology,Laptops,25.93,6,0.1,4.86
+ORD-10172,2023-01-29,Same Day,Corporate,Asia Pacific,Furniture,Chairs,66.94,1,0.0,16.3
+ORD-10173,2023-01-29,Standard Class,Consumer,Europe,Technology,Accessories,198.58,4,0.1,10.86
+ORD-10174,2023-01-30,Standard Class,Home Office,North America,Office Supplies,Storage,225.31,3,0.0,31.25
+ORD-10175,2023-01-30,Second Class,Consumer,Latin America,Technology,Accessories,23.88,3,0.0,7.96
+ORD-10176,2023-01-30,Same Day,Corporate,North America,Office Supplies,Binders,128.5,7,0.1,34.22
+ORD-10177,2023-01-30,Standard Class,Corporate,Latin America,Furniture,Chairs,245.43,4,0.0,47.13
+ORD-10178,2023-01-30,Second Class,Corporate,North America,Office Supplies,Storage,278.46,8,0.0,80.96
+ORD-10179,2023-01-30,Second Class,Consumer,Asia Pacific,Technology,Phones,238.63,9,0.15,36.03
+ORD-10180,2023-01-31,Second Class,Home Office,Europe,Technology,Phones,100.03,3,0.0,13.92
+ORD-10181,2023-01-31,Standard Class,Consumer,Asia Pacific,Technology,Laptops,36.6,5,0.0,2.47
+ORD-10182,2023-01-31,Second Class,Corporate,Latin America,Office Supplies,Storage,137.55,4,0.0,12.76
+ORD-10183,2023-01-31,Standard Class,Consumer,North America,Office Supplies,Art,45.32,6,0.2,6.41
+ORD-10184,2023-01-31,Second Class,Consumer,Latin America,Technology,Machines,663.85,4,0.2,72.6
+ORD-10185,2023-01-31,Second Class,Corporate,North America,Office Supplies,Binders,156.83,8,0.0,39.1
+ORD-10186,2023-02-01,Standard Class,Consumer,North America,Office Supplies,Storage,98.96,3,0.1,0.91
+ORD-10187,2023-02-01,First Class,Consumer,North America,Furniture,Furnishings,334.82,5,0.0,81.02
+ORD-10188,2023-02-01,Standard Class,Consumer,Europe,Furniture,Tables,166.59,1,0.15,26.93
+ORD-10189,2023-02-01,First Class,Consumer,North America,Technology,Accessories,96.64,6,0.15,18.19
+ORD-10190,2023-02-01,Standard Class,Corporate,Europe,Technology,Accessories,382.65,5,0.2,-40.57
+ORD-10191,2023-02-01,Standard Class,Home Office,Europe,Office Supplies,Art,459.08,8,0.1,80.5
+ORD-10192,2023-02-02,Standard Class,Consumer,Asia Pacific,Office Supplies,Storage,260.92,9,0.5,-89.83
+ORD-10193,2023-02-02,Same Day,Consumer,Asia Pacific,Office Supplies,Paper,25.58,8,0.3,0.56
+ORD-10194,2023-02-02,Standard Class,Consumer,Europe,Technology,Accessories,198.8,8,0.2,16.04
+ORD-10195,2023-02-02,Standard Class,Consumer,North America,Technology,Machines,332.01,3,0.1,4.82
+ORD-10196,2023-02-02,Standard Class,Corporate,North America,Office Supplies,Art,47.29,4,0.0,13.23
+ORD-10197,2023-02-02,Second Class,Corporate,North America,Office Supplies,Paper,72.12,4,0.0,5.08
+ORD-10198,2023-02-03,Standard Class,Consumer,North America,Office Supplies,Paper,486.08,5,0.0,144.81
+ORD-10199,2023-02-03,Standard Class,Consumer,North America,Office Supplies,Art,19.47,9,0.0,2.5
+ORD-10200,2023-02-03,Standard Class,Consumer,North America,Office Supplies,Storage,322.4,9,0.15,44.06
+ORD-10201,2023-02-03,Standard Class,Home Office,Latin America,Technology,Phones,156.25,1,0.15,32.36
+ORD-10202,2023-02-03,Standard Class,Home Office,Europe,Technology,Machines,145.24,8,0.3,-12.79
+ORD-10203,2023-02-03,Standard Class,Consumer,North America,Office Supplies,Paper,16.57,1,0.0,3.33
+ORD-10204,2023-02-04,Second Class,Consumer,Europe,Office Supplies,Storage,391.52,2,0.0,73.97
+ORD-10205,2023-02-04,Standard Class,Home Office,North America,Technology,Accessories,113.12,7,0.2,-7.09
+ORD-10206,2023-02-04,Standard Class,Home Office,Europe,Technology,Phones,186.2,8,0.0,42.28
+ORD-10207,2023-02-04,Standard Class,Consumer,Europe,Office Supplies,Storage,263.83,1,0.0,72.0
+ORD-10208,2023-02-04,Same Day,Consumer,Europe,Technology,Machines,281.81,3,0.5,-21.12
+ORD-10209,2023-02-04,Same Day,Consumer,Europe,Technology,Phones,702.08,7,0.2,101.97
+ORD-10210,2023-02-05,First Class,Corporate,Latin America,Furniture,Chairs,181.73,9,0.1,22.35
+ORD-10211,2023-02-05,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,127.28,8,0.2,13.45
+ORD-10212,2023-02-05,Standard Class,Consumer,Europe,Office Supplies,Binders,690.99,8,0.15,117.63
+ORD-10213,2023-02-05,Standard Class,Corporate,Europe,Technology,Machines,241.06,9,0.2,9.17
+ORD-10214,2023-02-05,Standard Class,Consumer,Europe,Office Supplies,Paper,92.89,3,0.2,-7.0
+ORD-10215,2023-02-05,Standard Class,Corporate,North America,Technology,Machines,44.75,8,0.0,8.12
+ORD-10216,2023-02-06,First Class,Consumer,North America,Technology,Laptops,421.71,1,0.15,77.06
+ORD-10217,2023-02-06,First Class,Consumer,North America,Office Supplies,Art,113.93,8,0.0,26.09
+ORD-10218,2023-02-06,First Class,Corporate,Europe,Office Supplies,Paper,252.64,7,0.0,67.54
+ORD-10219,2023-02-06,Standard Class,Consumer,Europe,Office Supplies,Art,155.01,8,0.3,-20.84
+ORD-10220,2023-02-06,Second Class,Home Office,North America,Office Supplies,Binders,63.8,1,0.1,16.54
+ORD-10221,2023-02-06,Standard Class,Corporate,Latin America,Furniture,Furnishings,217.51,6,0.15,11.14
+ORD-10222,2023-02-07,Standard Class,Consumer,Latin America,Technology,Accessories,28.77,7,0.2,2.48
+ORD-10223,2023-02-07,Second Class,Corporate,Asia Pacific,Furniture,Bookcases,132.33,5,0.3,-24.39
+ORD-10224,2023-02-07,Standard Class,Consumer,Europe,Technology,Accessories,189.02,5,0.2,-13.57
+ORD-10225,2023-02-07,Standard Class,Home Office,Asia Pacific,Technology,Machines,141.01,7,0.1,28.85
+ORD-10226,2023-02-07,Standard Class,Consumer,North America,Office Supplies,Paper,318.82,3,0.0,108.52
+ORD-10227,2023-02-07,Second Class,Corporate,Asia Pacific,Furniture,Tables,402.16,6,0.0,58.72
+ORD-10228,2023-02-08,First Class,Consumer,North America,Office Supplies,Storage,339.52,7,0.1,-6.4
+ORD-10229,2023-02-08,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,23.71,1,0.0,3.75
+ORD-10230,2023-02-08,First Class,Home Office,North America,Office Supplies,Binders,62.48,2,0.1,-1.55
+ORD-10231,2023-02-08,Standard Class,Home Office,Asia Pacific,Furniture,Tables,184.22,4,0.15,-2.26
+ORD-10232,2023-02-08,Standard Class,Consumer,Latin America,Furniture,Bookcases,615.74,8,0.3,22.01
+ORD-10233,2023-02-08,Second Class,Consumer,North America,Furniture,Furnishings,411.34,6,0.15,86.84
+ORD-10234,2023-02-09,Second Class,Home Office,Europe,Technology,Accessories,421.68,1,0.15,-18.45
+ORD-10235,2023-02-09,Same Day,Home Office,Latin America,Office Supplies,Binders,94.48,5,0.0,20.54
+ORD-10236,2023-02-09,Standard Class,Consumer,Europe,Technology,Phones,138.45,7,0.0,17.47
+ORD-10237,2023-02-09,Second Class,Consumer,Asia Pacific,Technology,Laptops,154.97,6,0.0,14.21
+ORD-10238,2023-02-09,Second Class,Consumer,Europe,Office Supplies,Binders,52.67,9,0.2,-2.33
+ORD-10239,2023-02-09,Same Day,Home Office,North America,Technology,Laptops,21.94,8,0.0,4.9
+ORD-10240,2023-02-10,Standard Class,Consumer,North America,Office Supplies,Binders,660.84,4,0.15,-33.35
+ORD-10241,2023-02-10,First Class,Consumer,North America,Office Supplies,Art,75.58,5,0.1,7.58
+ORD-10242,2023-02-10,Second Class,Corporate,Asia Pacific,Office Supplies,Art,75.36,7,0.0,6.83
+ORD-10243,2023-02-10,Standard Class,Consumer,North America,Furniture,Tables,34.15,8,0.0,4.5
+ORD-10244,2023-02-10,Standard Class,Consumer,Europe,Technology,Machines,595.4,5,0.1,16.21
+ORD-10245,2023-02-10,Standard Class,Consumer,Europe,Office Supplies,Binders,205.71,9,0.1,48.32
+ORD-10246,2023-02-11,Second Class,Consumer,Europe,Furniture,Furnishings,256.94,4,0.2,26.31
+ORD-10247,2023-02-11,First Class,Consumer,Asia Pacific,Office Supplies,Paper,548.64,4,0.15,104.54
+ORD-10248,2023-02-11,Second Class,Corporate,Latin America,Office Supplies,Paper,108.29,8,0.1,9.21
+ORD-10249,2023-02-11,Second Class,Consumer,Europe,Office Supplies,Paper,228.74,1,0.2,-3.65
+ORD-10250,2023-02-11,Standard Class,Corporate,Asia Pacific,Technology,Laptops,23.71,8,0.1,2.0
+ORD-10251,2023-02-11,Standard Class,Home Office,Asia Pacific,Furniture,Bookcases,60.48,5,0.3,-11.15
+ORD-10252,2023-02-12,Standard Class,Corporate,Europe,Office Supplies,Paper,406.45,1,0.0,108.69
+ORD-10253,2023-02-12,Standard Class,Consumer,Latin America,Technology,Laptops,335.26,4,0.15,11.71
+ORD-10254,2023-02-12,Standard Class,Consumer,North America,Technology,Machines,109.99,2,0.0,15.84
+ORD-10255,2023-02-12,Standard Class,Consumer,North America,Furniture,Tables,119.04,4,0.0,27.31
+ORD-10256,2023-02-12,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,182.78,8,0.0,33.06
+ORD-10257,2023-02-12,Standard Class,Consumer,Europe,Office Supplies,Binders,15.05,5,0.1,3.98
+ORD-10258,2023-02-13,Standard Class,Corporate,Asia Pacific,Furniture,Chairs,75.74,1,0.0,11.88
+ORD-10259,2023-02-13,Standard Class,Consumer,Asia Pacific,Technology,Laptops,66.37,7,0.0,15.54
+ORD-10260,2023-02-13,Standard Class,Consumer,North America,Office Supplies,Art,78.43,1,0.5,-20.12
+ORD-10261,2023-02-13,Same Day,Consumer,Asia Pacific,Office Supplies,Art,375.67,9,0.2,70.32
+ORD-10262,2023-02-13,First Class,Corporate,Europe,Technology,Phones,87.17,3,0.15,5.54
+ORD-10263,2023-02-13,Second Class,Consumer,Europe,Furniture,Furnishings,61.77,3,0.2,4.96
+ORD-10264,2023-02-14,Standard Class,Corporate,Europe,Office Supplies,Art,169.38,6,0.3,-25.74
+ORD-10265,2023-02-14,First Class,Consumer,Latin America,Office Supplies,Art,456.6,6,0.1,86.71
+ORD-10266,2023-02-14,First Class,Home Office,North America,Office Supplies,Art,75.77,6,0.0,9.91
+ORD-10267,2023-02-14,First Class,Home Office,Europe,Office Supplies,Storage,32.99,1,0.2,0.81
+ORD-10268,2023-02-14,Standard Class,Consumer,Europe,Furniture,Furnishings,111.95,5,0.15,21.82
+ORD-10269,2023-02-14,Second Class,Consumer,Asia Pacific,Technology,Accessories,317.93,6,0.1,83.03
+ORD-10270,2023-02-15,First Class,Consumer,Europe,Office Supplies,Paper,191.01,8,0.1,18.6
+ORD-10271,2023-02-15,Second Class,Consumer,North America,Office Supplies,Storage,388.37,1,0.1,85.61
+ORD-10272,2023-02-15,Second Class,Corporate,North America,Office Supplies,Art,720.92,5,0.3,-125.44
+ORD-10273,2023-02-15,Standard Class,Home Office,North America,Office Supplies,Storage,361.15,3,0.0,109.89
+ORD-10274,2023-02-15,Standard Class,Corporate,Asia Pacific,Furniture,Furnishings,218.69,2,0.3,-0.25
+ORD-10275,2023-02-15,Standard Class,Home Office,North America,Furniture,Tables,164.58,8,0.3,-7.14
+ORD-10276,2023-02-16,Second Class,Consumer,North America,Office Supplies,Paper,24.0,7,0.15,4.73
+ORD-10277,2023-02-16,Standard Class,Consumer,Latin America,Office Supplies,Art,929.21,7,0.1,207.77
+ORD-10278,2023-02-16,Standard Class,Corporate,North America,Office Supplies,Art,121.41,5,0.0,16.89
+ORD-10279,2023-02-16,Standard Class,Consumer,Latin America,Office Supplies,Art,51.33,9,0.0,14.75
+ORD-10280,2023-02-16,Standard Class,Corporate,Europe,Office Supplies,Art,256.72,5,0.0,20.5
+ORD-10281,2023-02-16,Standard Class,Consumer,Asia Pacific,Technology,Phones,88.59,2,0.2,12.12
+ORD-10282,2023-02-17,Second Class,Consumer,North America,Furniture,Chairs,208.9,3,0.1,36.06
+ORD-10283,2023-02-17,First Class,Home Office,North America,Technology,Accessories,209.42,4,0.0,15.99
+ORD-10284,2023-02-17,Standard Class,Consumer,Asia Pacific,Furniture,Chairs,144.82,5,0.0,36.92
+ORD-10285,2023-02-17,Standard Class,Home Office,Asia Pacific,Technology,Machines,412.89,3,0.3,-6.54
+ORD-10286,2023-02-17,Standard Class,Home Office,Asia Pacific,Furniture,Tables,82.72,7,0.0,18.89
+ORD-10287,2023-02-17,First Class,Corporate,North America,Furniture,Tables,145.98,5,0.3,-15.0
+ORD-10288,2023-02-18,Standard Class,Corporate,Asia Pacific,Technology,Accessories,184.74,5,0.0,24.01
+ORD-10289,2023-02-18,Standard Class,Corporate,Asia Pacific,Furniture,Furnishings,254.7,6,0.1,50.62
+ORD-10290,2023-02-18,Standard Class,Home Office,Europe,Technology,Laptops,352.12,7,0.0,44.73
+ORD-10291,2023-02-18,Second Class,Consumer,Asia Pacific,Technology,Machines,125.49,8,0.1,13.04
+ORD-10292,2023-02-18,First Class,Consumer,Asia Pacific,Office Supplies,Paper,243.49,9,0.15,33.71
+ORD-10293,2023-02-18,First Class,Corporate,Europe,Furniture,Chairs,50.91,4,0.0,3.76
+ORD-10294,2023-02-19,Second Class,Consumer,North America,Technology,Machines,608.52,5,0.1,90.28
+ORD-10295,2023-02-19,Standard Class,Consumer,Europe,Furniture,Furnishings,121.26,5,0.15,12.95
+ORD-10296,2023-02-19,Standard Class,Consumer,North America,Office Supplies,Binders,302.66,8,0.15,40.94
+ORD-10297,2023-02-19,Standard Class,Corporate,Europe,Technology,Machines,19.52,9,0.2,0.02
+ORD-10298,2023-02-19,Standard Class,Home Office,Europe,Office Supplies,Binders,65.52,7,0.0,12.1
+ORD-10299,2023-02-19,Standard Class,Consumer,North America,Technology,Phones,161.88,5,0.1,11.17
+ORD-10300,2023-02-20,Standard Class,Home Office,North America,Technology,Accessories,478.28,3,0.5,-51.44
+ORD-10301,2023-02-20,Standard Class,Corporate,North America,Furniture,Furnishings,179.82,1,0.2,-12.73
+ORD-10302,2023-02-20,Same Day,Home Office,Asia Pacific,Furniture,Chairs,599.63,9,0.3,59.3
+ORD-10303,2023-02-20,Second Class,Corporate,Latin America,Office Supplies,Storage,160.48,5,0.0,38.59
+ORD-10304,2023-02-20,First Class,Corporate,North America,Office Supplies,Binders,163.33,9,0.2,25.49
+ORD-10305,2023-02-20,Second Class,Consumer,Latin America,Office Supplies,Paper,43.06,4,0.15,2.49
+ORD-10306,2023-02-21,Standard Class,Home Office,Europe,Furniture,Tables,372.02,5,0.0,55.69
+ORD-10307,2023-02-21,Second Class,Consumer,North America,Technology,Phones,77.4,4,0.2,12.4
+ORD-10308,2023-02-21,Standard Class,Home Office,North America,Office Supplies,Paper,520.72,2,0.15,-21.0
+ORD-10309,2023-02-21,Second Class,Home Office,Europe,Technology,Accessories,546.77,1,0.0,46.55
+ORD-10310,2023-02-21,Standard Class,Consumer,Asia Pacific,Furniture,Bookcases,646.44,8,0.0,90.37
+ORD-10311,2023-02-21,Same Day,Consumer,Asia Pacific,Technology,Phones,176.58,4,0.2,31.42
+ORD-10312,2023-02-22,Standard Class,Corporate,North America,Technology,Phones,263.69,5,0.0,63.26
+ORD-10313,2023-02-22,Standard Class,Consumer,North America,Office Supplies,Paper,346.63,6,0.0,74.96
+ORD-10314,2023-02-22,Same Day,Home Office,Europe,Office Supplies,Storage,45.89,8,0.1,8.33
+ORD-10315,2023-02-22,Standard Class,Consumer,North America,Office Supplies,Storage,217.11,8,0.0,38.05
+ORD-10316,2023-02-22,Second Class,Consumer,North America,Furniture,Furnishings,22.68,7,0.3,0.85
+ORD-10317,2023-02-22,Second Class,Home Office,North America,Technology,Accessories,166.42,4,0.1,14.64
+ORD-10318,2023-02-23,First Class,Corporate,Asia Pacific,Technology,Laptops,52.01,6,0.1,11.33
+ORD-10319,2023-02-23,Same Day,Home Office,Latin America,Technology,Accessories,59.44,4,0.3,-6.53
+ORD-10320,2023-02-23,Same Day,Consumer,Europe,Furniture,Furnishings,114.93,7,0.1,6.12
+ORD-10321,2023-02-23,Standard Class,Corporate,Latin America,Office Supplies,Binders,139.61,1,0.0,28.86
+ORD-10322,2023-02-23,First Class,Corporate,North America,Office Supplies,Storage,229.71,5,0.2,4.42
+ORD-10323,2023-02-23,Second Class,Corporate,Europe,Technology,Accessories,32.02,4,0.1,5.27
+ORD-10324,2023-02-24,Second Class,Corporate,North America,Office Supplies,Storage,169.12,7,0.0,26.94
+ORD-10325,2023-02-24,Standard Class,Corporate,Europe,Office Supplies,Binders,59.36,9,0.15,-0.05
+ORD-10326,2023-02-24,Second Class,Consumer,Latin America,Furniture,Bookcases,202.72,5,0.2,6.27
+ORD-10327,2023-02-24,Same Day,Consumer,Europe,Office Supplies,Storage,238.18,4,0.2,13.88
+ORD-10328,2023-02-24,Same Day,Corporate,North America,Furniture,Tables,193.98,9,0.3,-28.56
+ORD-10329,2023-02-24,Standard Class,Consumer,Europe,Technology,Machines,309.92,5,0.2,17.67
+ORD-10330,2023-02-25,Standard Class,Corporate,North America,Furniture,Chairs,104.95,9,0.2,-1.49
+ORD-10331,2023-02-25,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,333.7,8,0.2,2.58
+ORD-10332,2023-02-25,First Class,Corporate,Europe,Technology,Accessories,139.74,4,0.0,18.7
+ORD-10333,2023-02-25,Second Class,Corporate,Europe,Technology,Machines,160.64,7,0.0,52.92
+ORD-10334,2023-02-25,Standard Class,Consumer,Europe,Technology,Laptops,244.77,5,0.15,33.04
+ORD-10335,2023-02-25,Standard Class,Consumer,Europe,Technology,Phones,19.08,4,0.1,0.93
+ORD-10336,2023-02-26,Standard Class,Consumer,North America,Office Supplies,Binders,248.49,5,0.0,60.51
+ORD-10337,2023-02-26,Standard Class,Corporate,Europe,Office Supplies,Binders,227.05,5,0.0,69.15
+ORD-10338,2023-02-26,Same Day,Home Office,North America,Furniture,Tables,96.59,9,0.0,16.47
+ORD-10339,2023-02-26,Second Class,Consumer,Asia Pacific,Technology,Phones,34.73,9,0.1,7.61
+ORD-10340,2023-02-26,Standard Class,Corporate,Asia Pacific,Furniture,Bookcases,35.97,6,0.2,-2.29
+ORD-10341,2023-02-26,Standard Class,Consumer,Asia Pacific,Furniture,Tables,579.71,4,0.3,32.95
+ORD-10342,2023-02-27,Standard Class,Consumer,Europe,Technology,Machines,272.15,2,0.2,14.18
+ORD-10343,2023-02-27,Same Day,Home Office,Europe,Furniture,Tables,44.91,3,0.2,-1.94
+ORD-10344,2023-02-27,Standard Class,Consumer,North America,Furniture,Tables,112.06,2,0.1,10.33
+ORD-10345,2023-02-27,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,212.49,5,0.0,73.61
+ORD-10346,2023-02-27,Standard Class,Consumer,North America,Office Supplies,Binders,412.16,6,0.0,117.49
+ORD-10347,2023-02-27,Second Class,Consumer,Europe,Technology,Laptops,24.82,5,0.15,2.54
+ORD-10348,2023-02-28,Second Class,Consumer,North America,Furniture,Furnishings,74.4,2,0.0,6.29
+ORD-10349,2023-02-28,Second Class,Consumer,North America,Office Supplies,Storage,500.1,5,0.1,47.68
+ORD-10350,2023-02-28,Standard Class,Corporate,Europe,Furniture,Furnishings,17.03,9,0.15,0.15
+ORD-10351,2023-02-28,Standard Class,Consumer,North America,Office Supplies,Binders,64.48,4,0.1,-0.56
+ORD-10352,2023-02-28,Standard Class,Corporate,Asia Pacific,Office Supplies,Paper,717.85,2,0.3,-19.63
+ORD-10353,2023-02-28,Second Class,Consumer,North America,Technology,Laptops,224.08,3,0.15,44.09
+ORD-10354,2023-03-01,Standard Class,Consumer,North America,Technology,Phones,81.74,3,0.0,20.65
+ORD-10355,2023-03-01,Second Class,Corporate,Europe,Office Supplies,Storage,30.25,9,0.1,1.36
+ORD-10356,2023-03-01,First Class,Home Office,North America,Technology,Accessories,21.29,4,0.15,2.17
+ORD-10357,2023-03-01,First Class,Consumer,North America,Furniture,Bookcases,76.75,1,0.0,25.56
+ORD-10358,2023-03-01,Standard Class,Home Office,Asia Pacific,Office Supplies,Binders,484.2,1,0.0,129.22
+ORD-10359,2023-03-01,Standard Class,Corporate,North America,Furniture,Bookcases,133.3,7,0.1,23.57
+ORD-10360,2023-03-02,Standard Class,Corporate,Asia Pacific,Furniture,Tables,295.31,7,0.3,29.66
+ORD-10361,2023-03-02,Second Class,Corporate,North America,Office Supplies,Binders,565.99,2,0.1,118.67
+ORD-10362,2023-03-02,First Class,Consumer,North America,Furniture,Furnishings,130.35,9,0.3,-19.42
+ORD-10363,2023-03-02,Standard Class,Consumer,Asia Pacific,Furniture,Tables,61.71,9,0.2,-0.35
+ORD-10364,2023-03-02,Standard Class,Corporate,North America,Office Supplies,Art,175.16,5,0.0,59.47
+ORD-10365,2023-03-02,First Class,Consumer,North America,Furniture,Tables,540.11,3,0.15,41.54
+ORD-10366,2023-03-03,First Class,Home Office,North America,Office Supplies,Paper,373.94,3,0.1,1.31
+ORD-10367,2023-03-03,Standard Class,Consumer,North America,Office Supplies,Binders,29.98,3,0.0,5.62
+ORD-10368,2023-03-03,Second Class,Consumer,Asia Pacific,Technology,Phones,274.49,6,0.15,38.18
+ORD-10369,2023-03-03,Standard Class,Corporate,North America,Technology,Phones,201.65,4,0.15,46.23
+ORD-10370,2023-03-03,Standard Class,Consumer,Asia Pacific,Technology,Accessories,538.63,8,0.0,79.27
+ORD-10371,2023-03-03,Same Day,Corporate,Asia Pacific,Technology,Phones,43.74,5,0.3,-1.56
+ORD-10372,2023-03-04,First Class,Corporate,Europe,Technology,Machines,183.0,1,0.2,28.16
+ORD-10373,2023-03-04,First Class,Home Office,Latin America,Office Supplies,Storage,480.48,9,0.3,-40.08
+ORD-10374,2023-03-04,Standard Class,Corporate,North America,Technology,Accessories,131.09,1,0.0,10.85
+ORD-10375,2023-03-04,First Class,Corporate,Latin America,Technology,Phones,159.71,6,0.3,15.12
+ORD-10376,2023-03-04,Standard Class,Corporate,North America,Office Supplies,Binders,31.07,1,0.0,6.11
+ORD-10377,2023-03-04,Standard Class,Home Office,Europe,Technology,Machines,86.7,3,0.0,17.41
+ORD-10378,2023-03-05,Standard Class,Consumer,Europe,Office Supplies,Binders,101.31,5,0.2,7.74
+ORD-10379,2023-03-05,Standard Class,Consumer,North America,Technology,Accessories,653.58,7,0.15,-45.06
+ORD-10380,2023-03-05,First Class,Consumer,Europe,Technology,Phones,88.09,8,0.1,21.96
+ORD-10381,2023-03-05,Second Class,Consumer,Asia Pacific,Office Supplies,Art,150.92,9,0.1,11.84
+ORD-10382,2023-03-05,Standard Class,Corporate,North America,Office Supplies,Storage,259.78,6,0.0,43.92
+ORD-10383,2023-03-05,Standard Class,Corporate,North America,Office Supplies,Storage,53.93,9,0.15,-0.96
+ORD-10384,2023-03-06,Standard Class,Corporate,Asia Pacific,Office Supplies,Paper,161.61,8,0.1,13.49
+ORD-10385,2023-03-06,Standard Class,Consumer,Europe,Office Supplies,Binders,310.12,9,0.1,65.49
+ORD-10386,2023-03-06,Second Class,Corporate,Latin America,Technology,Phones,458.59,4,0.1,96.3
+ORD-10387,2023-03-06,First Class,Consumer,Asia Pacific,Technology,Phones,231.52,9,0.3,21.01
+ORD-10388,2023-03-06,Standard Class,Corporate,Latin America,Office Supplies,Paper,258.28,7,0.15,13.16
+ORD-10389,2023-03-06,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,44.7,5,0.15,6.37
+ORD-10390,2023-03-07,Second Class,Consumer,North America,Office Supplies,Art,656.22,5,0.3,-24.82
+ORD-10391,2023-03-07,First Class,Consumer,North America,Furniture,Chairs,46.29,1,0.1,9.78
+ORD-10392,2023-03-07,Standard Class,Consumer,Asia Pacific,Furniture,Tables,342.84,2,0.0,90.43
+ORD-10393,2023-03-07,Standard Class,Home Office,Europe,Office Supplies,Art,82.68,3,0.0,13.26
+ORD-10394,2023-03-07,Second Class,Home Office,North America,Technology,Phones,611.63,8,0.15,18.96
+ORD-10395,2023-03-07,Standard Class,Corporate,North America,Office Supplies,Storage,295.02,6,0.0,37.09
+ORD-10396,2023-03-08,Standard Class,Consumer,Latin America,Office Supplies,Art,323.37,5,0.1,46.23
+ORD-10397,2023-03-08,Second Class,Consumer,Europe,Furniture,Chairs,69.4,1,0.0,23.54
+ORD-10398,2023-03-08,Second Class,Corporate,Europe,Office Supplies,Art,143.76,9,0.0,15.82
+ORD-10399,2023-03-08,Second Class,Corporate,Europe,Office Supplies,Art,226.61,3,0.1,-0.32
+ORD-10400,2023-03-08,Second Class,Consumer,North America,Technology,Machines,338.3,3,0.3,-52.16
+ORD-10401,2023-03-08,Second Class,Consumer,North America,Office Supplies,Art,39.15,2,0.15,6.46
+ORD-10402,2023-03-09,Standard Class,Corporate,North America,Furniture,Furnishings,736.56,4,0.3,-62.58
+ORD-10403,2023-03-09,Standard Class,Consumer,North America,Office Supplies,Art,501.04,2,0.3,-61.47
+ORD-10404,2023-03-09,Standard Class,Consumer,Asia Pacific,Technology,Phones,84.34,9,0.0,13.14
+ORD-10405,2023-03-09,Standard Class,Consumer,Europe,Office Supplies,Storage,395.66,7,0.0,96.38
+ORD-10406,2023-03-09,Second Class,Corporate,Asia Pacific,Furniture,Tables,175.71,8,0.2,9.49
+ORD-10407,2023-03-09,First Class,Home Office,Asia Pacific,Technology,Machines,151.3,3,0.2,17.11
+ORD-10408,2023-03-10,Same Day,Home Office,North America,Office Supplies,Binders,98.05,6,0.1,7.03
+ORD-10409,2023-03-10,Second Class,Corporate,Europe,Technology,Phones,206.36,6,0.5,-44.24
+ORD-10410,2023-03-10,Standard Class,Corporate,Europe,Technology,Machines,302.96,1,0.0,24.42
+ORD-10411,2023-03-10,Standard Class,Consumer,Asia Pacific,Office Supplies,Storage,131.43,6,0.0,9.45
+ORD-10412,2023-03-10,First Class,Corporate,North America,Office Supplies,Binders,233.27,3,0.15,16.02
+ORD-10413,2023-03-10,Second Class,Consumer,Europe,Furniture,Furnishings,279.37,3,0.1,16.9
+ORD-10414,2023-03-11,Second Class,Corporate,Europe,Office Supplies,Paper,288.19,3,0.0,67.39
+ORD-10415,2023-03-11,First Class,Consumer,North America,Furniture,Bookcases,26.74,8,0.0,1.68
+ORD-10416,2023-03-11,Second Class,Consumer,North America,Technology,Accessories,447.15,5,0.0,38.69
+ORD-10417,2023-03-11,First Class,Consumer,Europe,Technology,Accessories,149.85,4,0.15,28.41
+ORD-10418,2023-03-11,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,81.96,9,0.2,4.91
+ORD-10419,2023-03-11,Second Class,Consumer,North America,Office Supplies,Storage,75.89,9,0.2,7.86
+ORD-10420,2023-03-12,First Class,Consumer,Europe,Office Supplies,Storage,160.14,1,0.15,29.24
+ORD-10421,2023-03-12,Standard Class,Home Office,North America,Office Supplies,Storage,494.35,2,0.1,53.96
+ORD-10422,2023-03-12,Second Class,Consumer,Asia Pacific,Technology,Laptops,119.58,8,0.1,23.71
+ORD-10423,2023-03-12,Standard Class,Corporate,North America,Furniture,Chairs,319.74,5,0.0,66.31
+ORD-10424,2023-03-12,Same Day,Home Office,Asia Pacific,Technology,Laptops,37.4,7,0.0,4.37
+ORD-10425,2023-03-12,Standard Class,Home Office,North America,Furniture,Tables,157.2,1,0.0,23.78
+ORD-10426,2023-03-13,Second Class,Corporate,North America,Furniture,Tables,1068.76,5,0.2,39.66
+ORD-10427,2023-03-13,Standard Class,Home Office,North America,Office Supplies,Paper,338.75,3,0.3,-32.16
+ORD-10428,2023-03-13,Second Class,Consumer,North America,Furniture,Tables,67.01,2,0.1,4.73
+ORD-10429,2023-03-13,Standard Class,Consumer,Europe,Technology,Accessories,168.13,2,0.15,5.25
+ORD-10430,2023-03-13,Standard Class,Consumer,North America,Technology,Laptops,73.54,9,0.0,6.39
+ORD-10431,2023-03-13,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,130.92,4,0.15,-5.84
+ORD-10432,2023-03-14,Same Day,Corporate,North America,Office Supplies,Paper,348.19,4,0.15,-19.52
+ORD-10433,2023-03-14,Standard Class,Consumer,North America,Technology,Laptops,339.5,7,0.1,1.12
+ORD-10434,2023-03-14,Standard Class,Consumer,North America,Technology,Machines,71.96,2,0.0,11.02
+ORD-10435,2023-03-14,First Class,Corporate,North America,Office Supplies,Storage,576.86,3,0.2,39.32
+ORD-10436,2023-03-14,Standard Class,Consumer,North America,Technology,Phones,212.53,3,0.15,-2.88
+ORD-10437,2023-03-14,Same Day,Corporate,Europe,Office Supplies,Storage,120.14,6,0.2,18.79
+ORD-10438,2023-03-15,Standard Class,Corporate,Europe,Office Supplies,Storage,168.35,3,0.2,22.31
+ORD-10439,2023-03-15,Second Class,Corporate,Europe,Technology,Phones,219.39,5,0.5,-42.53
+ORD-10440,2023-03-15,Standard Class,Corporate,Europe,Technology,Laptops,195.56,4,0.0,52.27
+ORD-10441,2023-03-15,Standard Class,Home Office,Europe,Office Supplies,Paper,161.59,3,0.0,25.84
+ORD-10442,2023-03-15,Second Class,Consumer,North America,Furniture,Chairs,169.67,8,0.0,10.36
+ORD-10443,2023-03-15,Second Class,Corporate,Europe,Furniture,Furnishings,57.7,3,0.0,18.54
+ORD-10444,2023-03-16,First Class,Corporate,Latin America,Office Supplies,Binders,383.55,6,0.1,3.2
+ORD-10445,2023-03-16,Standard Class,Consumer,Europe,Office Supplies,Binders,186.68,7,0.15,40.02
+ORD-10446,2023-03-16,Standard Class,Consumer,Europe,Office Supplies,Storage,45.91,7,0.1,6.5
+ORD-10447,2023-03-16,Standard Class,Consumer,North America,Office Supplies,Storage,334.68,2,0.0,47.41
+ORD-10448,2023-03-16,Same Day,Consumer,Asia Pacific,Furniture,Furnishings,607.86,3,0.3,-25.13
+ORD-10449,2023-03-16,Standard Class,Corporate,Asia Pacific,Technology,Machines,662.52,4,0.0,132.83
+ORD-10450,2023-03-17,Standard Class,Home Office,Europe,Office Supplies,Art,116.31,7,0.0,6.63
+ORD-10451,2023-03-17,Standard Class,Consumer,Latin America,Furniture,Chairs,47.04,2,0.15,1.72
+ORD-10452,2023-03-17,Second Class,Consumer,North America,Furniture,Furnishings,175.74,3,0.2,19.68
+ORD-10453,2023-03-17,Standard Class,Home Office,North America,Office Supplies,Art,41.28,7,0.1,5.08
+ORD-10454,2023-03-17,Same Day,Consumer,Asia Pacific,Technology,Laptops,612.94,7,0.0,75.56
+ORD-10455,2023-03-17,Standard Class,Consumer,Asia Pacific,Furniture,Furnishings,59.62,3,0.15,1.82
+ORD-10456,2023-03-18,First Class,Corporate,North America,Technology,Phones,79.1,1,0.0,24.44
+ORD-10457,2023-03-18,Standard Class,Corporate,North America,Furniture,Chairs,129.83,3,0.0,26.96
+ORD-10458,2023-03-18,Second Class,Consumer,North America,Technology,Laptops,121.29,5,0.15,10.73
+ORD-10459,2023-03-18,Same Day,Consumer,North America,Technology,Machines,363.28,7,0.0,122.95
+ORD-10460,2023-03-18,Standard Class,Consumer,Asia Pacific,Technology,Machines,149.07,4,0.0,21.8
+ORD-10461,2023-03-18,Same Day,Corporate,Europe,Office Supplies,Paper,56.2,1,0.1,6.4
+ORD-10462,2023-03-19,Standard Class,Corporate,North America,Office Supplies,Art,83.4,6,0.3,4.46
+ORD-10463,2023-03-19,Same Day,Consumer,North America,Furniture,Furnishings,171.54,2,0.3,6.46
+ORD-10464,2023-03-19,Second Class,Corporate,North America,Office Supplies,Art,50.1,3,0.1,2.49
+ORD-10465,2023-03-19,Standard Class,Home Office,North America,Furniture,Tables,223.09,4,0.0,21.27
+ORD-10466,2023-03-19,Standard Class,Consumer,Europe,Technology,Laptops,198.51,6,0.0,51.65
+ORD-10467,2023-03-19,Standard Class,Consumer,Latin America,Office Supplies,Binders,290.93,6,0.0,37.03
+ORD-10468,2023-03-20,Standard Class,Corporate,Asia Pacific,Technology,Laptops,625.69,7,0.1,154.42
+ORD-10469,2023-03-20,Standard Class,Consumer,North America,Office Supplies,Paper,550.33,5,0.15,-17.18
+ORD-10470,2023-03-20,Standard Class,Consumer,Asia Pacific,Technology,Machines,657.44,7,0.1,43.06
+ORD-10471,2023-03-20,Standard Class,Corporate,Asia Pacific,Office Supplies,Storage,76.75,2,0.1,-1.04
+ORD-10472,2023-03-20,First Class,Home Office,Asia Pacific,Technology,Accessories,46.03,1,0.0,12.01
+ORD-10473,2023-03-20,Standard Class,Home Office,Europe,Office Supplies,Art,94.19,8,0.1,22.36
+ORD-10474,2023-03-21,Standard Class,Corporate,North America,Furniture,Chairs,511.01,1,0.0,123.03
+ORD-10475,2023-03-21,Second Class,Corporate,North America,Office Supplies,Storage,802.04,2,0.1,201.57
+ORD-10476,2023-03-21,Standard Class,Consumer,North America,Technology,Laptops,446.49,6,0.15,-14.04
+ORD-10477,2023-03-21,Standard Class,Corporate,North America,Furniture,Bookcases,40.64,1,0.15,-1.78
+ORD-10478,2023-03-21,Standard Class,Consumer,North America,Office Supplies,Art,663.03,3,0.1,146.88
+ORD-10479,2023-03-21,Same Day,Consumer,Europe,Furniture,Tables,136.12,7,0.1,30.85
+ORD-10480,2023-03-22,First Class,Corporate,Asia Pacific,Office Supplies,Binders,17.06,8,0.0,5.11
+ORD-10481,2023-03-22,Standard Class,Corporate,Europe,Office Supplies,Storage,143.5,4,0.0,41.57
+ORD-10482,2023-03-22,Second Class,Consumer,North America,Furniture,Chairs,25.38,3,0.15,0.98
+ORD-10483,2023-03-22,Standard Class,Home Office,Latin America,Office Supplies,Paper,187.7,1,0.0,21.63
+ORD-10484,2023-03-22,Second Class,Consumer,Latin America,Furniture,Tables,105.93,9,0.15,22.1
+ORD-10485,2023-03-22,Second Class,Consumer,Asia Pacific,Office Supplies,Paper,156.1,6,0.15,3.45
+ORD-10486,2023-03-23,Second Class,Consumer,Latin America,Technology,Accessories,223.95,6,0.3,-15.78
+ORD-10487,2023-03-23,Standard Class,Corporate,Europe,Technology,Laptops,461.83,9,0.3,9.18
+ORD-10488,2023-03-23,Standard Class,Corporate,Latin America,Office Supplies,Binders,253.57,1,0.0,34.99
+ORD-10489,2023-03-23,Standard Class,Consumer,North America,Office Supplies,Binders,140.23,6,0.5,-14.62
+ORD-10490,2023-03-23,First Class,Corporate,North America,Furniture,Bookcases,391.56,5,0.15,-19.18
+ORD-10491,2023-03-23,Second Class,Consumer,North America,Office Supplies,Paper,534.21,6,0.15,89.4
+ORD-10492,2023-03-24,First Class,Corporate,North America,Technology,Accessories,43.06,8,0.0,9.93
+ORD-10493,2023-03-24,Same Day,Consumer,North America,Technology,Accessories,182.01,5,0.2,11.27
+ORD-10494,2023-03-24,Standard Class,Consumer,Europe,Furniture,Bookcases,88.65,2,0.0,16.62
+ORD-10495,2023-03-24,Second Class,Home Office,Asia Pacific,Furniture,Chairs,25.61,2,0.2,-0.69
+ORD-10496,2023-03-24,Second Class,Consumer,Europe,Furniture,Tables,257.94,5,0.0,48.81
+ORD-10497,2023-03-24,Same Day,Consumer,North America,Technology,Laptops,451.94,3,0.15,29.38
+ORD-10498,2023-03-25,Same Day,Corporate,Asia Pacific,Office Supplies,Binders,54.12,3,0.1,7.85
+ORD-10499,2023-03-25,Second Class,Home Office,Europe,Office Supplies,Art,383.17,8,0.0,51.53
+ORD-10500,2023-03-25,Standard Class,Consumer,North America,Office Supplies,Storage,437.4,7,0.0,32.05
+ORD-10501,2023-03-25,First Class,Consumer,Europe,Furniture,Chairs,555.62,1,0.1,7.52
+ORD-10502,2023-03-25,Standard Class,Consumer,North America,Technology,Phones,82.82,5,0.0,21.51
+ORD-10503,2023-03-25,First Class,Corporate,North America,Office Supplies,Paper,530.44,9,0.1,-12.33
+ORD-10504,2023-03-26,Same Day,Consumer,Latin America,Office Supplies,Paper,100.06,4,0.15,18.7
+ORD-10505,2023-03-26,Standard Class,Corporate,North America,Technology,Accessories,191.82,1,0.2,18.86
+ORD-10506,2023-03-26,Second Class,Home Office,Europe,Office Supplies,Binders,26.4,8,0.15,4.24
+ORD-10507,2023-03-26,Standard Class,Consumer,Asia Pacific,Office Supplies,Paper,24.87,5,0.0,7.48
+ORD-10508,2023-03-26,Standard Class,Consumer,Asia Pacific,Office Supplies,Paper,295.35,2,0.0,25.64
+ORD-10509,2023-03-26,Standard Class,Consumer,North America,Office Supplies,Paper,144.33,1,0.0,42.83
+ORD-10510,2023-03-27,First Class,Consumer,North America,Office Supplies,Binders,80.14,3,0.3,-3.09
+ORD-10511,2023-03-27,Same Day,Home Office,North America,Furniture,Chairs,61.47,9,0.2,9.57
+ORD-10512,2023-03-27,Same Day,Consumer,Europe,Office Supplies,Paper,258.87,1,0.0,81.8
+ORD-10513,2023-03-27,Standard Class,Consumer,Europe,Office Supplies,Art,15.09,4,0.0,0.86
+ORD-10514,2023-03-27,First Class,Corporate,North America,Technology,Machines,375.65,8,0.2,1.83
+ORD-10515,2023-03-27,Second Class,Consumer,Latin America,Technology,Phones,33.16,8,0.2,1.59
+ORD-10516,2023-03-28,Standard Class,Corporate,Europe,Furniture,Bookcases,61.76,8,0.2,5.78
+ORD-10517,2023-03-28,Standard Class,Consumer,North America,Office Supplies,Paper,122.39,8,0.2,-2.95
+ORD-10518,2023-03-28,Standard Class,Home Office,Europe,Office Supplies,Art,160.93,4,0.1,7.35
+ORD-10519,2023-03-28,Same Day,Home Office,Europe,Technology,Laptops,111.47,8,0.0,18.32
+ORD-10520,2023-03-28,Second Class,Corporate,North America,Furniture,Bookcases,100.08,9,0.1,12.04
+ORD-10521,2023-03-28,Second Class,Home Office,North America,Furniture,Chairs,745.82,7,0.1,190.44
+ORD-10522,2023-03-29,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,240.73,2,0.1,47.82
+ORD-10523,2023-03-29,Second Class,Consumer,Europe,Office Supplies,Art,20.22,9,0.1,2.0
+ORD-10524,2023-03-29,Standard Class,Corporate,Europe,Office Supplies,Storage,138.73,8,0.0,9.2
+ORD-10525,2023-03-29,Standard Class,Corporate,Europe,Furniture,Chairs,472.49,5,0.0,47.51
+ORD-10526,2023-03-29,Second Class,Consumer,North America,Furniture,Tables,93.93,3,0.1,10.03
+ORD-10527,2023-03-29,Standard Class,Consumer,North America,Technology,Accessories,36.85,7,0.0,10.84
+ORD-10528,2023-03-30,First Class,Consumer,Europe,Technology,Machines,327.49,2,0.1,27.58
+ORD-10529,2023-03-30,Standard Class,Consumer,North America,Office Supplies,Binders,219.92,3,0.2,11.34
+ORD-10530,2023-03-30,Second Class,Consumer,North America,Office Supplies,Art,200.83,9,0.2,31.64
+ORD-10531,2023-03-30,Standard Class,Corporate,Asia Pacific,Office Supplies,Art,27.11,4,0.1,6.62
+ORD-10532,2023-03-30,Second Class,Consumer,Latin America,Office Supplies,Art,48.31,4,0.1,1.68
+ORD-10533,2023-03-30,Standard Class,Consumer,Asia Pacific,Furniture,Tables,229.35,3,0.0,14.47
+ORD-10534,2023-03-31,Standard Class,Corporate,Asia Pacific,Office Supplies,Art,66.25,5,0.15,1.43
+ORD-10535,2023-03-31,Same Day,Corporate,North America,Office Supplies,Storage,169.29,3,0.1,30.26
+ORD-10536,2023-03-31,Standard Class,Home Office,Latin America,Office Supplies,Paper,188.18,9,0.1,48.05
+ORD-10537,2023-03-31,First Class,Corporate,North America,Technology,Phones,88.35,3,0.2,-7.68
+ORD-10538,2023-03-31,Same Day,Consumer,Latin America,Furniture,Furnishings,667.24,2,0.1,-14.32
+ORD-10539,2023-03-31,Standard Class,Home Office,Latin America,Technology,Phones,421.58,5,0.0,132.9
+ORD-10540,2023-04-01,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,296.93,6,0.0,81.49
+ORD-10541,2023-04-01,Second Class,Consumer,Latin America,Office Supplies,Binders,32.86,1,0.1,8.8
+ORD-10542,2023-04-01,Same Day,Corporate,Europe,Technology,Phones,39.68,6,0.1,3.53
+ORD-10543,2023-04-01,Same Day,Home Office,North America,Office Supplies,Binders,164.34,3,0.2,2.43
+ORD-10544,2023-04-01,Standard Class,Consumer,Europe,Office Supplies,Paper,53.54,4,0.1,1.16
+ORD-10545,2023-04-01,First Class,Consumer,Europe,Furniture,Chairs,857.35,6,0.15,-30.22
+ORD-10546,2023-04-02,Standard Class,Consumer,North America,Technology,Phones,52.97,8,0.1,7.61
+ORD-10547,2023-04-02,Same Day,Consumer,Europe,Office Supplies,Art,162.05,9,0.1,12.85
+ORD-10548,2023-04-02,Same Day,Consumer,Latin America,Furniture,Chairs,114.6,6,0.1,-0.68
+ORD-10549,2023-04-02,Standard Class,Corporate,North America,Office Supplies,Art,239.39,7,0.1,56.52
+ORD-10550,2023-04-02,Standard Class,Consumer,Asia Pacific,Furniture,Chairs,45.39,5,0.1,1.34
+ORD-10551,2023-04-02,Standard Class,Home Office,Latin America,Office Supplies,Paper,138.79,9,0.0,38.11
+ORD-10552,2023-04-03,Standard Class,Corporate,Latin America,Furniture,Chairs,85.66,4,0.2,-2.17
+ORD-10553,2023-04-03,First Class,Corporate,Latin America,Furniture,Tables,496.15,6,0.0,145.8
+ORD-10554,2023-04-03,Standard Class,Home Office,Europe,Office Supplies,Art,24.12,5,0.0,2.06
+ORD-10555,2023-04-03,Standard Class,Consumer,Latin America,Furniture,Furnishings,554.05,1,0.0,153.37
+ORD-10556,2023-04-03,Standard Class,Consumer,Asia Pacific,Technology,Phones,408.74,5,0.0,32.47
+ORD-10557,2023-04-03,Same Day,Corporate,North America,Technology,Phones,92.71,5,0.1,9.65
+ORD-10558,2023-04-04,Second Class,Home Office,Europe,Office Supplies,Binders,357.6,9,0.0,96.62
+ORD-10559,2023-04-04,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,21.98,1,0.0,2.24
+ORD-10560,2023-04-04,Standard Class,Consumer,North America,Office Supplies,Binders,764.58,5,0.1,42.59
+ORD-10561,2023-04-04,Same Day,Home Office,Europe,Technology,Machines,179.52,7,0.15,34.01
+ORD-10562,2023-04-04,First Class,Consumer,Europe,Technology,Machines,94.5,6,0.0,29.82
+ORD-10563,2023-04-04,Standard Class,Home Office,North America,Technology,Machines,114.07,6,0.1,-1.88
+ORD-10564,2023-04-05,Standard Class,Home Office,Europe,Furniture,Chairs,30.12,7,0.15,-0.59
+ORD-10565,2023-04-05,Standard Class,Consumer,Asia Pacific,Furniture,Furnishings,1014.27,6,0.5,-319.25
+ORD-10566,2023-04-05,Standard Class,Corporate,Europe,Furniture,Bookcases,23.82,5,0.15,-0.38
+ORD-10567,2023-04-05,Second Class,Consumer,North America,Furniture,Bookcases,249.07,5,0.0,84.95
+ORD-10568,2023-04-05,Same Day,Consumer,North America,Office Supplies,Binders,143.64,9,0.15,13.72
+ORD-10569,2023-04-05,Standard Class,Corporate,North America,Technology,Machines,669.34,8,0.1,73.92
+ORD-10570,2023-04-06,First Class,Corporate,Latin America,Furniture,Bookcases,77.12,4,0.0,26.63
+ORD-10571,2023-04-06,Standard Class,Home Office,North America,Office Supplies,Binders,182.08,4,0.2,10.39
+ORD-10572,2023-04-06,Second Class,Corporate,Europe,Furniture,Furnishings,159.86,5,0.1,26.91
+ORD-10573,2023-04-06,Second Class,Consumer,North America,Office Supplies,Paper,281.99,3,0.3,-25.43
+ORD-10574,2023-04-06,Standard Class,Home Office,North America,Office Supplies,Storage,30.5,8,0.15,1.36
+ORD-10575,2023-04-06,Standard Class,Home Office,Asia Pacific,Office Supplies,Paper,62.39,7,0.15,6.76
+ORD-10576,2023-04-07,Second Class,Consumer,Asia Pacific,Technology,Machines,68.13,5,0.15,-3.34
+ORD-10577,2023-04-07,Standard Class,Home Office,North America,Office Supplies,Storage,309.8,3,0.1,14.49
+ORD-10578,2023-04-07,Standard Class,Consumer,Europe,Furniture,Furnishings,61.12,5,0.1,1.78
+ORD-10579,2023-04-07,Standard Class,Home Office,North America,Technology,Phones,202.47,3,0.2,-21.31
+ORD-10580,2023-04-07,Same Day,Consumer,Europe,Furniture,Bookcases,68.32,5,0.15,6.22
+ORD-10581,2023-04-07,Standard Class,Consumer,Europe,Office Supplies,Paper,450.11,1,0.2,26.25
+ORD-10582,2023-04-08,First Class,Consumer,North America,Furniture,Furnishings,642.11,6,0.2,3.33
+ORD-10583,2023-04-08,Standard Class,Corporate,North America,Technology,Machines,175.78,4,0.3,-19.23
+ORD-10584,2023-04-08,First Class,Consumer,North America,Office Supplies,Paper,110.56,4,0.15,13.89
+ORD-10585,2023-04-08,Second Class,Consumer,Latin America,Technology,Laptops,73.66,8,0.1,0.77
+ORD-10586,2023-04-08,First Class,Corporate,Latin America,Technology,Phones,26.23,2,0.0,5.39
+ORD-10587,2023-04-08,Standard Class,Home Office,North America,Technology,Machines,83.78,4,0.15,13.44
+ORD-10588,2023-04-09,Second Class,Consumer,Asia Pacific,Technology,Phones,248.64,2,0.0,24.69
+ORD-10589,2023-04-09,Second Class,Consumer,North America,Technology,Machines,182.8,1,0.0,50.45
+ORD-10590,2023-04-09,Standard Class,Consumer,North America,Technology,Phones,649.29,3,0.0,180.66
+ORD-10591,2023-04-09,Standard Class,Consumer,Asia Pacific,Office Supplies,Storage,126.02,8,0.2,-11.6
+ORD-10592,2023-04-09,Standard Class,Home Office,Latin America,Technology,Laptops,275.42,6,0.2,-28.74
+ORD-10593,2023-04-09,Standard Class,Home Office,Latin America,Technology,Phones,162.84,7,0.15,36.18
+ORD-10594,2023-04-10,First Class,Corporate,Europe,Office Supplies,Paper,173.1,2,0.1,4.85
+ORD-10595,2023-04-10,Standard Class,Consumer,North America,Furniture,Bookcases,83.57,6,0.15,14.76
+ORD-10596,2023-04-10,Standard Class,Corporate,Asia Pacific,Office Supplies,Art,148.51,8,0.15,14.64
+ORD-10597,2023-04-10,Second Class,Corporate,North America,Technology,Laptops,155.0,8,0.1,7.65
+ORD-10598,2023-04-10,Standard Class,Home Office,Europe,Technology,Machines,284.8,4,0.0,25.34
+ORD-10599,2023-04-10,Standard Class,Corporate,North America,Technology,Phones,636.31,6,0.0,126.63
+ORD-10600,2023-04-11,Standard Class,Corporate,Europe,Technology,Phones,102.88,5,0.1,9.49
+ORD-10601,2023-04-11,Same Day,Corporate,North America,Technology,Machines,24.49,9,0.15,3.42
+ORD-10602,2023-04-11,First Class,Consumer,North America,Technology,Phones,165.87,8,0.1,40.02
+ORD-10603,2023-04-11,First Class,Home Office,Latin America,Technology,Machines,187.98,2,0.3,9.69
+ORD-10604,2023-04-11,Standard Class,Corporate,North America,Technology,Accessories,55.58,7,0.0,7.36
+ORD-10605,2023-04-11,First Class,Corporate,Europe,Furniture,Bookcases,329.39,7,0.0,103.32
+ORD-10606,2023-04-12,Standard Class,Consumer,North America,Technology,Accessories,937.9,1,0.1,206.35
+ORD-10607,2023-04-12,Standard Class,Corporate,North America,Furniture,Furnishings,656.21,1,0.0,215.72
+ORD-10608,2023-04-12,Standard Class,Corporate,North America,Furniture,Bookcases,63.3,4,0.0,11.87
+ORD-10609,2023-04-12,Second Class,Consumer,North America,Office Supplies,Art,473.12,5,0.0,132.74
+ORD-10610,2023-04-12,Standard Class,Consumer,Asia Pacific,Technology,Laptops,283.19,4,0.1,41.77
+ORD-10611,2023-04-12,Standard Class,Corporate,North America,Office Supplies,Storage,148.07,7,0.0,21.2
+ORD-10612,2023-04-13,Standard Class,Corporate,Latin America,Office Supplies,Storage,186.13,3,0.15,42.5
+ORD-10613,2023-04-13,Standard Class,Corporate,Europe,Technology,Laptops,431.78,7,0.1,-7.99
+ORD-10614,2023-04-13,Second Class,Consumer,Europe,Office Supplies,Art,158.92,8,0.0,15.68
+ORD-10615,2023-04-13,Standard Class,Corporate,Europe,Office Supplies,Storage,117.77,6,0.2,18.58
+ORD-10616,2023-04-13,Second Class,Consumer,Europe,Technology,Laptops,164.54,6,0.0,11.22
+ORD-10617,2023-04-13,Standard Class,Consumer,Asia Pacific,Technology,Accessories,205.39,8,0.2,32.05
+ORD-10618,2023-04-14,First Class,Consumer,North America,Office Supplies,Paper,61.11,8,0.3,1.5
+ORD-10619,2023-04-14,Second Class,Consumer,North America,Office Supplies,Paper,523.57,7,0.0,31.94
+ORD-10620,2023-04-14,Standard Class,Consumer,Asia Pacific,Technology,Accessories,261.71,6,0.3,-16.02
+ORD-10621,2023-04-14,Standard Class,Consumer,Latin America,Technology,Accessories,235.69,6,0.2,27.42
+ORD-10622,2023-04-14,Second Class,Consumer,Asia Pacific,Furniture,Furnishings,38.06,6,0.3,-0.57
+ORD-10623,2023-04-14,First Class,Consumer,Europe,Furniture,Furnishings,218.89,8,0.15,46.13
+ORD-10624,2023-04-15,Standard Class,Corporate,Asia Pacific,Office Supplies,Art,43.36,1,0.0,13.45
+ORD-10625,2023-04-15,Standard Class,Consumer,Europe,Furniture,Tables,33.03,5,0.2,-0.34
+ORD-10626,2023-04-15,First Class,Consumer,Europe,Furniture,Tables,179.85,3,0.0,13.56
+ORD-10627,2023-04-15,Second Class,Home Office,North America,Office Supplies,Storage,128.41,8,0.0,42.8
+ORD-10628,2023-04-15,Standard Class,Consumer,Europe,Technology,Machines,210.51,6,0.0,43.19
+ORD-10629,2023-04-15,Standard Class,Corporate,North America,Technology,Machines,35.56,2,0.0,2.57
+ORD-10630,2023-04-16,Standard Class,Consumer,North America,Office Supplies,Art,139.05,7,0.1,29.89
+ORD-10631,2023-04-16,Second Class,Consumer,Asia Pacific,Office Supplies,Paper,57.26,7,0.15,10.91
+ORD-10632,2023-04-16,Standard Class,Corporate,North America,Furniture,Bookcases,972.12,5,0.3,1.78
+ORD-10633,2023-04-16,Same Day,Corporate,North America,Furniture,Furnishings,196.19,8,0.0,36.15
+ORD-10634,2023-04-16,Standard Class,Home Office,North America,Technology,Machines,270.85,5,0.3,2.34
+ORD-10635,2023-04-16,Standard Class,Corporate,Latin America,Furniture,Furnishings,101.61,1,0.3,2.24
+ORD-10636,2023-04-17,Second Class,Home Office,Europe,Furniture,Chairs,36.9,9,0.0,11.73
+ORD-10637,2023-04-17,Same Day,Consumer,Europe,Technology,Phones,834.35,4,0.0,280.97
+ORD-10638,2023-04-17,First Class,Consumer,Asia Pacific,Technology,Accessories,89.19,2,0.2,3.95
+ORD-10639,2023-04-17,Standard Class,Consumer,Asia Pacific,Furniture,Bookcases,136.29,4,0.15,23.11
+ORD-10640,2023-04-17,Second Class,Consumer,North America,Technology,Accessories,245.88,9,0.2,44.1
+ORD-10641,2023-04-17,Second Class,Corporate,Europe,Technology,Laptops,20.5,2,0.15,-0.5
+ORD-10642,2023-04-18,Standard Class,Corporate,Asia Pacific,Technology,Phones,380.66,4,0.1,-9.33
+ORD-10643,2023-04-18,Standard Class,Consumer,Europe,Technology,Machines,184.21,2,0.0,57.23
+ORD-10644,2023-04-18,Standard Class,Home Office,North America,Technology,Accessories,86.73,5,0.1,2.48
+ORD-10645,2023-04-18,Standard Class,Home Office,Asia Pacific,Office Supplies,Art,28.99,3,0.0,1.82
+ORD-10646,2023-04-18,Same Day,Consumer,Europe,Furniture,Tables,54.01,2,0.15,-1.19
+ORD-10647,2023-04-18,Standard Class,Consumer,North America,Office Supplies,Paper,510.91,9,0.2,2.67
+ORD-10648,2023-04-19,Same Day,Consumer,Europe,Office Supplies,Paper,269.86,5,0.1,9.66
+ORD-10649,2023-04-19,Standard Class,Consumer,North America,Furniture,Chairs,78.26,5,0.5,-20.22
+ORD-10650,2023-04-19,Second Class,Consumer,North America,Technology,Accessories,29.93,1,0.1,7.86
+ORD-10651,2023-04-19,Standard Class,Corporate,Asia Pacific,Furniture,Bookcases,273.1,6,0.15,38.59
+ORD-10652,2023-04-19,Standard Class,Consumer,North America,Furniture,Tables,201.91,7,0.15,29.01
+ORD-10653,2023-04-19,Standard Class,Consumer,Europe,Office Supplies,Storage,129.05,1,0.5,-41.5
+ORD-10654,2023-04-20,Standard Class,Home Office,Europe,Furniture,Tables,114.43,9,0.15,17.12
+ORD-10655,2023-04-20,Second Class,Corporate,North America,Technology,Accessories,68.76,8,0.0,18.69
+ORD-10656,2023-04-20,Standard Class,Home Office,Latin America,Technology,Phones,258.65,8,0.3,2.05
+ORD-10657,2023-04-20,First Class,Consumer,North America,Furniture,Furnishings,791.4,7,0.15,-1.16
+ORD-10658,2023-04-20,Standard Class,Consumer,North America,Office Supplies,Art,57.51,5,0.0,10.17
+ORD-10659,2023-04-20,Standard Class,Corporate,North America,Furniture,Bookcases,215.0,3,0.15,39.53
+ORD-10660,2023-04-21,Standard Class,Consumer,North America,Furniture,Furnishings,136.43,9,0.2,12.42
+ORD-10661,2023-04-21,Same Day,Consumer,North America,Office Supplies,Binders,145.2,7,0.1,27.56
+ORD-10662,2023-04-21,Second Class,Corporate,Asia Pacific,Office Supplies,Binders,79.51,8,0.0,17.99
+ORD-10663,2023-04-21,Standard Class,Corporate,Latin America,Technology,Phones,398.62,6,0.2,9.92
+ORD-10664,2023-04-21,Standard Class,Consumer,North America,Technology,Phones,161.1,5,0.2,18.96
+ORD-10665,2023-04-21,Standard Class,Consumer,Europe,Technology,Machines,187.47,8,0.1,-1.8
+ORD-10666,2023-04-22,Same Day,Consumer,Asia Pacific,Technology,Laptops,94.97,3,0.0,23.93
+ORD-10667,2023-04-22,Second Class,Consumer,Asia Pacific,Technology,Machines,59.14,7,0.0,20.65
+ORD-10668,2023-04-22,Standard Class,Consumer,Europe,Technology,Machines,34.76,2,0.15,5.7
+ORD-10669,2023-04-22,Second Class,Consumer,North America,Technology,Machines,290.48,3,0.2,-6.63
+ORD-10670,2023-04-22,Standard Class,Consumer,North America,Technology,Machines,63.06,2,0.0,8.41
+ORD-10671,2023-04-22,Same Day,Home Office,Asia Pacific,Office Supplies,Binders,272.71,5,0.0,68.22
+ORD-10672,2023-04-23,Standard Class,Corporate,Asia Pacific,Technology,Laptops,123.88,7,0.0,39.49
+ORD-10673,2023-04-23,Second Class,Corporate,North America,Furniture,Tables,133.24,1,0.15,13.78
+ORD-10674,2023-04-23,Standard Class,Consumer,North America,Furniture,Bookcases,154.33,9,0.0,32.13
+ORD-10675,2023-04-23,Second Class,Consumer,Latin America,Office Supplies,Paper,115.85,1,0.0,11.37
+ORD-10676,2023-04-23,First Class,Consumer,Asia Pacific,Technology,Machines,38.33,1,0.0,10.14
+ORD-10677,2023-04-23,Second Class,Consumer,Latin America,Furniture,Tables,96.52,8,0.15,13.58
+ORD-10678,2023-04-24,Second Class,Consumer,Asia Pacific,Office Supplies,Storage,254.77,6,0.1,66.26
+ORD-10679,2023-04-24,First Class,Corporate,North America,Office Supplies,Paper,256.11,6,0.0,35.87
+ORD-10680,2023-04-24,Standard Class,Corporate,Europe,Office Supplies,Paper,89.18,9,0.3,3.29
+ORD-10681,2023-04-24,Standard Class,Corporate,Europe,Technology,Machines,150.6,4,0.0,27.14
+ORD-10682,2023-04-24,Standard Class,Consumer,North America,Technology,Laptops,62.3,8,0.0,13.55
+ORD-10683,2023-04-24,Same Day,Home Office,Europe,Office Supplies,Binders,66.96,4,0.3,3.68
+ORD-10684,2023-04-25,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,20.13,2,0.1,0.74
+ORD-10685,2023-04-25,Second Class,Consumer,North America,Furniture,Tables,514.53,8,0.1,37.49
+ORD-10686,2023-04-25,Second Class,Consumer,Asia Pacific,Furniture,Chairs,67.06,7,0.0,18.91
+ORD-10687,2023-04-25,Standard Class,Corporate,Europe,Technology,Accessories,71.8,4,0.2,4.39
+ORD-10688,2023-04-25,Standard Class,Home Office,Latin America,Office Supplies,Binders,87.15,9,0.1,-0.2
+ORD-10689,2023-04-25,Standard Class,Consumer,North America,Technology,Machines,44.98,9,0.2,0.86
+ORD-10690,2023-04-26,Standard Class,Home Office,North America,Technology,Accessories,239.31,8,0.0,54.08
+ORD-10691,2023-04-26,Standard Class,Home Office,Europe,Furniture,Furnishings,32.19,1,0.1,7.82
+ORD-10692,2023-04-26,Standard Class,Consumer,North America,Furniture,Chairs,46.7,7,0.2,-2.5
+ORD-10693,2023-04-26,First Class,Consumer,Asia Pacific,Technology,Machines,242.69,5,0.3,12.57
+ORD-10694,2023-04-26,Same Day,Consumer,Asia Pacific,Technology,Machines,106.3,7,0.0,9.48
+ORD-10695,2023-04-26,Standard Class,Home Office,North America,Office Supplies,Storage,285.78,9,0.2,-10.67
+ORD-10696,2023-04-27,Standard Class,Consumer,Europe,Technology,Accessories,194.33,2,0.0,23.9
+ORD-10697,2023-04-27,Standard Class,Corporate,Europe,Furniture,Chairs,80.06,4,0.1,18.67
+ORD-10698,2023-04-27,Second Class,Consumer,North America,Technology,Machines,246.48,4,0.0,27.04
+ORD-10699,2023-04-27,First Class,Corporate,Latin America,Furniture,Chairs,42.19,2,0.15,7.01
+ORD-10700,2023-04-27,Standard Class,Consumer,Asia Pacific,Furniture,Bookcases,184.13,3,0.0,34.72
+ORD-10701,2023-04-27,Standard Class,Corporate,Europe,Technology,Accessories,141.44,8,0.0,49.47
+ORD-10702,2023-04-28,First Class,Home Office,Asia Pacific,Technology,Machines,83.6,9,0.0,25.22
+ORD-10703,2023-04-28,Second Class,Home Office,Europe,Technology,Accessories,218.8,6,0.0,59.49
+ORD-10704,2023-04-28,Standard Class,Home Office,Latin America,Technology,Laptops,466.12,2,0.3,33.2
+ORD-10705,2023-04-28,Second Class,Consumer,Europe,Office Supplies,Storage,1514.68,2,0.5,-242.03
+ORD-10706,2023-04-28,Standard Class,Corporate,Asia Pacific,Technology,Phones,220.9,7,0.2,31.61
+ORD-10707,2023-04-28,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,129.11,8,0.0,16.57
+ORD-10708,2023-04-29,First Class,Consumer,North America,Technology,Phones,71.14,8,0.1,-0.05
+ORD-10709,2023-04-29,First Class,Corporate,Asia Pacific,Office Supplies,Storage,80.38,6,0.15,9.23
+ORD-10710,2023-04-29,Standard Class,Consumer,North America,Office Supplies,Binders,158.63,8,0.3,-9.45
+ORD-10711,2023-04-29,Same Day,Corporate,North America,Furniture,Chairs,115.7,1,0.1,11.33
+ORD-10712,2023-04-29,Standard Class,Home Office,North America,Furniture,Chairs,554.28,9,0.2,26.62
+ORD-10713,2023-04-29,First Class,Consumer,Latin America,Furniture,Tables,116.05,1,0.3,-9.47
+ORD-10714,2023-04-30,Standard Class,Corporate,Asia Pacific,Technology,Phones,117.85,3,0.2,9.17
+ORD-10715,2023-04-30,First Class,Consumer,Asia Pacific,Office Supplies,Binders,121.43,9,0.0,7.19
+ORD-10716,2023-04-30,Same Day,Consumer,Asia Pacific,Office Supplies,Art,413.57,5,0.0,141.01
+ORD-10717,2023-04-30,Standard Class,Consumer,Europe,Office Supplies,Binders,246.46,9,0.1,60.98
+ORD-10718,2023-04-30,Same Day,Home Office,Latin America,Technology,Machines,224.52,9,0.1,56.26
+ORD-10719,2023-04-30,First Class,Home Office,Europe,Office Supplies,Binders,104.47,6,0.0,16.66
+ORD-10720,2023-05-01,First Class,Home Office,North America,Office Supplies,Storage,389.71,1,0.0,81.67
+ORD-10721,2023-05-01,Standard Class,Home Office,North America,Technology,Laptops,23.61,7,0.2,4.16
+ORD-10722,2023-05-01,First Class,Consumer,Asia Pacific,Technology,Machines,465.2,6,0.1,111.98
+ORD-10723,2023-05-01,First Class,Consumer,Asia Pacific,Office Supplies,Art,173.18,9,0.0,49.72
+ORD-10724,2023-05-01,Standard Class,Corporate,North America,Furniture,Bookcases,126.74,7,0.15,6.62
+ORD-10725,2023-05-01,Same Day,Consumer,North America,Office Supplies,Art,166.25,4,0.15,16.51
+ORD-10726,2023-05-02,Standard Class,Consumer,Asia Pacific,Technology,Accessories,257.19,7,0.2,32.89
+ORD-10727,2023-05-02,Standard Class,Consumer,North America,Office Supplies,Binders,17.83,2,0.0,2.35
+ORD-10728,2023-05-02,Standard Class,Corporate,Asia Pacific,Technology,Laptops,466.49,6,0.15,55.02
+ORD-10729,2023-05-02,Second Class,Corporate,Latin America,Technology,Phones,145.22,6,0.1,31.71
+ORD-10730,2023-05-02,Second Class,Consumer,Europe,Technology,Accessories,107.4,2,0.0,28.16
+ORD-10731,2023-05-02,Standard Class,Consumer,North America,Office Supplies,Art,47.73,4,0.2,1.62
+ORD-10732,2023-05-03,Same Day,Corporate,Asia Pacific,Office Supplies,Paper,142.35,8,0.0,32.08
+ORD-10733,2023-05-03,Standard Class,Corporate,Asia Pacific,Furniture,Chairs,165.88,8,0.0,57.49
+ORD-10734,2023-05-03,Standard Class,Consumer,Europe,Furniture,Tables,128.72,8,0.1,19.38
+ORD-10735,2023-05-03,Standard Class,Corporate,Latin America,Office Supplies,Binders,264.76,8,0.0,75.64
+ORD-10736,2023-05-03,Second Class,Consumer,North America,Furniture,Chairs,135.18,1,0.0,36.23
+ORD-10737,2023-05-03,Same Day,Consumer,Europe,Office Supplies,Paper,731.09,2,0.2,73.44
+ORD-10738,2023-05-04,Second Class,Corporate,Asia Pacific,Furniture,Bookcases,216.19,4,0.0,57.27
+ORD-10739,2023-05-04,First Class,Corporate,Asia Pacific,Furniture,Furnishings,377.46,9,0.3,-20.26
+ORD-10740,2023-05-04,Standard Class,Consumer,North America,Furniture,Bookcases,40.48,3,0.1,4.54
+ORD-10741,2023-05-04,Standard Class,Corporate,Asia Pacific,Technology,Accessories,126.39,6,0.0,24.06
+ORD-10742,2023-05-04,Standard Class,Corporate,Europe,Office Supplies,Storage,105.37,7,0.0,6.32
+ORD-10743,2023-05-04,Standard Class,Corporate,North America,Furniture,Bookcases,200.41,8,0.1,8.48
+ORD-10744,2023-05-05,Standard Class,Corporate,North America,Technology,Laptops,449.3,7,0.15,-10.62
+ORD-10745,2023-05-05,Second Class,Corporate,Asia Pacific,Office Supplies,Storage,32.95,3,0.0,10.41
+ORD-10746,2023-05-05,Standard Class,Consumer,North America,Furniture,Furnishings,31.58,6,0.0,4.18
+ORD-10747,2023-05-05,First Class,Consumer,North America,Furniture,Furnishings,432.83,5,0.2,-29.63
+ORD-10748,2023-05-05,Standard Class,Consumer,North America,Office Supplies,Paper,67.65,4,0.0,5.81
+ORD-10749,2023-05-05,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,258.08,1,0.2,25.81
+ORD-10750,2023-05-06,Second Class,Corporate,Europe,Technology,Laptops,187.22,7,0.15,-12.76
+ORD-10751,2023-05-06,Standard Class,Corporate,Asia Pacific,Office Supplies,Paper,408.61,8,0.1,45.52
+ORD-10752,2023-05-06,First Class,Consumer,North America,Office Supplies,Paper,44.4,2,0.0,3.8
+ORD-10753,2023-05-06,Second Class,Consumer,Europe,Technology,Phones,45.58,7,0.0,13.9
+ORD-10754,2023-05-06,Standard Class,Consumer,Europe,Technology,Machines,194.03,6,0.2,34.45
+ORD-10755,2023-05-06,Same Day,Consumer,Asia Pacific,Office Supplies,Storage,658.68,5,0.0,222.39
+ORD-10756,2023-05-07,Standard Class,Corporate,Latin America,Office Supplies,Storage,132.95,4,0.0,24.28
+ORD-10757,2023-05-07,Standard Class,Consumer,North America,Furniture,Tables,102.1,2,0.1,16.68
+ORD-10758,2023-05-07,Second Class,Corporate,Europe,Office Supplies,Storage,220.29,6,0.0,50.65
+ORD-10759,2023-05-07,Standard Class,Home Office,North America,Office Supplies,Storage,601.45,5,0.1,45.12
+ORD-10760,2023-05-07,First Class,Consumer,Europe,Technology,Phones,413.98,2,0.2,9.61
+ORD-10761,2023-05-07,First Class,Consumer,North America,Technology,Accessories,1203.01,7,0.1,-12.88
+ORD-10762,2023-05-08,Same Day,Consumer,North America,Technology,Laptops,20.02,6,0.3,0.98
+ORD-10763,2023-05-08,Standard Class,Corporate,North America,Office Supplies,Art,41.35,9,0.2,-1.56
+ORD-10764,2023-05-08,Standard Class,Corporate,Europe,Technology,Laptops,221.85,5,0.0,41.74
+ORD-10765,2023-05-08,First Class,Consumer,North America,Furniture,Chairs,392.96,9,0.0,76.31
+ORD-10766,2023-05-08,Standard Class,Corporate,Asia Pacific,Office Supplies,Art,88.88,9,0.1,12.28
+ORD-10767,2023-05-08,Standard Class,Home Office,Europe,Office Supplies,Paper,75.15,1,0.15,13.18
+ORD-10768,2023-05-09,Standard Class,Consumer,North America,Technology,Laptops,355.2,5,0.0,91.49
+ORD-10769,2023-05-09,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,27.77,9,0.3,0.25
+ORD-10770,2023-05-09,Standard Class,Home Office,North America,Technology,Accessories,116.43,7,0.15,10.25
+ORD-10771,2023-05-09,First Class,Corporate,Europe,Office Supplies,Binders,170.06,6,0.0,13.4
+ORD-10772,2023-05-09,First Class,Home Office,Europe,Technology,Machines,195.79,6,0.15,9.91
+ORD-10773,2023-05-09,Standard Class,Corporate,North America,Furniture,Furnishings,301.93,7,0.0,101.81
+ORD-10774,2023-05-10,Standard Class,Home Office,North America,Office Supplies,Paper,111.42,1,0.2,21.02
+ORD-10775,2023-05-10,Standard Class,Consumer,North America,Technology,Machines,223.67,4,0.1,42.31
+ORD-10776,2023-05-10,First Class,Corporate,Latin America,Technology,Phones,208.68,1,0.0,24.68
+ORD-10777,2023-05-10,Standard Class,Home Office,Europe,Office Supplies,Storage,189.51,6,0.0,15.27
+ORD-10778,2023-05-10,Second Class,Corporate,Europe,Office Supplies,Paper,240.06,4,0.2,3.46
+ORD-10779,2023-05-10,Standard Class,Consumer,Europe,Office Supplies,Art,81.08,1,0.1,18.4
+ORD-10780,2023-05-11,Second Class,Consumer,North America,Office Supplies,Art,34.46,9,0.3,0.92
+ORD-10781,2023-05-11,Standard Class,Consumer,Europe,Furniture,Bookcases,42.94,4,0.0,13.53
+ORD-10782,2023-05-11,First Class,Consumer,Asia Pacific,Technology,Machines,70.96,6,0.0,16.66
+ORD-10783,2023-05-11,Standard Class,Consumer,North America,Technology,Machines,167.58,7,0.0,14.93
+ORD-10784,2023-05-11,Second Class,Corporate,North America,Technology,Accessories,418.78,8,0.1,1.86
+ORD-10785,2023-05-11,Standard Class,Corporate,North America,Office Supplies,Binders,280.82,9,0.0,18.09
+ORD-10786,2023-05-12,Second Class,Consumer,Europe,Furniture,Bookcases,357.34,9,0.0,78.66
+ORD-10787,2023-05-12,First Class,Corporate,Latin America,Furniture,Chairs,110.1,8,0.15,0.32
+ORD-10788,2023-05-12,Standard Class,Consumer,North America,Furniture,Tables,129.09,3,0.1,24.57
+ORD-10789,2023-05-12,First Class,Consumer,Europe,Office Supplies,Paper,125.08,2,0.0,32.0
+ORD-10790,2023-05-12,Second Class,Consumer,North America,Technology,Machines,61.87,5,0.1,4.05
+ORD-10791,2023-05-12,Standard Class,Corporate,Latin America,Furniture,Tables,28.9,1,0.15,-0.49
+ORD-10792,2023-05-13,Standard Class,Consumer,North America,Furniture,Bookcases,211.64,3,0.0,17.08
+ORD-10793,2023-05-13,Standard Class,Consumer,Europe,Office Supplies,Storage,1011.55,1,0.0,274.33
+ORD-10794,2023-05-13,Second Class,Consumer,Asia Pacific,Technology,Laptops,55.15,3,0.0,10.21
+ORD-10795,2023-05-13,First Class,Home Office,Asia Pacific,Office Supplies,Binders,25.52,4,0.15,0.69
+ORD-10796,2023-05-13,Standard Class,Consumer,Europe,Office Supplies,Paper,347.64,7,0.2,51.1
+ORD-10797,2023-05-13,Standard Class,Corporate,North America,Furniture,Furnishings,79.05,5,0.0,18.03
+ORD-10798,2023-05-14,First Class,Corporate,North America,Office Supplies,Paper,404.37,5,0.0,83.06
+ORD-10799,2023-05-14,Same Day,Corporate,North America,Office Supplies,Paper,282.78,1,0.2,31.96
+ORD-10800,2023-05-14,Standard Class,Home Office,North America,Office Supplies,Art,655.8,8,0.5,-69.07
+ORD-10801,2023-05-14,Same Day,Consumer,Europe,Technology,Machines,130.68,4,0.15,17.75
+ORD-10802,2023-05-14,Standard Class,Consumer,North America,Furniture,Tables,253.62,5,0.5,-55.29
+ORD-10803,2023-05-14,Standard Class,Home Office,North America,Office Supplies,Binders,152.55,2,0.15,6.68
+ORD-10804,2023-05-15,First Class,Consumer,Europe,Furniture,Tables,234.09,1,0.15,37.81
+ORD-10805,2023-05-15,Standard Class,Corporate,Latin America,Office Supplies,Binders,146.36,9,0.0,30.06
+ORD-10806,2023-05-15,Standard Class,Corporate,Europe,Office Supplies,Binders,60.99,2,0.1,11.06
+ORD-10807,2023-05-15,Standard Class,Corporate,North America,Office Supplies,Art,170.99,6,0.0,54.22
+ORD-10808,2023-05-15,First Class,Home Office,North America,Furniture,Chairs,180.44,1,0.2,29.73
+ORD-10809,2023-05-15,First Class,Home Office,Latin America,Technology,Accessories,381.06,1,0.3,-40.65
+ORD-10810,2023-05-16,Standard Class,Corporate,North America,Office Supplies,Binders,307.6,9,0.15,-4.19
+ORD-10811,2023-05-16,Standard Class,Consumer,North America,Office Supplies,Paper,254.81,4,0.0,32.71
+ORD-10812,2023-05-16,Standard Class,Home Office,Europe,Technology,Accessories,41.48,9,0.0,11.42
+ORD-10813,2023-05-16,Second Class,Consumer,Europe,Office Supplies,Paper,295.54,5,0.0,47.59
+ORD-10814,2023-05-16,Standard Class,Consumer,Europe,Office Supplies,Paper,167.63,7,0.0,17.1
+ORD-10815,2023-05-16,First Class,Home Office,North America,Furniture,Furnishings,508.96,1,0.15,-20.6
+ORD-10816,2023-05-17,Standard Class,Consumer,North America,Furniture,Bookcases,570.31,6,0.3,-52.36
+ORD-10817,2023-05-17,Standard Class,Consumer,Latin America,Furniture,Furnishings,27.48,8,0.0,2.5
+ORD-10818,2023-05-17,Standard Class,Consumer,North America,Technology,Laptops,393.04,1,0.0,38.09
+ORD-10819,2023-05-17,Standard Class,Home Office,Europe,Technology,Laptops,23.45,9,0.15,3.17
+ORD-10820,2023-05-17,Same Day,Corporate,Asia Pacific,Office Supplies,Storage,115.66,3,0.0,6.47
+ORD-10821,2023-05-17,Standard Class,Corporate,Europe,Technology,Accessories,186.94,1,0.2,-13.97
+ORD-10822,2023-05-18,Standard Class,Consumer,North America,Technology,Machines,50.26,1,0.0,15.24
+ORD-10823,2023-05-18,Standard Class,Corporate,North America,Furniture,Bookcases,316.76,6,0.0,96.13
+ORD-10824,2023-05-18,Standard Class,Corporate,Europe,Furniture,Chairs,16.85,6,0.0,2.51
+ORD-10825,2023-05-18,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,55.62,1,0.0,4.25
+ORD-10826,2023-05-18,Standard Class,Consumer,Latin America,Technology,Machines,206.27,3,0.1,37.44
+ORD-10827,2023-05-18,Standard Class,Consumer,North America,Technology,Laptops,290.69,7,0.0,45.94
+ORD-10828,2023-05-19,Second Class,Home Office,North America,Office Supplies,Paper,561.62,3,0.1,-9.19
+ORD-10829,2023-05-19,Standard Class,Corporate,Latin America,Furniture,Furnishings,283.94,3,0.1,4.93
+ORD-10830,2023-05-19,Standard Class,Home Office,Asia Pacific,Technology,Machines,260.1,3,0.0,23.71
+ORD-10831,2023-05-19,Same Day,Consumer,Asia Pacific,Furniture,Tables,125.32,7,0.0,28.41
+ORD-10832,2023-05-19,Standard Class,Corporate,North America,Technology,Machines,15.28,4,0.1,3.66
+ORD-10833,2023-05-19,Standard Class,Corporate,Europe,Technology,Accessories,43.16,4,0.15,7.25
+ORD-10834,2023-05-20,Standard Class,Corporate,Asia Pacific,Furniture,Bookcases,183.25,3,0.3,-4.77
+ORD-10835,2023-05-20,Standard Class,Home Office,Europe,Furniture,Tables,262.35,9,0.0,46.34
+ORD-10836,2023-05-20,First Class,Consumer,Europe,Office Supplies,Paper,133.87,2,0.0,31.54
+ORD-10837,2023-05-20,Standard Class,Consumer,North America,Furniture,Tables,303.61,4,0.0,55.6
+ORD-10838,2023-05-20,Second Class,Corporate,Europe,Furniture,Chairs,177.33,8,0.1,7.77
+ORD-10839,2023-05-20,Standard Class,Corporate,North America,Office Supplies,Binders,31.96,6,0.15,4.27
+ORD-10840,2023-05-21,Standard Class,Corporate,Europe,Technology,Machines,61.91,7,0.2,9.41
+ORD-10841,2023-05-21,First Class,Consumer,Latin America,Office Supplies,Storage,418.17,7,0.15,17.51
+ORD-10842,2023-05-21,Standard Class,Corporate,North America,Technology,Phones,298.95,2,0.0,90.42
+ORD-10843,2023-05-21,Second Class,Consumer,Asia Pacific,Office Supplies,Binders,510.34,4,0.1,50.69
+ORD-10844,2023-05-21,Standard Class,Consumer,North America,Technology,Accessories,42.51,6,0.3,-2.96
+ORD-10845,2023-05-21,Second Class,Corporate,Europe,Furniture,Tables,1033.09,3,0.0,60.43
+ORD-10846,2023-05-22,Standard Class,Corporate,Latin America,Technology,Machines,66.69,9,0.1,11.91
+ORD-10847,2023-05-22,First Class,Consumer,North America,Office Supplies,Art,17.61,4,0.3,0.92
+ORD-10848,2023-05-22,Standard Class,Consumer,North America,Furniture,Chairs,1326.44,2,0.15,171.2
+ORD-10849,2023-05-22,First Class,Consumer,Europe,Furniture,Chairs,87.6,6,0.15,-2.15
+ORD-10850,2023-05-22,Standard Class,Consumer,North America,Technology,Machines,257.59,1,0.0,20.86
+ORD-10851,2023-05-22,Second Class,Corporate,Asia Pacific,Office Supplies,Paper,57.77,6,0.1,8.2
+ORD-10852,2023-05-23,Standard Class,Home Office,Latin America,Technology,Laptops,205.97,1,0.0,35.11
+ORD-10853,2023-05-23,Same Day,Consumer,Europe,Office Supplies,Storage,530.63,8,0.15,31.16
+ORD-10854,2023-05-23,Standard Class,Corporate,North America,Technology,Machines,99.9,5,0.0,34.0
+ORD-10855,2023-05-23,Standard Class,Home Office,Europe,Technology,Phones,259.08,6,0.2,27.77
+ORD-10856,2023-05-23,Standard Class,Home Office,Asia Pacific,Technology,Accessories,60.79,2,0.2,0.82
+ORD-10857,2023-05-23,Standard Class,Consumer,North America,Furniture,Bookcases,230.66,2,0.1,-5.6
+ORD-10858,2023-05-24,Standard Class,Home Office,Europe,Furniture,Furnishings,105.23,9,0.0,6.34
+ORD-10859,2023-05-24,Same Day,Consumer,Europe,Technology,Phones,67.2,3,0.0,17.17
+ORD-10860,2023-05-24,Same Day,Consumer,Europe,Office Supplies,Art,97.65,6,0.2,13.8
+ORD-10861,2023-05-24,Standard Class,Consumer,North America,Furniture,Tables,58.35,5,0.15,8.3
+ORD-10862,2023-05-24,Same Day,Consumer,Asia Pacific,Furniture,Bookcases,525.83,4,0.15,27.22
+ORD-10863,2023-05-24,Standard Class,Consumer,North America,Furniture,Furnishings,126.35,2,0.0,7.5
+ORD-10864,2023-05-25,Standard Class,Consumer,North America,Furniture,Furnishings,76.91,8,0.1,20.01
+ORD-10865,2023-05-25,Second Class,Consumer,Asia Pacific,Furniture,Furnishings,145.89,7,0.15,32.96
+ORD-10866,2023-05-25,Second Class,Home Office,Asia Pacific,Technology,Accessories,100.02,2,0.1,13.48
+ORD-10867,2023-05-25,Same Day,Home Office,North America,Technology,Machines,315.13,6,0.15,-15.38
+ORD-10868,2023-05-25,Standard Class,Consumer,North America,Office Supplies,Binders,795.58,8,0.2,41.6
+ORD-10869,2023-05-25,Second Class,Home Office,North America,Office Supplies,Binders,141.79,7,0.0,45.05
+ORD-10870,2023-05-26,Standard Class,Home Office,North America,Furniture,Tables,449.17,1,0.0,114.09
+ORD-10871,2023-05-26,Standard Class,Corporate,North America,Technology,Laptops,198.57,5,0.1,36.93
+ORD-10872,2023-05-26,Standard Class,Consumer,North America,Office Supplies,Storage,52.63,2,0.0,3.97
+ORD-10873,2023-05-26,Same Day,Corporate,Europe,Furniture,Furnishings,273.1,6,0.2,-21.31
+ORD-10874,2023-05-26,First Class,Home Office,Asia Pacific,Technology,Machines,173.48,7,0.15,-5.52
+ORD-10875,2023-05-26,First Class,Corporate,Europe,Technology,Laptops,246.34,7,0.2,39.74
+ORD-10876,2023-05-27,Standard Class,Consumer,Europe,Office Supplies,Paper,499.98,3,0.15,43.88
+ORD-10877,2023-05-27,Standard Class,Corporate,North America,Office Supplies,Storage,142.73,7,0.0,41.03
+ORD-10878,2023-05-27,Standard Class,Corporate,Latin America,Technology,Accessories,524.17,5,0.0,44.34
+ORD-10879,2023-05-27,Standard Class,Corporate,Asia Pacific,Technology,Laptops,320.57,8,0.2,53.95
+ORD-10880,2023-05-27,Standard Class,Consumer,Asia Pacific,Technology,Accessories,162.53,8,0.0,48.16
+ORD-10881,2023-05-27,First Class,Consumer,Asia Pacific,Office Supplies,Art,218.36,7,0.15,-0.56
+ORD-10882,2023-05-28,Standard Class,Home Office,Latin America,Technology,Phones,101.66,6,0.2,15.48
+ORD-10883,2023-05-28,Standard Class,Home Office,Europe,Technology,Machines,919.27,2,0.0,118.62
+ORD-10884,2023-05-28,Standard Class,Consumer,North America,Office Supplies,Binders,257.15,6,0.0,28.7
+ORD-10885,2023-05-28,Standard Class,Home Office,Europe,Technology,Accessories,24.86,9,0.1,1.22
+ORD-10886,2023-05-28,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,102.0,2,0.2,16.62
+ORD-10887,2023-05-28,Same Day,Corporate,Asia Pacific,Technology,Phones,229.8,1,0.0,74.61
+ORD-10888,2023-05-29,Second Class,Corporate,Europe,Technology,Laptops,27.76,5,0.3,-2.53
+ORD-10889,2023-05-29,First Class,Home Office,North America,Technology,Machines,20.32,6,0.1,3.69
+ORD-10890,2023-05-29,Standard Class,Home Office,North America,Office Supplies,Art,146.53,3,0.5,-21.58
+ORD-10891,2023-05-29,Standard Class,Consumer,Latin America,Office Supplies,Storage,103.99,8,0.0,30.36
+ORD-10892,2023-05-29,Standard Class,Home Office,Europe,Office Supplies,Art,141.89,7,0.0,19.72
+ORD-10893,2023-05-29,First Class,Consumer,Europe,Furniture,Chairs,82.05,2,0.2,3.53
+ORD-10894,2023-05-30,First Class,Corporate,North America,Office Supplies,Art,54.6,7,0.2,4.93
+ORD-10895,2023-05-30,Standard Class,Corporate,North America,Technology,Accessories,272.05,1,0.1,-6.02
+ORD-10896,2023-05-30,Standard Class,Corporate,Asia Pacific,Technology,Laptops,174.0,9,0.15,7.49
+ORD-10897,2023-05-30,Standard Class,Consumer,Europe,Office Supplies,Paper,64.13,7,0.2,6.33
+ORD-10898,2023-05-30,Second Class,Home Office,Asia Pacific,Technology,Laptops,99.71,6,0.0,12.54
+ORD-10899,2023-05-30,Same Day,Consumer,Europe,Technology,Phones,212.12,2,0.1,54.58
+ORD-10900,2023-05-31,Second Class,Consumer,Europe,Technology,Accessories,31.49,3,0.2,-3.18
+ORD-10901,2023-05-31,Standard Class,Corporate,North America,Technology,Laptops,50.1,1,0.0,16.91
+ORD-10902,2023-05-31,Standard Class,Consumer,Asia Pacific,Technology,Machines,31.73,5,0.0,3.65
+ORD-10903,2023-05-31,Standard Class,Home Office,Europe,Furniture,Chairs,383.06,9,0.2,-36.53
+ORD-10904,2023-05-31,Standard Class,Consumer,Europe,Furniture,Bookcases,322.12,6,0.0,44.37
+ORD-10905,2023-05-31,Standard Class,Consumer,Europe,Office Supplies,Art,322.92,5,0.0,92.32
+ORD-10906,2023-06-01,Second Class,Home Office,Latin America,Office Supplies,Storage,292.18,3,0.3,10.44
+ORD-10907,2023-06-01,Second Class,Corporate,North America,Technology,Laptops,258.5,5,0.1,8.44
+ORD-10908,2023-06-01,Standard Class,Consumer,Asia Pacific,Technology,Laptops,157.59,8,0.2,-8.03
+ORD-10909,2023-06-01,First Class,Corporate,North America,Furniture,Chairs,241.16,2,0.2,19.96
+ORD-10910,2023-06-01,Standard Class,Corporate,Europe,Furniture,Furnishings,23.61,5,0.0,4.43
+ORD-10911,2023-06-01,Standard Class,Corporate,North America,Technology,Accessories,228.72,6,0.0,65.8
+ORD-10912,2023-06-02,Standard Class,Consumer,North America,Office Supplies,Paper,346.0,8,0.0,19.8
+ORD-10913,2023-06-02,Standard Class,Home Office,Europe,Furniture,Chairs,167.65,8,0.0,39.08
+ORD-10914,2023-06-02,Standard Class,Home Office,North America,Furniture,Chairs,112.33,5,0.15,16.76
+ORD-10915,2023-06-02,Standard Class,Corporate,Europe,Furniture,Tables,86.49,9,0.15,19.72
+ORD-10916,2023-06-02,Standard Class,Consumer,Latin America,Technology,Machines,241.48,4,0.1,41.93
+ORD-10917,2023-06-02,Same Day,Home Office,North America,Office Supplies,Art,274.66,9,0.0,32.84
+ORD-10918,2023-06-03,Standard Class,Corporate,Asia Pacific,Office Supplies,Art,465.49,7,0.0,38.38
+ORD-10919,2023-06-03,Standard Class,Corporate,Europe,Technology,Laptops,107.19,6,0.1,17.39
+ORD-10920,2023-06-03,Standard Class,Consumer,Europe,Office Supplies,Storage,338.11,4,0.1,42.92
+ORD-10921,2023-06-03,Second Class,Home Office,North America,Furniture,Bookcases,196.29,2,0.0,62.76
+ORD-10922,2023-06-03,Standard Class,Corporate,North America,Office Supplies,Binders,486.72,8,0.15,72.03
+ORD-10923,2023-06-03,First Class,Consumer,North America,Office Supplies,Storage,180.08,6,0.0,36.54
+ORD-10924,2023-06-04,Standard Class,Consumer,North America,Furniture,Tables,175.39,3,0.0,30.01
+ORD-10925,2023-06-04,Standard Class,Home Office,North America,Technology,Machines,204.74,7,0.15,10.51
+ORD-10926,2023-06-04,Second Class,Consumer,Europe,Technology,Laptops,319.38,7,0.0,37.65
+ORD-10927,2023-06-04,Standard Class,Home Office,Asia Pacific,Furniture,Bookcases,750.59,6,0.1,-18.62
+ORD-10928,2023-06-04,Standard Class,Corporate,Asia Pacific,Office Supplies,Paper,31.81,2,0.0,7.08
+ORD-10929,2023-06-04,Standard Class,Corporate,Europe,Technology,Accessories,27.08,8,0.0,3.08
+ORD-10930,2023-06-05,Second Class,Consumer,North America,Technology,Machines,625.15,1,0.0,70.33
+ORD-10931,2023-06-05,Standard Class,Consumer,North America,Office Supplies,Paper,181.05,1,0.3,-27.59
+ORD-10932,2023-06-05,Standard Class,Home Office,North America,Office Supplies,Paper,224.94,6,0.1,6.05
+ORD-10933,2023-06-05,Same Day,Consumer,North America,Furniture,Furnishings,159.89,5,0.5,-54.44
+ORD-10934,2023-06-05,Standard Class,Corporate,Europe,Technology,Phones,36.63,9,0.1,6.31
+ORD-10935,2023-06-05,First Class,Consumer,Europe,Technology,Accessories,336.51,7,0.1,30.43
+ORD-10936,2023-06-06,First Class,Consumer,North America,Technology,Accessories,317.56,2,0.0,69.37
+ORD-10937,2023-06-06,Standard Class,Consumer,North America,Office Supplies,Storage,97.18,7,0.0,23.43
+ORD-10938,2023-06-06,Standard Class,Corporate,Asia Pacific,Technology,Phones,95.44,3,0.0,32.62
+ORD-10939,2023-06-06,Standard Class,Home Office,Asia Pacific,Furniture,Bookcases,415.22,1,0.0,29.26
+ORD-10940,2023-06-06,Second Class,Consumer,North America,Technology,Phones,31.52,8,0.1,3.01
+ORD-10941,2023-06-06,Second Class,Consumer,Latin America,Furniture,Tables,483.49,3,0.0,59.84
+ORD-10942,2023-06-07,First Class,Consumer,Latin America,Office Supplies,Binders,80.25,8,0.0,15.49
+ORD-10943,2023-06-07,Same Day,Corporate,North America,Office Supplies,Binders,212.76,7,0.0,69.39
+ORD-10944,2023-06-07,Second Class,Consumer,North America,Technology,Phones,619.73,2,0.1,116.01
+ORD-10945,2023-06-07,Standard Class,Home Office,Europe,Technology,Accessories,264.39,1,0.15,34.0
+ORD-10946,2023-06-07,Standard Class,Corporate,Latin America,Technology,Phones,132.74,7,0.2,2.97
+ORD-10947,2023-06-07,First Class,Corporate,Asia Pacific,Office Supplies,Storage,272.33,1,0.0,68.45
+ORD-10948,2023-06-08,Standard Class,Consumer,North America,Office Supplies,Paper,107.74,6,0.0,6.43
+ORD-10949,2023-06-08,Standard Class,Home Office,North America,Furniture,Bookcases,86.43,8,0.0,19.52
+ORD-10950,2023-06-08,Second Class,Consumer,Europe,Office Supplies,Paper,1270.93,7,0.2,71.34
+ORD-10951,2023-06-08,Standard Class,Consumer,Europe,Office Supplies,Storage,320.68,4,0.0,49.38
+ORD-10952,2023-06-08,Same Day,Corporate,North America,Technology,Accessories,242.67,1,0.15,-2.32
+ORD-10953,2023-06-08,Second Class,Corporate,Asia Pacific,Office Supplies,Storage,111.57,1,0.1,23.68
+ORD-10954,2023-06-09,Standard Class,Consumer,Europe,Furniture,Tables,26.09,4,0.0,1.73
+ORD-10955,2023-06-09,Same Day,Consumer,Asia Pacific,Furniture,Tables,21.94,5,0.0,1.56
+ORD-10956,2023-06-09,Standard Class,Corporate,Asia Pacific,Furniture,Bookcases,192.73,7,0.0,35.11
+ORD-10957,2023-06-09,Standard Class,Consumer,Asia Pacific,Technology,Phones,330.84,4,0.2,-11.33
+ORD-10958,2023-06-09,Standard Class,Home Office,Europe,Technology,Phones,184.59,1,0.1,35.74
+ORD-10959,2023-06-09,Standard Class,Corporate,Europe,Office Supplies,Art,419.25,7,0.1,67.19
+ORD-10960,2023-06-10,Standard Class,Consumer,North America,Technology,Phones,22.48,2,0.1,4.54
+ORD-10961,2023-06-10,Standard Class,Consumer,Europe,Office Supplies,Art,115.52,2,0.15,3.17
+ORD-10962,2023-06-10,Standard Class,Consumer,North America,Technology,Phones,74.53,8,0.1,14.32
+ORD-10963,2023-06-10,Standard Class,Corporate,Europe,Furniture,Chairs,145.44,5,0.0,44.9
+ORD-10964,2023-06-10,First Class,Corporate,North America,Technology,Accessories,31.53,2,0.0,4.84
+ORD-10965,2023-06-10,First Class,Consumer,North America,Furniture,Furnishings,693.04,5,0.0,105.32
+ORD-10966,2023-06-11,Standard Class,Corporate,North America,Office Supplies,Paper,70.58,8,0.15,14.11
+ORD-10967,2023-06-11,Standard Class,Home Office,North America,Technology,Machines,577.1,6,0.0,37.48
+ORD-10968,2023-06-11,Standard Class,Consumer,Asia Pacific,Furniture,Tables,137.09,3,0.1,10.29
+ORD-10969,2023-06-11,Standard Class,Home Office,Asia Pacific,Furniture,Tables,946.76,8,0.0,81.04
+ORD-10970,2023-06-11,First Class,Consumer,Europe,Office Supplies,Art,192.66,9,0.3,-34.93
+ORD-10971,2023-06-11,Second Class,Consumer,North America,Office Supplies,Binders,602.67,5,0.0,50.54
+ORD-10972,2023-06-12,Standard Class,Consumer,North America,Office Supplies,Storage,16.18,2,0.0,2.9
+ORD-10973,2023-06-12,Standard Class,Consumer,North America,Technology,Laptops,318.44,2,0.3,5.12
+ORD-10974,2023-06-12,Standard Class,Consumer,North America,Technology,Accessories,528.38,7,0.1,30.0
+ORD-10975,2023-06-12,Second Class,Consumer,Asia Pacific,Technology,Laptops,48.11,1,0.3,3.12
+ORD-10976,2023-06-12,Standard Class,Home Office,North America,Furniture,Chairs,37.23,2,0.0,6.75
+ORD-10977,2023-06-12,Same Day,Home Office,North America,Technology,Machines,136.58,4,0.0,46.5
+ORD-10978,2023-06-13,First Class,Corporate,North America,Furniture,Chairs,611.91,1,0.15,132.32
+ORD-10979,2023-06-13,Standard Class,Consumer,North America,Furniture,Furnishings,186.98,4,0.2,22.81
+ORD-10980,2023-06-13,Second Class,Consumer,Europe,Technology,Accessories,179.92,5,0.0,59.32
+ORD-10981,2023-06-13,Same Day,Consumer,Europe,Office Supplies,Paper,48.47,9,0.3,1.07
+ORD-10982,2023-06-13,Second Class,Corporate,North America,Technology,Accessories,15.17,1,0.1,3.62
+ORD-10983,2023-06-13,Standard Class,Home Office,North America,Technology,Accessories,380.52,5,0.2,-14.86
+ORD-10984,2023-06-14,Standard Class,Consumer,North America,Office Supplies,Art,35.16,2,0.0,5.4
+ORD-10985,2023-06-14,First Class,Consumer,North America,Furniture,Furnishings,236.04,9,0.0,65.12
+ORD-10986,2023-06-14,Second Class,Corporate,North America,Office Supplies,Art,556.33,6,0.3,-34.84
+ORD-10987,2023-06-14,Second Class,Consumer,Latin America,Furniture,Chairs,66.48,2,0.3,4.07
+ORD-10988,2023-06-14,First Class,Consumer,Europe,Technology,Laptops,255.78,3,0.1,59.67
+ORD-10989,2023-06-14,First Class,Corporate,Europe,Office Supplies,Art,33.03,8,0.0,4.62
+ORD-10990,2023-06-15,Same Day,Corporate,Europe,Office Supplies,Art,218.66,1,0.0,64.95
+ORD-10991,2023-06-15,Standard Class,Consumer,Europe,Office Supplies,Paper,54.39,3,0.1,0.89
+ORD-10992,2023-06-15,Standard Class,Consumer,Europe,Technology,Machines,307.96,1,0.0,46.27
+ORD-10993,2023-06-15,Second Class,Home Office,Europe,Furniture,Chairs,93.86,8,0.0,19.28
+ORD-10994,2023-06-15,First Class,Consumer,Asia Pacific,Furniture,Tables,151.95,1,0.0,17.92
+ORD-10995,2023-06-15,Second Class,Consumer,North America,Technology,Machines,216.27,5,0.15,22.44
+ORD-10996,2023-06-16,Standard Class,Consumer,Europe,Office Supplies,Art,56.33,4,0.0,12.6
+ORD-10997,2023-06-16,First Class,Consumer,Europe,Technology,Accessories,312.75,7,0.1,10.03
+ORD-10998,2023-06-16,Second Class,Consumer,Asia Pacific,Office Supplies,Binders,94.3,5,0.1,19.68
+ORD-10999,2023-06-16,Standard Class,Home Office,Europe,Furniture,Tables,253.88,8,0.15,30.34
+ORD-11000,2023-06-16,Standard Class,Consumer,Europe,Technology,Machines,52.91,1,0.1,3.46
+ORD-11001,2023-06-16,Standard Class,Consumer,North America,Furniture,Bookcases,271.33,5,0.0,32.47
+ORD-11002,2023-06-17,Standard Class,Corporate,Europe,Office Supplies,Storage,45.18,4,0.15,8.75
+ORD-11003,2023-06-17,Standard Class,Corporate,North America,Office Supplies,Storage,136.88,3,0.2,19.26
+ORD-11004,2023-06-17,Standard Class,Home Office,North America,Office Supplies,Art,77.47,5,0.15,-0.08
+ORD-11005,2023-06-17,Standard Class,Home Office,North America,Office Supplies,Binders,318.56,3,0.3,-57.12
+ORD-11006,2023-06-17,Second Class,Consumer,Europe,Office Supplies,Art,81.85,8,0.15,14.03
+ORD-11007,2023-06-17,Second Class,Corporate,North America,Office Supplies,Binders,484.63,3,0.2,36.18
+ORD-11008,2023-06-18,First Class,Consumer,North America,Technology,Machines,504.27,1,0.0,40.48
+ORD-11009,2023-06-18,Standard Class,Home Office,Asia Pacific,Furniture,Furnishings,63.12,9,0.1,9.23
+ORD-11010,2023-06-18,Standard Class,Consumer,North America,Technology,Accessories,224.33,9,0.1,23.7
+ORD-11011,2023-06-18,First Class,Home Office,Europe,Office Supplies,Storage,35.2,6,0.0,9.94
+ORD-11012,2023-06-18,Standard Class,Corporate,Europe,Office Supplies,Binders,124.3,1,0.1,4.07
+ORD-11013,2023-06-18,Same Day,Consumer,North America,Technology,Phones,289.87,8,0.0,53.9
+ORD-11014,2023-06-19,First Class,Corporate,Asia Pacific,Office Supplies,Paper,251.97,2,0.15,-5.83
+ORD-11015,2023-06-19,Standard Class,Home Office,North America,Office Supplies,Binders,230.61,9,0.1,59.33
+ORD-11016,2023-06-19,Same Day,Home Office,Europe,Technology,Machines,88.05,8,0.1,17.93
+ORD-11017,2023-06-19,Standard Class,Consumer,Europe,Furniture,Chairs,119.47,3,0.5,-15.41
+ORD-11018,2023-06-19,Standard Class,Corporate,Europe,Office Supplies,Paper,38.9,5,0.0,10.0
+ORD-11019,2023-06-19,Second Class,Consumer,Europe,Technology,Machines,294.29,9,0.0,52.09
+ORD-11020,2023-06-20,Standard Class,Consumer,North America,Office Supplies,Art,169.21,1,0.0,55.33
+ORD-11021,2023-06-20,Same Day,Consumer,North America,Technology,Laptops,286.4,9,0.2,-25.24
+ORD-11022,2023-06-20,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,77.98,4,0.1,16.45
+ORD-11023,2023-06-20,Standard Class,Home Office,Europe,Office Supplies,Binders,101.29,4,0.15,-0.55
+ORD-11024,2023-06-20,Second Class,Consumer,Asia Pacific,Office Supplies,Binders,104.49,4,0.0,15.38
+ORD-11025,2023-06-20,Second Class,Home Office,Asia Pacific,Furniture,Bookcases,20.74,9,0.1,2.61
+ORD-11026,2023-06-21,Standard Class,Consumer,Asia Pacific,Office Supplies,Paper,106.76,6,0.0,30.4
+ORD-11027,2023-06-21,Standard Class,Consumer,Europe,Office Supplies,Paper,372.74,8,0.15,67.67
+ORD-11028,2023-06-21,First Class,Consumer,North America,Technology,Machines,515.7,4,0.2,33.58
+ORD-11029,2023-06-21,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,175.66,3,0.15,8.94
+ORD-11030,2023-06-21,First Class,Consumer,Europe,Technology,Phones,148.74,1,0.15,31.82
+ORD-11031,2023-06-21,Second Class,Consumer,North America,Furniture,Bookcases,21.89,7,0.1,0.96
+ORD-11032,2023-06-22,First Class,Corporate,Asia Pacific,Technology,Laptops,480.0,4,0.15,82.05
+ORD-11033,2023-06-22,Second Class,Consumer,Asia Pacific,Technology,Accessories,17.88,8,0.1,2.75
+ORD-11034,2023-06-22,Standard Class,Consumer,Europe,Technology,Laptops,652.1,3,0.15,28.08
+ORD-11035,2023-06-22,Second Class,Consumer,North America,Office Supplies,Storage,162.8,1,0.0,8.21
+ORD-11036,2023-06-22,First Class,Home Office,North America,Technology,Accessories,107.06,5,0.0,19.7
+ORD-11037,2023-06-22,Standard Class,Home Office,Asia Pacific,Office Supplies,Art,582.58,2,0.1,30.89
+ORD-11038,2023-06-23,Same Day,Consumer,Latin America,Technology,Machines,20.43,3,0.1,0.03
+ORD-11039,2023-06-23,Standard Class,Consumer,North America,Technology,Laptops,206.6,6,0.0,14.99
+ORD-11040,2023-06-23,Standard Class,Consumer,North America,Furniture,Furnishings,190.15,3,0.15,6.52
+ORD-11041,2023-06-23,Standard Class,Home Office,Asia Pacific,Office Supplies,Art,69.47,3,0.0,16.29
+ORD-11042,2023-06-23,Same Day,Consumer,North America,Technology,Laptops,138.24,6,0.0,41.65
+ORD-11043,2023-06-23,Standard Class,Consumer,Europe,Office Supplies,Art,247.39,5,0.15,-3.69
+ORD-11044,2023-06-24,First Class,Consumer,Latin America,Office Supplies,Storage,300.73,9,0.1,29.29
+ORD-11045,2023-06-24,First Class,Consumer,North America,Office Supplies,Paper,15.16,1,0.15,0.72
+ORD-11046,2023-06-24,Standard Class,Consumer,Europe,Technology,Accessories,622.71,3,0.1,77.23
+ORD-11047,2023-06-24,Standard Class,Corporate,North America,Technology,Accessories,54.55,3,0.3,2.88
+ORD-11048,2023-06-24,Second Class,Consumer,North America,Office Supplies,Art,73.53,6,0.1,10.01
+ORD-11049,2023-06-24,Standard Class,Corporate,Asia Pacific,Technology,Machines,82.28,8,0.0,25.01
+ORD-11050,2023-06-25,First Class,Consumer,Europe,Office Supplies,Art,23.48,3,0.0,4.83
+ORD-11051,2023-06-25,Standard Class,Consumer,Latin America,Furniture,Tables,43.89,3,0.0,10.15
+ORD-11052,2023-06-25,Standard Class,Home Office,Europe,Office Supplies,Paper,959.68,6,0.3,-56.41
+ORD-11053,2023-06-25,First Class,Consumer,North America,Office Supplies,Paper,98.3,8,0.0,29.19
+ORD-11054,2023-06-25,Standard Class,Home Office,North America,Office Supplies,Binders,41.95,6,0.0,13.72
+ORD-11055,2023-06-25,Standard Class,Corporate,North America,Furniture,Chairs,39.89,3,0.0,9.64
+ORD-11056,2023-06-26,Standard Class,Consumer,North America,Office Supplies,Binders,294.63,4,0.2,40.14
+ORD-11057,2023-06-26,Standard Class,Home Office,North America,Furniture,Chairs,439.17,1,0.0,29.73
+ORD-11058,2023-06-26,Standard Class,Consumer,North America,Furniture,Bookcases,80.34,8,0.5,-6.28
+ORD-11059,2023-06-26,First Class,Home Office,Europe,Office Supplies,Storage,19.65,4,0.0,2.1
+ORD-11060,2023-06-26,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,70.53,6,0.0,8.95
+ORD-11061,2023-06-26,Standard Class,Home Office,Europe,Office Supplies,Paper,27.8,3,0.0,1.83
+ORD-11062,2023-06-27,Second Class,Consumer,Asia Pacific,Office Supplies,Art,39.01,6,0.2,7.01
+ORD-11063,2023-06-27,Standard Class,Corporate,North America,Furniture,Chairs,139.25,9,0.2,20.28
+ORD-11064,2023-06-27,Standard Class,Corporate,North America,Furniture,Bookcases,72.48,9,0.0,23.48
+ORD-11065,2023-06-27,Same Day,Home Office,Europe,Office Supplies,Storage,174.62,3,0.0,53.11
+ORD-11066,2023-06-27,Second Class,Home Office,Europe,Technology,Phones,79.32,3,0.15,5.86
+ORD-11067,2023-06-27,Second Class,Home Office,North America,Technology,Phones,635.93,4,0.0,208.09
+ORD-11068,2023-06-28,Second Class,Home Office,Asia Pacific,Furniture,Furnishings,535.05,7,0.0,182.37
+ORD-11069,2023-06-28,Standard Class,Consumer,Asia Pacific,Technology,Machines,199.05,3,0.0,39.96
+ORD-11070,2023-06-28,Second Class,Consumer,Europe,Technology,Phones,111.27,8,0.0,11.43
+ORD-11071,2023-06-28,Standard Class,Consumer,North America,Technology,Phones,120.58,8,0.0,29.85
+ORD-11072,2023-06-28,Standard Class,Consumer,Asia Pacific,Technology,Phones,131.77,6,0.0,45.15
+ORD-11073,2023-06-28,Standard Class,Consumer,Europe,Technology,Phones,301.09,4,0.0,93.83
+ORD-11074,2023-06-29,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,147.18,5,0.2,21.86
+ORD-11075,2023-06-29,Standard Class,Consumer,Asia Pacific,Furniture,Chairs,442.47,2,0.0,146.08
+ORD-11076,2023-06-29,Same Day,Corporate,Asia Pacific,Furniture,Furnishings,649.5,6,0.15,128.72
+ORD-11077,2023-06-29,Standard Class,Consumer,Europe,Office Supplies,Storage,105.07,3,0.0,29.72
+ORD-11078,2023-06-29,Standard Class,Consumer,North America,Technology,Accessories,195.96,6,0.15,28.51
+ORD-11079,2023-06-29,Standard Class,Corporate,Europe,Office Supplies,Paper,36.97,5,0.0,4.79
+ORD-11080,2023-06-30,Standard Class,Corporate,Europe,Office Supplies,Storage,64.22,2,0.15,7.48
+ORD-11081,2023-06-30,Second Class,Corporate,Asia Pacific,Technology,Accessories,132.38,5,0.0,27.33
+ORD-11082,2023-06-30,Standard Class,Corporate,North America,Furniture,Bookcases,65.8,5,0.2,9.78
+ORD-11083,2023-06-30,Standard Class,Consumer,North America,Office Supplies,Paper,475.24,9,0.0,93.87
+ORD-11084,2023-06-30,Standard Class,Corporate,Asia Pacific,Office Supplies,Paper,52.91,8,0.0,4.67
+ORD-11085,2023-06-30,Second Class,Consumer,Asia Pacific,Furniture,Furnishings,148.8,7,0.3,-28.05
+ORD-11086,2023-07-01,Standard Class,Consumer,Latin America,Office Supplies,Paper,219.74,3,0.1,38.09
+ORD-11087,2023-07-01,Standard Class,Consumer,Asia Pacific,Technology,Phones,273.99,4,0.0,58.9
+ORD-11088,2023-07-01,Standard Class,Consumer,Europe,Office Supplies,Binders,121.26,6,0.3,-11.0
+ORD-11089,2023-07-01,Standard Class,Consumer,Europe,Technology,Machines,462.33,3,0.0,46.55
+ORD-11090,2023-07-01,Standard Class,Home Office,Asia Pacific,Office Supplies,Binders,199.82,9,0.0,37.97
+ORD-11091,2023-07-01,Second Class,Home Office,Europe,Office Supplies,Storage,142.37,8,0.5,-45.55
+ORD-11092,2023-07-02,Second Class,Consumer,Europe,Office Supplies,Paper,30.31,6,0.0,4.57
+ORD-11093,2023-07-02,First Class,Consumer,North America,Furniture,Bookcases,152.48,4,0.2,0.57
+ORD-11094,2023-07-02,Standard Class,Consumer,Europe,Technology,Accessories,393.16,7,0.0,74.58
+ORD-11095,2023-07-02,Standard Class,Consumer,Asia Pacific,Technology,Phones,224.73,3,0.15,15.73
+ORD-11096,2023-07-02,Standard Class,Home Office,North America,Technology,Phones,407.65,8,0.1,19.2
+ORD-11097,2023-07-02,Same Day,Consumer,North America,Technology,Accessories,164.87,1,0.5,-15.65
+ORD-11098,2023-07-03,Second Class,Corporate,North America,Office Supplies,Binders,42.74,3,0.1,3.28
+ORD-11099,2023-07-03,Second Class,Consumer,North America,Furniture,Tables,18.02,5,0.0,2.14
+ORD-11100,2023-07-03,Standard Class,Home Office,North America,Technology,Accessories,94.48,5,0.15,-1.63
+ORD-11101,2023-07-03,Standard Class,Consumer,Europe,Office Supplies,Binders,278.41,2,0.0,40.86
+ORD-11102,2023-07-03,Standard Class,Corporate,Latin America,Office Supplies,Paper,358.61,8,0.2,-32.18
+ORD-11103,2023-07-03,Second Class,Consumer,Europe,Office Supplies,Binders,92.14,5,0.2,-9.23
+ORD-11104,2023-07-04,Same Day,Corporate,North America,Office Supplies,Paper,165.59,7,0.1,25.09
+ORD-11105,2023-07-04,Same Day,Consumer,North America,Technology,Phones,135.26,7,0.2,10.25
+ORD-11106,2023-07-04,Standard Class,Consumer,Europe,Furniture,Tables,131.27,5,0.0,27.42
+ORD-11107,2023-07-04,Standard Class,Home Office,North America,Office Supplies,Binders,72.89,8,0.1,14.48
+ORD-11108,2023-07-04,Same Day,Home Office,Asia Pacific,Office Supplies,Art,47.25,9,0.0,2.92
+ORD-11109,2023-07-04,Second Class,Home Office,Europe,Technology,Phones,63.18,4,0.15,13.32
+ORD-11110,2023-07-05,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,27.52,4,0.0,2.16
+ORD-11111,2023-07-05,Standard Class,Home Office,North America,Technology,Accessories,63.58,8,0.2,5.86
+ORD-11112,2023-07-05,Standard Class,Consumer,Europe,Technology,Accessories,17.03,1,0.0,1.53
+ORD-11113,2023-07-05,Standard Class,Consumer,North America,Furniture,Furnishings,232.11,4,0.15,45.02
+ORD-11114,2023-07-05,Standard Class,Consumer,Latin America,Furniture,Furnishings,98.68,6,0.0,20.05
+ORD-11115,2023-07-05,Second Class,Corporate,Europe,Furniture,Bookcases,810.8,4,0.2,-69.17
+ORD-11116,2023-07-06,Standard Class,Consumer,North America,Technology,Phones,62.37,6,0.0,14.66
+ORD-11117,2023-07-06,Standard Class,Consumer,North America,Office Supplies,Storage,108.36,5,0.1,-2.95
+ORD-11118,2023-07-06,Standard Class,Corporate,North America,Technology,Accessories,112.44,9,0.0,31.8
+ORD-11119,2023-07-06,First Class,Home Office,Europe,Technology,Machines,16.87,9,0.15,2.11
+ORD-11120,2023-07-06,Second Class,Consumer,North America,Office Supplies,Art,417.08,4,0.0,47.46
+ORD-11121,2023-07-06,Standard Class,Consumer,Europe,Office Supplies,Storage,22.15,4,0.15,0.94
+ORD-11122,2023-07-07,Same Day,Consumer,North America,Office Supplies,Art,634.61,8,0.0,33.22
+ORD-11123,2023-07-07,Same Day,Consumer,Europe,Office Supplies,Binders,504.79,4,0.2,49.52
+ORD-11124,2023-07-07,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,183.7,2,0.0,26.97
+ORD-11125,2023-07-07,Standard Class,Corporate,Asia Pacific,Furniture,Bookcases,187.56,2,0.0,41.54
+ORD-11126,2023-07-07,Second Class,Corporate,Asia Pacific,Technology,Accessories,248.35,1,0.1,63.83
+ORD-11127,2023-07-07,First Class,Corporate,North America,Furniture,Bookcases,122.68,5,0.0,17.16
+ORD-11128,2023-07-08,Same Day,Consumer,North America,Furniture,Furnishings,244.22,6,0.0,84.76
+ORD-11129,2023-07-08,First Class,Home Office,Europe,Technology,Laptops,25.08,9,0.3,-0.0
+ORD-11130,2023-07-08,Second Class,Consumer,North America,Office Supplies,Storage,27.22,5,0.3,-3.19
+ORD-11131,2023-07-08,Standard Class,Consumer,Europe,Furniture,Chairs,149.44,6,0.15,9.12
+ORD-11132,2023-07-08,Standard Class,Home Office,North America,Technology,Machines,190.49,6,0.0,51.84
+ORD-11133,2023-07-08,Standard Class,Consumer,North America,Technology,Machines,496.28,3,0.0,91.29
+ORD-11134,2023-07-09,Standard Class,Consumer,North America,Office Supplies,Storage,39.32,4,0.15,-1.94
+ORD-11135,2023-07-09,Second Class,Home Office,Asia Pacific,Technology,Phones,395.52,1,0.0,39.78
+ORD-11136,2023-07-09,Second Class,Consumer,North America,Office Supplies,Art,66.87,4,0.3,3.17
+ORD-11137,2023-07-09,Second Class,Corporate,Europe,Furniture,Tables,125.22,1,0.0,30.62
+ORD-11138,2023-07-09,Standard Class,Consumer,North America,Furniture,Bookcases,98.75,5,0.5,-17.68
+ORD-11139,2023-07-09,Second Class,Corporate,Europe,Furniture,Furnishings,127.44,8,0.1,2.59
+ORD-11140,2023-07-10,Standard Class,Consumer,North America,Office Supplies,Binders,50.88,8,0.2,7.19
+ORD-11141,2023-07-10,Standard Class,Consumer,Asia Pacific,Technology,Machines,169.07,5,0.0,57.18
+ORD-11142,2023-07-10,First Class,Corporate,Asia Pacific,Office Supplies,Binders,370.89,2,0.2,-36.25
+ORD-11143,2023-07-10,Second Class,Consumer,North America,Furniture,Bookcases,143.16,6,0.0,10.51
+ORD-11144,2023-07-10,Same Day,Consumer,Latin America,Technology,Machines,163.4,1,0.15,31.93
+ORD-11145,2023-07-10,Standard Class,Consumer,Latin America,Office Supplies,Art,430.57,7,0.2,57.98
+ORD-11146,2023-07-11,Standard Class,Consumer,Asia Pacific,Office Supplies,Paper,284.36,4,0.0,66.93
+ORD-11147,2023-07-11,Standard Class,Consumer,Asia Pacific,Office Supplies,Storage,163.33,5,0.1,41.4
+ORD-11148,2023-07-11,Standard Class,Consumer,North America,Office Supplies,Binders,80.56,6,0.1,13.21
+ORD-11149,2023-07-11,First Class,Home Office,Europe,Office Supplies,Art,490.68,1,0.0,56.33
+ORD-11150,2023-07-11,Second Class,Consumer,North America,Office Supplies,Art,204.29,9,0.1,38.53
+ORD-11151,2023-07-11,First Class,Consumer,North America,Office Supplies,Binders,69.99,4,0.0,17.06
+ORD-11152,2023-07-12,Standard Class,Consumer,Latin America,Office Supplies,Storage,83.97,8,0.0,29.03
+ORD-11153,2023-07-12,First Class,Consumer,North America,Office Supplies,Paper,372.55,5,0.15,-2.17
+ORD-11154,2023-07-12,Standard Class,Home Office,Asia Pacific,Office Supplies,Paper,24.93,8,0.15,2.73
+ORD-11155,2023-07-12,First Class,Consumer,Asia Pacific,Office Supplies,Art,1079.78,1,0.0,306.71
+ORD-11156,2023-07-12,Standard Class,Home Office,Asia Pacific,Technology,Accessories,45.73,8,0.2,-0.38
+ORD-11157,2023-07-12,Standard Class,Consumer,Latin America,Office Supplies,Art,364.79,4,0.2,1.42
+ORD-11158,2023-07-13,Standard Class,Corporate,North America,Office Supplies,Binders,125.47,2,0.1,29.66
+ORD-11159,2023-07-13,Same Day,Corporate,North America,Technology,Phones,164.09,6,0.1,14.97
+ORD-11160,2023-07-13,Standard Class,Home Office,Europe,Office Supplies,Storage,482.65,2,0.0,114.59
+ORD-11161,2023-07-13,Standard Class,Corporate,North America,Technology,Accessories,132.17,5,0.15,26.01
+ORD-11162,2023-07-13,First Class,Corporate,North America,Technology,Phones,184.64,2,0.15,-1.3
+ORD-11163,2023-07-13,Standard Class,Consumer,North America,Office Supplies,Art,26.12,3,0.0,9.0
+ORD-11164,2023-07-14,Standard Class,Consumer,Asia Pacific,Technology,Accessories,15.52,6,0.15,2.18
+ORD-11165,2023-07-14,Standard Class,Home Office,Europe,Office Supplies,Storage,76.77,1,0.0,15.26
+ORD-11166,2023-07-14,Standard Class,Consumer,North America,Office Supplies,Art,266.08,6,0.0,47.7
+ORD-11167,2023-07-14,Same Day,Consumer,Europe,Furniture,Furnishings,43.44,3,0.15,9.4
+ORD-11168,2023-07-14,First Class,Corporate,North America,Technology,Phones,41.57,7,0.15,-0.34
+ORD-11169,2023-07-14,Standard Class,Consumer,North America,Technology,Accessories,131.44,2,0.1,8.35
+ORD-11170,2023-07-15,Same Day,Home Office,Asia Pacific,Office Supplies,Art,244.61,6,0.1,15.25
+ORD-11171,2023-07-15,Standard Class,Corporate,Europe,Office Supplies,Storage,288.91,8,0.3,-29.84
+ORD-11172,2023-07-15,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,58.24,1,0.1,6.44
+ORD-11173,2023-07-15,Standard Class,Home Office,North America,Technology,Laptops,33.25,9,0.15,7.54
+ORD-11174,2023-07-15,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,635.41,5,0.0,201.19
+ORD-11175,2023-07-15,Standard Class,Consumer,Europe,Furniture,Bookcases,81.44,5,0.0,12.08
+ORD-11176,2023-07-16,Same Day,Consumer,Europe,Office Supplies,Paper,437.33,5,0.0,77.35
+ORD-11177,2023-07-16,First Class,Consumer,Europe,Technology,Laptops,453.1,6,0.1,77.41
+ORD-11178,2023-07-16,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,340.75,2,0.2,-35.73
+ORD-11179,2023-07-16,Second Class,Home Office,Europe,Furniture,Bookcases,55.68,6,0.0,16.48
+ORD-11180,2023-07-16,Second Class,Consumer,Europe,Office Supplies,Storage,394.47,4,0.0,123.84
+ORD-11181,2023-07-16,Same Day,Consumer,Latin America,Technology,Phones,337.61,8,0.0,103.7
+ORD-11182,2023-07-17,First Class,Home Office,Asia Pacific,Office Supplies,Storage,214.79,9,0.0,34.91
+ORD-11183,2023-07-17,Standard Class,Consumer,Europe,Office Supplies,Storage,105.48,9,0.3,-5.42
+ORD-11184,2023-07-17,First Class,Consumer,Asia Pacific,Technology,Machines,81.99,8,0.15,-5.43
+ORD-11185,2023-07-17,Second Class,Consumer,North America,Office Supplies,Art,43.6,3,0.0,7.4
+ORD-11186,2023-07-17,Second Class,Home Office,North America,Office Supplies,Binders,171.83,4,0.15,11.71
+ORD-11187,2023-07-17,Standard Class,Corporate,Europe,Technology,Machines,208.62,1,0.15,42.16
+ORD-11188,2023-07-18,Standard Class,Corporate,Latin America,Technology,Machines,112.96,9,0.15,22.39
+ORD-11189,2023-07-18,Standard Class,Home Office,Latin America,Office Supplies,Art,156.91,5,0.0,53.32
+ORD-11190,2023-07-18,Standard Class,Consumer,North America,Technology,Machines,114.39,6,0.1,26.94
+ORD-11191,2023-07-18,Standard Class,Consumer,Europe,Furniture,Chairs,240.38,3,0.0,12.61
+ORD-11192,2023-07-18,Second Class,Home Office,North America,Technology,Machines,524.36,8,0.2,43.23
+ORD-11193,2023-07-18,Standard Class,Consumer,Latin America,Office Supplies,Paper,54.39,7,0.15,-2.69
+ORD-11194,2023-07-19,Second Class,Corporate,Latin America,Technology,Phones,120.67,1,0.1,6.25
+ORD-11195,2023-07-19,Standard Class,Home Office,Europe,Office Supplies,Art,48.4,5,0.0,10.82
+ORD-11196,2023-07-19,Same Day,Corporate,Asia Pacific,Office Supplies,Storage,230.75,9,0.0,60.04
+ORD-11197,2023-07-19,Standard Class,Corporate,Asia Pacific,Office Supplies,Paper,302.13,6,0.0,74.44
+ORD-11198,2023-07-19,Standard Class,Home Office,Europe,Office Supplies,Storage,606.13,8,0.3,-106.24
+ORD-11199,2023-07-19,Second Class,Home Office,North America,Technology,Laptops,86.93,1,0.0,7.05
+ORD-11200,2023-07-20,First Class,Consumer,Europe,Office Supplies,Art,674.99,7,0.0,59.79
+ORD-11201,2023-07-20,Same Day,Consumer,Europe,Technology,Accessories,29.38,3,0.3,-4.78
+ORD-11202,2023-07-20,Standard Class,Consumer,Europe,Technology,Machines,218.25,9,0.1,5.12
+ORD-11203,2023-07-20,Standard Class,Corporate,North America,Technology,Accessories,27.94,6,0.2,2.7
+ORD-11204,2023-07-20,Same Day,Consumer,Latin America,Furniture,Tables,508.28,5,0.0,152.1
+ORD-11205,2023-07-20,Standard Class,Corporate,North America,Office Supplies,Art,181.02,8,0.1,16.77
+ORD-11206,2023-07-21,Second Class,Consumer,Europe,Office Supplies,Art,258.47,8,0.0,66.64
+ORD-11207,2023-07-21,Standard Class,Corporate,Europe,Furniture,Tables,406.88,3,0.2,-20.34
+ORD-11208,2023-07-21,Standard Class,Consumer,Europe,Technology,Machines,50.83,2,0.0,17.38
+ORD-11209,2023-07-21,Standard Class,Corporate,Europe,Office Supplies,Binders,23.66,2,0.1,1.77
+ORD-11210,2023-07-21,Standard Class,Corporate,North America,Furniture,Bookcases,479.42,5,0.2,68.92
+ORD-11211,2023-07-21,Second Class,Consumer,North America,Furniture,Furnishings,98.21,7,0.1,24.91
+ORD-11212,2023-07-22,Same Day,Consumer,Europe,Technology,Laptops,45.38,8,0.1,10.41
+ORD-11213,2023-07-22,Standard Class,Corporate,Europe,Office Supplies,Paper,154.04,8,0.0,10.8
+ORD-11214,2023-07-22,First Class,Consumer,North America,Office Supplies,Storage,215.65,8,0.0,52.85
+ORD-11215,2023-07-22,Standard Class,Consumer,Asia Pacific,Technology,Laptops,21.92,3,0.15,-0.74
+ORD-11216,2023-07-22,Standard Class,Home Office,Europe,Technology,Accessories,85.72,2,0.15,-5.85
+ORD-11217,2023-07-22,Standard Class,Corporate,Europe,Office Supplies,Storage,22.34,4,0.3,-3.9
+ORD-11218,2023-07-23,Same Day,Home Office,Asia Pacific,Office Supplies,Art,134.97,1,0.15,27.65
+ORD-11219,2023-07-23,First Class,Consumer,North America,Technology,Accessories,511.04,3,0.1,123.95
+ORD-11220,2023-07-23,Second Class,Consumer,North America,Office Supplies,Paper,906.95,9,0.2,-38.32
+ORD-11221,2023-07-23,First Class,Home Office,Asia Pacific,Technology,Machines,237.97,7,0.0,50.95
+ORD-11222,2023-07-23,Second Class,Corporate,Europe,Furniture,Chairs,53.79,7,0.1,13.8
+ORD-11223,2023-07-23,Same Day,Corporate,Europe,Office Supplies,Storage,534.83,1,0.0,106.44
+ORD-11224,2023-07-24,Second Class,Consumer,Asia Pacific,Furniture,Furnishings,174.76,7,0.0,29.37
+ORD-11225,2023-07-24,Same Day,Consumer,Asia Pacific,Office Supplies,Art,51.73,7,0.2,1.81
+ORD-11226,2023-07-24,Standard Class,Consumer,Latin America,Furniture,Chairs,575.46,4,0.1,119.16
+ORD-11227,2023-07-24,Standard Class,Consumer,Europe,Technology,Machines,326.66,7,0.1,36.97
+ORD-11228,2023-07-24,Standard Class,Consumer,Europe,Office Supplies,Art,304.45,8,0.1,62.41
+ORD-11229,2023-07-24,Standard Class,Consumer,Europe,Furniture,Furnishings,286.71,3,0.1,28.53
+ORD-11230,2023-07-25,Second Class,Home Office,North America,Office Supplies,Storage,64.19,2,0.0,8.06
+ORD-11231,2023-07-25,Standard Class,Consumer,Europe,Technology,Phones,67.14,7,0.15,1.88
+ORD-11232,2023-07-25,Second Class,Corporate,North America,Technology,Machines,271.45,5,0.1,-1.81
+ORD-11233,2023-07-25,Standard Class,Home Office,Latin America,Technology,Accessories,69.58,5,0.2,2.73
+ORD-11234,2023-07-25,Standard Class,Corporate,Europe,Office Supplies,Binders,142.04,5,0.0,13.41
+ORD-11235,2023-07-25,Standard Class,Consumer,Europe,Furniture,Tables,350.12,7,0.0,102.75
+ORD-11236,2023-07-26,Same Day,Corporate,North America,Office Supplies,Binders,352.1,9,0.15,19.78
+ORD-11237,2023-07-26,Standard Class,Corporate,North America,Furniture,Bookcases,147.83,8,0.2,17.67
+ORD-11238,2023-07-26,Standard Class,Corporate,North America,Office Supplies,Art,360.65,6,0.1,92.45
+ORD-11239,2023-07-26,Second Class,Corporate,Europe,Technology,Phones,416.28,7,0.15,76.95
+ORD-11240,2023-07-26,Second Class,Home Office,North America,Office Supplies,Art,248.98,9,0.5,-16.07
+ORD-11241,2023-07-26,Standard Class,Corporate,Europe,Office Supplies,Storage,72.05,6,0.5,-12.94
+ORD-11242,2023-07-27,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,85.45,1,0.15,-1.74
+ORD-11243,2023-07-27,Standard Class,Corporate,Asia Pacific,Office Supplies,Storage,98.18,4,0.15,20.68
+ORD-11244,2023-07-27,Same Day,Consumer,Europe,Office Supplies,Art,42.33,8,0.0,13.15
+ORD-11245,2023-07-27,Standard Class,Home Office,North America,Office Supplies,Paper,85.19,7,0.2,12.72
+ORD-11246,2023-07-27,Standard Class,Consumer,Asia Pacific,Technology,Laptops,66.73,3,0.1,11.88
+ORD-11247,2023-07-27,Standard Class,Consumer,Asia Pacific,Technology,Phones,148.67,3,0.3,-0.38
+ORD-11248,2023-07-28,Standard Class,Home Office,North America,Office Supplies,Storage,540.96,3,0.0,29.44
+ORD-11249,2023-07-28,First Class,Corporate,Asia Pacific,Office Supplies,Paper,39.28,1,0.1,7.64
+ORD-11250,2023-07-28,Standard Class,Consumer,North America,Office Supplies,Paper,295.26,1,0.1,-0.75
+ORD-11251,2023-07-28,Standard Class,Consumer,Asia Pacific,Furniture,Tables,270.74,6,0.1,12.98
+ORD-11252,2023-07-28,Standard Class,Home Office,Latin America,Technology,Phones,37.14,1,0.0,8.0
+ORD-11253,2023-07-28,Standard Class,Consumer,North America,Technology,Accessories,577.85,5,0.1,60.97
+ORD-11254,2023-07-29,Standard Class,Home Office,Asia Pacific,Office Supplies,Art,199.89,4,0.2,-21.04
+ORD-11255,2023-07-29,First Class,Consumer,Europe,Furniture,Furnishings,114.47,5,0.15,20.28
+ORD-11256,2023-07-29,First Class,Corporate,Latin America,Technology,Accessories,325.82,7,0.0,102.19
+ORD-11257,2023-07-29,Same Day,Home Office,Europe,Furniture,Tables,80.46,6,0.15,10.83
+ORD-11258,2023-07-29,First Class,Consumer,Asia Pacific,Technology,Laptops,275.17,9,0.0,58.42
+ORD-11259,2023-07-29,Second Class,Consumer,North America,Furniture,Bookcases,23.91,6,0.0,8.09
+ORD-11260,2023-07-30,Standard Class,Consumer,North America,Technology,Laptops,417.36,9,0.15,-14.2
+ORD-11261,2023-07-30,First Class,Corporate,North America,Office Supplies,Art,145.79,4,0.2,16.24
+ORD-11262,2023-07-30,First Class,Corporate,Latin America,Technology,Laptops,237.75,1,0.1,2.02
+ORD-11263,2023-07-30,First Class,Corporate,Asia Pacific,Furniture,Chairs,70.01,1,0.1,5.92
+ORD-11264,2023-07-30,Standard Class,Consumer,Asia Pacific,Technology,Phones,263.67,7,0.0,59.5
+ORD-11265,2023-07-30,Standard Class,Consumer,Latin America,Technology,Laptops,340.48,3,0.1,65.07
+ORD-11266,2023-07-31,First Class,Consumer,North America,Furniture,Chairs,156.01,2,0.0,7.97
+ORD-11267,2023-07-31,Second Class,Consumer,North America,Furniture,Furnishings,226.56,6,0.3,-25.33
+ORD-11268,2023-07-31,Same Day,Corporate,North America,Office Supplies,Paper,149.07,6,0.2,7.67
+ORD-11269,2023-07-31,Standard Class,Home Office,North America,Technology,Machines,508.94,7,0.15,45.73
+ORD-11270,2023-07-31,Standard Class,Corporate,North America,Office Supplies,Binders,166.56,5,0.1,26.86
+ORD-11271,2023-07-31,Standard Class,Consumer,Europe,Office Supplies,Binders,420.67,8,0.2,-7.93
+ORD-11272,2023-08-01,First Class,Home Office,North America,Office Supplies,Binders,370.57,7,0.1,48.97
+ORD-11273,2023-08-01,Standard Class,Corporate,North America,Technology,Accessories,131.27,2,0.0,14.04
+ORD-11274,2023-08-01,Standard Class,Home Office,North America,Furniture,Chairs,72.52,1,0.0,7.69
+ORD-11275,2023-08-01,Same Day,Corporate,North America,Technology,Laptops,129.62,9,0.15,13.35
+ORD-11276,2023-08-01,Standard Class,Consumer,Latin America,Technology,Phones,399.99,5,0.3,6.26
+ORD-11277,2023-08-01,First Class,Consumer,Asia Pacific,Office Supplies,Art,71.82,5,0.0,6.19
+ORD-11278,2023-08-02,Standard Class,Corporate,Latin America,Technology,Phones,178.52,4,0.0,15.5
+ORD-11279,2023-08-02,First Class,Consumer,Europe,Furniture,Chairs,375.89,2,0.1,52.47
+ORD-11280,2023-08-02,Second Class,Consumer,North America,Office Supplies,Art,110.95,5,0.2,-3.21
+ORD-11281,2023-08-02,Same Day,Corporate,Asia Pacific,Office Supplies,Binders,241.12,2,0.0,40.44
+ORD-11282,2023-08-02,Same Day,Corporate,North America,Furniture,Tables,77.01,7,0.0,13.11
+ORD-11283,2023-08-02,Standard Class,Corporate,North America,Technology,Accessories,40.46,9,0.15,-0.66
+ORD-11284,2023-08-03,Standard Class,Consumer,North America,Technology,Laptops,362.98,9,0.1,-10.75
+ORD-11285,2023-08-03,Standard Class,Consumer,North America,Furniture,Furnishings,37.93,6,0.0,11.6
+ORD-11286,2023-08-03,Second Class,Corporate,North America,Technology,Machines,84.65,1,0.0,22.39
+ORD-11287,2023-08-03,First Class,Home Office,North America,Furniture,Chairs,439.99,6,0.15,60.35
+ORD-11288,2023-08-03,Standard Class,Corporate,Europe,Technology,Laptops,108.58,5,0.1,14.54
+ORD-11289,2023-08-03,Second Class,Home Office,North America,Technology,Accessories,809.99,4,0.3,16.44
+ORD-11290,2023-08-04,Standard Class,Corporate,North America,Furniture,Bookcases,872.74,6,0.15,183.89
+ORD-11291,2023-08-04,First Class,Corporate,Asia Pacific,Technology,Machines,83.72,6,0.0,20.91
+ORD-11292,2023-08-04,Same Day,Consumer,North America,Furniture,Furnishings,24.21,6,0.1,1.2
+ORD-11293,2023-08-04,Standard Class,Corporate,North America,Office Supplies,Paper,283.62,2,0.1,40.04
+ORD-11294,2023-08-04,Standard Class,Corporate,Asia Pacific,Office Supplies,Paper,146.92,7,0.0,26.84
+ORD-11295,2023-08-04,Standard Class,Corporate,North America,Technology,Machines,38.36,4,0.3,-0.89
+ORD-11296,2023-08-05,Second Class,Consumer,North America,Technology,Accessories,285.46,9,0.2,12.93
+ORD-11297,2023-08-05,Standard Class,Corporate,Europe,Technology,Accessories,21.97,2,0.0,6.76
+ORD-11298,2023-08-05,Standard Class,Consumer,North America,Office Supplies,Storage,464.18,5,0.0,113.97
+ORD-11299,2023-08-05,Standard Class,Corporate,Europe,Office Supplies,Art,47.84,4,0.0,5.1
+ORD-11300,2023-08-05,Standard Class,Consumer,Asia Pacific,Technology,Machines,44.96,9,0.0,3.1
+ORD-11301,2023-08-05,Standard Class,Home Office,North America,Office Supplies,Binders,57.5,4,0.1,5.6
+ORD-11302,2023-08-06,Second Class,Consumer,Europe,Technology,Accessories,724.62,8,0.1,-18.35
+ORD-11303,2023-08-06,Standard Class,Consumer,Europe,Furniture,Furnishings,274.92,8,0.3,-25.98
+ORD-11304,2023-08-06,First Class,Consumer,North America,Office Supplies,Paper,370.59,6,0.0,59.45
+ORD-11305,2023-08-06,Second Class,Corporate,Europe,Office Supplies,Art,126.52,6,0.1,10.46
+ORD-11306,2023-08-06,Standard Class,Consumer,North America,Office Supplies,Art,105.19,8,0.2,19.33
+ORD-11307,2023-08-06,Standard Class,Consumer,Europe,Office Supplies,Binders,73.79,9,0.1,4.51
+ORD-11308,2023-08-07,First Class,Corporate,North America,Technology,Accessories,159.14,5,0.0,20.62
+ORD-11309,2023-08-07,Same Day,Consumer,Europe,Office Supplies,Paper,191.57,1,0.0,17.01
+ORD-11310,2023-08-07,Standard Class,Home Office,North America,Technology,Phones,234.79,1,0.0,47.73
+ORD-11311,2023-08-07,Standard Class,Home Office,Asia Pacific,Office Supplies,Storage,80.39,2,0.3,-11.57
+ORD-11312,2023-08-07,Standard Class,Corporate,North America,Furniture,Furnishings,668.22,5,0.3,-3.42
+ORD-11313,2023-08-07,Second Class,Consumer,Europe,Office Supplies,Binders,55.93,4,0.3,-8.02
+ORD-11314,2023-08-08,Standard Class,Corporate,Europe,Furniture,Chairs,756.67,1,0.2,47.67
+ORD-11315,2023-08-08,Standard Class,Consumer,Asia Pacific,Office Supplies,Storage,18.29,4,0.0,5.45
+ORD-11316,2023-08-08,Second Class,Consumer,Europe,Furniture,Bookcases,159.34,4,0.3,-28.24
+ORD-11317,2023-08-08,Second Class,Consumer,Europe,Office Supplies,Binders,104.21,4,0.5,-23.35
+ORD-11318,2023-08-08,Standard Class,Home Office,Asia Pacific,Technology,Accessories,146.17,1,0.0,27.53
+ORD-11319,2023-08-08,Standard Class,Consumer,Asia Pacific,Technology,Laptops,201.01,9,0.0,57.75
+ORD-11320,2023-08-09,Second Class,Corporate,North America,Technology,Phones,140.83,3,0.1,15.54
+ORD-11321,2023-08-09,Standard Class,Corporate,Europe,Technology,Laptops,132.89,4,0.0,29.27
+ORD-11322,2023-08-09,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,305.28,5,0.0,87.73
+ORD-11323,2023-08-09,First Class,Consumer,Latin America,Technology,Machines,269.75,7,0.3,-5.95
+ORD-11324,2023-08-09,Standard Class,Home Office,Asia Pacific,Office Supplies,Binders,409.11,6,0.3,-33.76
+ORD-11325,2023-08-09,Second Class,Corporate,North America,Technology,Phones,78.28,5,0.0,5.93
+ORD-11326,2023-08-10,Same Day,Corporate,North America,Technology,Phones,221.89,8,0.1,41.93
+ORD-11327,2023-08-10,Standard Class,Consumer,Europe,Office Supplies,Art,208.59,1,0.2,31.57
+ORD-11328,2023-08-10,Standard Class,Consumer,Asia Pacific,Office Supplies,Storage,116.56,7,0.15,25.76
+ORD-11329,2023-08-10,Second Class,Consumer,Europe,Furniture,Tables,161.44,6,0.0,52.95
+ORD-11330,2023-08-10,First Class,Consumer,Europe,Furniture,Bookcases,97.84,5,0.15,16.56
+ORD-11331,2023-08-10,Same Day,Consumer,Asia Pacific,Office Supplies,Storage,48.65,7,0.2,4.04
+ORD-11332,2023-08-11,Second Class,Home Office,North America,Technology,Laptops,67.92,3,0.3,3.02
+ORD-11333,2023-08-11,Standard Class,Consumer,Asia Pacific,Office Supplies,Paper,39.53,1,0.0,7.1
+ORD-11334,2023-08-11,Second Class,Consumer,Europe,Office Supplies,Art,267.8,9,0.0,61.17
+ORD-11335,2023-08-11,Standard Class,Corporate,North America,Office Supplies,Paper,252.81,2,0.3,-21.59
+ORD-11336,2023-08-11,Standard Class,Corporate,Europe,Technology,Machines,676.75,3,0.0,100.17
+ORD-11337,2023-08-11,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,302.79,8,0.15,47.54
+ORD-11338,2023-08-12,Standard Class,Corporate,North America,Technology,Accessories,26.76,9,0.0,4.98
+ORD-11339,2023-08-12,First Class,Consumer,North America,Technology,Laptops,489.38,3,0.0,55.62
+ORD-11340,2023-08-12,Standard Class,Consumer,Latin America,Technology,Machines,451.79,6,0.1,13.82
+ORD-11341,2023-08-12,Standard Class,Consumer,North America,Furniture,Furnishings,143.87,7,0.0,44.28
+ORD-11342,2023-08-12,Standard Class,Home Office,Europe,Office Supplies,Art,208.94,1,0.3,2.78
+ORD-11343,2023-08-12,First Class,Consumer,Europe,Office Supplies,Storage,836.25,7,0.0,178.8
+ORD-11344,2023-08-13,Second Class,Consumer,Europe,Office Supplies,Storage,182.19,4,0.2,1.87
+ORD-11345,2023-08-13,Standard Class,Consumer,Europe,Furniture,Tables,533.6,5,0.2,10.27
+ORD-11346,2023-08-13,Standard Class,Home Office,North America,Technology,Phones,34.07,8,0.0,2.29
+ORD-11347,2023-08-13,Standard Class,Consumer,Europe,Furniture,Furnishings,61.64,4,0.15,4.1
+ORD-11348,2023-08-13,Same Day,Consumer,North America,Office Supplies,Art,142.86,4,0.0,41.23
+ORD-11349,2023-08-13,Second Class,Consumer,Europe,Technology,Phones,208.36,8,0.2,1.33
+ORD-11350,2023-08-14,Standard Class,Consumer,North America,Office Supplies,Art,387.69,5,0.1,32.98
+ORD-11351,2023-08-14,Second Class,Corporate,Europe,Furniture,Bookcases,992.89,6,0.0,54.33
+ORD-11352,2023-08-14,Standard Class,Corporate,North America,Furniture,Bookcases,123.33,5,0.1,13.24
+ORD-11353,2023-08-14,First Class,Consumer,North America,Office Supplies,Art,25.69,1,0.15,-1.6
+ORD-11354,2023-08-14,Standard Class,Consumer,North America,Furniture,Bookcases,370.37,7,0.3,-7.0
+ORD-11355,2023-08-14,Standard Class,Consumer,North America,Office Supplies,Storage,219.01,6,0.0,44.25
+ORD-11356,2023-08-15,Standard Class,Consumer,Asia Pacific,Office Supplies,Art,63.69,2,0.1,14.14
+ORD-11357,2023-08-15,Standard Class,Consumer,North America,Furniture,Tables,165.23,7,0.0,37.1
+ORD-11358,2023-08-15,Same Day,Corporate,Latin America,Technology,Phones,313.32,6,0.2,-4.06
+ORD-11359,2023-08-15,Standard Class,Home Office,Latin America,Furniture,Bookcases,338.72,5,0.0,69.39
+ORD-11360,2023-08-15,First Class,Home Office,Europe,Office Supplies,Binders,167.32,8,0.15,23.41
+ORD-11361,2023-08-15,First Class,Home Office,North America,Technology,Laptops,95.11,5,0.0,7.44
+ORD-11362,2023-08-16,Standard Class,Corporate,North America,Office Supplies,Storage,815.76,2,0.1,127.52
+ORD-11363,2023-08-16,Standard Class,Corporate,Asia Pacific,Office Supplies,Paper,254.52,6,0.2,41.99
+ORD-11364,2023-08-16,Standard Class,Consumer,North America,Office Supplies,Storage,130.42,1,0.2,-2.64
+ORD-11365,2023-08-16,Second Class,Corporate,North America,Technology,Phones,87.41,5,0.2,6.82
+ORD-11366,2023-08-16,Standard Class,Consumer,Europe,Office Supplies,Paper,303.95,6,0.1,65.77
+ORD-11367,2023-08-16,Standard Class,Consumer,Asia Pacific,Office Supplies,Paper,76.01,7,0.2,3.31
+ORD-11368,2023-08-17,Standard Class,Corporate,Asia Pacific,Technology,Accessories,56.45,2,0.1,10.47
+ORD-11369,2023-08-17,Second Class,Consumer,North America,Technology,Machines,181.03,1,0.3,-17.51
+ORD-11370,2023-08-17,Standard Class,Consumer,Europe,Office Supplies,Binders,90.34,6,0.1,5.58
+ORD-11371,2023-08-17,Standard Class,Home Office,North America,Technology,Machines,233.09,3,0.1,39.69
+ORD-11372,2023-08-17,Standard Class,Consumer,North America,Office Supplies,Art,42.61,5,0.0,11.15
+ORD-11373,2023-08-17,Standard Class,Consumer,Asia Pacific,Furniture,Chairs,249.09,2,0.1,62.55
+ORD-11374,2023-08-18,First Class,Home Office,North America,Technology,Laptops,88.28,1,0.0,10.37
+ORD-11375,2023-08-18,Standard Class,Corporate,North America,Office Supplies,Paper,15.05,1,0.2,0.46
+ORD-11376,2023-08-18,First Class,Corporate,North America,Furniture,Bookcases,44.86,4,0.15,0.23
+ORD-11377,2023-08-18,Second Class,Consumer,Asia Pacific,Furniture,Furnishings,611.7,2,0.5,-199.4
+ORD-11378,2023-08-18,Second Class,Consumer,Asia Pacific,Furniture,Chairs,459.42,1,0.0,78.55
+ORD-11379,2023-08-18,Second Class,Home Office,Europe,Furniture,Bookcases,73.53,6,0.0,11.93
+ORD-11380,2023-08-19,Standard Class,Corporate,Asia Pacific,Technology,Accessories,346.49,4,0.2,-10.0
+ORD-11381,2023-08-19,Standard Class,Corporate,North America,Furniture,Bookcases,221.35,7,0.0,30.79
+ORD-11382,2023-08-19,Second Class,Consumer,Europe,Office Supplies,Paper,793.18,6,0.1,61.97
+ORD-11383,2023-08-19,Standard Class,Consumer,North America,Technology,Accessories,117.91,5,0.2,22.01
+ORD-11384,2023-08-19,Second Class,Home Office,North America,Office Supplies,Storage,266.68,2,0.1,54.64
+ORD-11385,2023-08-19,Standard Class,Consumer,Europe,Technology,Laptops,29.44,5,0.0,2.1
+ORD-11386,2023-08-20,Same Day,Corporate,Latin America,Office Supplies,Storage,126.01,9,0.2,19.12
+ORD-11387,2023-08-20,Second Class,Consumer,North America,Technology,Laptops,745.22,9,0.0,178.85
+ORD-11388,2023-08-20,Standard Class,Corporate,North America,Office Supplies,Storage,185.35,2,0.2,29.13
+ORD-11389,2023-08-20,Standard Class,Home Office,North America,Furniture,Tables,89.69,7,0.0,13.68
+ORD-11390,2023-08-20,First Class,Corporate,North America,Technology,Machines,43.19,4,0.15,3.0
+ORD-11391,2023-08-20,First Class,Consumer,Latin America,Technology,Accessories,282.48,3,0.0,90.07
+ORD-11392,2023-08-21,Standard Class,Corporate,Europe,Technology,Accessories,242.75,1,0.15,2.86
+ORD-11393,2023-08-21,First Class,Corporate,Europe,Furniture,Tables,118.03,3,0.0,38.32
+ORD-11394,2023-08-21,Standard Class,Consumer,Asia Pacific,Technology,Machines,678.24,9,0.2,93.97
+ORD-11395,2023-08-21,Standard Class,Home Office,North America,Office Supplies,Paper,19.94,9,0.1,5.27
+ORD-11396,2023-08-21,First Class,Corporate,Europe,Furniture,Furnishings,94.64,7,0.0,13.94
+ORD-11397,2023-08-21,First Class,Home Office,Europe,Technology,Accessories,573.62,3,0.15,0.42
+ORD-11398,2023-08-22,Second Class,Corporate,Europe,Office Supplies,Storage,100.15,3,0.1,6.94
+ORD-11399,2023-08-22,First Class,Consumer,Latin America,Office Supplies,Storage,78.95,4,0.0,26.56
+ORD-11400,2023-08-22,Standard Class,Consumer,Asia Pacific,Technology,Accessories,183.09,7,0.0,27.45
+ORD-11401,2023-08-22,First Class,Consumer,North America,Technology,Laptops,396.95,7,0.1,55.4
+ORD-11402,2023-08-22,Standard Class,Home Office,Asia Pacific,Technology,Accessories,38.95,2,0.0,6.66
+ORD-11403,2023-08-22,Standard Class,Corporate,North America,Office Supplies,Storage,645.31,5,0.0,108.97
+ORD-11404,2023-08-23,Standard Class,Corporate,North America,Office Supplies,Art,363.72,7,0.0,39.29
+ORD-11405,2023-08-23,Standard Class,Consumer,North America,Furniture,Chairs,58.99,7,0.15,5.38
+ORD-11406,2023-08-23,Standard Class,Consumer,North America,Office Supplies,Paper,288.86,6,0.1,64.94
+ORD-11407,2023-08-23,Standard Class,Corporate,Europe,Office Supplies,Art,121.93,8,0.0,7.91
+ORD-11408,2023-08-23,Standard Class,Consumer,Europe,Furniture,Furnishings,128.22,3,0.3,9.84
+ORD-11409,2023-08-23,Standard Class,Consumer,Latin America,Office Supplies,Binders,351.42,1,0.2,31.5
+ORD-11410,2023-08-24,Second Class,Corporate,Europe,Technology,Accessories,739.03,3,0.0,173.69
+ORD-11411,2023-08-24,Standard Class,Consumer,Europe,Technology,Accessories,44.79,2,0.0,10.65
+ORD-11412,2023-08-24,Standard Class,Consumer,North America,Technology,Laptops,135.08,2,0.3,-13.66
+ORD-11413,2023-08-24,Second Class,Consumer,North America,Technology,Accessories,159.26,2,0.1,15.06
+ORD-11414,2023-08-24,First Class,Consumer,Europe,Furniture,Furnishings,118.86,5,0.0,34.44
+ORD-11415,2023-08-24,First Class,Home Office,Europe,Office Supplies,Paper,114.28,1,0.1,7.08
+ORD-11416,2023-08-25,Standard Class,Consumer,Asia Pacific,Technology,Laptops,26.81,4,0.2,0.83
+ORD-11417,2023-08-25,Second Class,Consumer,North America,Technology,Accessories,269.52,5,0.0,15.06
+ORD-11418,2023-08-25,Standard Class,Consumer,North America,Furniture,Bookcases,141.08,2,0.2,15.53
+ORD-11419,2023-08-25,Standard Class,Corporate,Europe,Office Supplies,Storage,62.66,5,0.15,3.47
+ORD-11420,2023-08-25,Standard Class,Consumer,North America,Technology,Accessories,387.46,4,0.1,49.44
+ORD-11421,2023-08-25,First Class,Corporate,North America,Furniture,Bookcases,371.91,8,0.2,-28.11
+ORD-11422,2023-08-26,Standard Class,Consumer,Asia Pacific,Technology,Phones,161.58,1,0.0,56.15
+ORD-11423,2023-08-26,Standard Class,Consumer,North America,Technology,Machines,92.98,5,0.1,5.65
+ORD-11424,2023-08-26,Standard Class,Consumer,Europe,Office Supplies,Art,238.6,1,0.1,38.29
+ORD-11425,2023-08-26,First Class,Home Office,North America,Office Supplies,Paper,89.78,4,0.1,12.96
+ORD-11426,2023-08-26,Second Class,Home Office,North America,Technology,Laptops,74.22,8,0.0,21.19
+ORD-11427,2023-08-26,Standard Class,Consumer,North America,Office Supplies,Binders,303.47,1,0.0,41.92
+ORD-11428,2023-08-27,Second Class,Corporate,Asia Pacific,Office Supplies,Storage,24.06,2,0.0,6.66
+ORD-11429,2023-08-27,Standard Class,Home Office,North America,Office Supplies,Paper,36.9,1,0.0,6.08
+ORD-11430,2023-08-27,Second Class,Consumer,Asia Pacific,Furniture,Bookcases,16.5,7,0.0,2.86
+ORD-11431,2023-08-27,Standard Class,Home Office,North America,Furniture,Furnishings,51.52,2,0.15,6.79
+ORD-11432,2023-08-27,First Class,Consumer,Asia Pacific,Furniture,Bookcases,30.73,1,0.0,8.77
+ORD-11433,2023-08-27,Standard Class,Home Office,North America,Office Supplies,Paper,1219.11,6,0.15,158.56
+ORD-11434,2023-08-28,Second Class,Corporate,Europe,Technology,Machines,89.98,6,0.0,28.79
+ORD-11435,2023-08-28,Standard Class,Home Office,Europe,Technology,Laptops,50.56,2,0.0,6.85
+ORD-11436,2023-08-28,Standard Class,Corporate,Latin America,Technology,Laptops,75.66,1,0.0,24.23
+ORD-11437,2023-08-28,Standard Class,Consumer,North America,Office Supplies,Art,620.18,3,0.0,55.36
+ORD-11438,2023-08-28,Standard Class,Home Office,North America,Technology,Accessories,176.55,5,0.1,29.64
+ORD-11439,2023-08-28,Standard Class,Consumer,North America,Office Supplies,Art,114.85,6,0.0,24.61
+ORD-11440,2023-08-29,First Class,Consumer,Asia Pacific,Office Supplies,Binders,469.66,3,0.3,-19.54
+ORD-11441,2023-08-29,Standard Class,Corporate,Europe,Technology,Phones,125.55,9,0.3,-12.14
+ORD-11442,2023-08-29,Second Class,Corporate,Asia Pacific,Office Supplies,Paper,104.76,5,0.1,12.69
+ORD-11443,2023-08-29,First Class,Home Office,North America,Furniture,Furnishings,66.1,2,0.2,-4.06
+ORD-11444,2023-08-29,Second Class,Consumer,North America,Office Supplies,Art,119.39,6,0.0,19.2
+ORD-11445,2023-08-29,Second Class,Corporate,North America,Technology,Phones,98.78,8,0.1,-0.04
+ORD-11446,2023-08-30,Second Class,Corporate,Latin America,Office Supplies,Binders,263.83,6,0.15,26.79
+ORD-11447,2023-08-30,Standard Class,Consumer,Europe,Office Supplies,Paper,90.22,4,0.0,7.1
+ORD-11448,2023-08-30,First Class,Consumer,Latin America,Office Supplies,Art,204.39,6,0.0,20.05
+ORD-11449,2023-08-30,Standard Class,Consumer,North America,Office Supplies,Paper,30.0,8,0.0,2.27
+ORD-11450,2023-08-30,Second Class,Consumer,Europe,Furniture,Furnishings,61.71,8,0.1,5.21
+ORD-11451,2023-08-30,Second Class,Home Office,Europe,Office Supplies,Art,130.11,2,0.1,28.96
+ORD-11452,2023-08-31,Standard Class,Corporate,North America,Office Supplies,Paper,623.04,8,0.0,200.66
+ORD-11453,2023-08-31,Standard Class,Corporate,Asia Pacific,Furniture,Tables,119.19,6,0.1,-1.01
+ORD-11454,2023-08-31,Standard Class,Home Office,Latin America,Technology,Laptops,254.99,2,0.1,40.89
+ORD-11455,2023-08-31,First Class,Consumer,Asia Pacific,Office Supplies,Paper,79.79,1,0.2,7.61
+ORD-11456,2023-08-31,Same Day,Home Office,Asia Pacific,Office Supplies,Storage,44.89,6,0.0,9.43
+ORD-11457,2023-08-31,Standard Class,Consumer,North America,Office Supplies,Paper,28.27,7,0.2,2.55
+ORD-11458,2023-09-01,Second Class,Home Office,North America,Technology,Laptops,95.18,5,0.15,0.01
+ORD-11459,2023-09-01,Same Day,Consumer,Latin America,Office Supplies,Binders,52.75,8,0.15,4.06
+ORD-11460,2023-09-01,Standard Class,Home Office,North America,Furniture,Tables,57.06,9,0.15,2.7
+ORD-11461,2023-09-01,Standard Class,Consumer,Asia Pacific,Office Supplies,Paper,329.66,4,0.1,-1.02
+ORD-11462,2023-09-01,Second Class,Consumer,Asia Pacific,Technology,Machines,18.51,7,0.0,4.4
+ORD-11463,2023-09-01,First Class,Corporate,Europe,Office Supplies,Storage,194.52,8,0.1,23.06
+ORD-11464,2023-09-02,First Class,Consumer,Latin America,Office Supplies,Art,119.98,6,0.3,-12.89
+ORD-11465,2023-09-02,Standard Class,Corporate,North America,Technology,Machines,170.39,2,0.1,19.1
+ORD-11466,2023-09-02,Standard Class,Consumer,North America,Office Supplies,Art,197.04,7,0.0,55.68
+ORD-11467,2023-09-02,Standard Class,Corporate,North America,Furniture,Tables,97.71,9,0.0,28.38
+ORD-11468,2023-09-02,Standard Class,Consumer,Europe,Office Supplies,Paper,91.94,5,0.5,-14.26
+ORD-11469,2023-09-02,Standard Class,Consumer,North America,Office Supplies,Paper,305.84,2,0.0,58.21
+ORD-11470,2023-09-03,First Class,Consumer,North America,Furniture,Tables,466.02,4,0.0,103.79
+ORD-11471,2023-09-03,Standard Class,Consumer,Asia Pacific,Office Supplies,Binders,62.06,3,0.0,10.27
+ORD-11472,2023-09-03,First Class,Consumer,Latin America,Office Supplies,Paper,37.6,4,0.3,-5.72
+ORD-11473,2023-09-03,Standard Class,Consumer,North America,Furniture,Furnishings,516.77,7,0.0,85.62
+ORD-11474,2023-09-03,Second Class,Consumer,North America,Technology,Laptops,109.74,8,0.1,14.17
+ORD-11475,2023-09-03,Standard Class,Consumer,Latin America,Office Supplies,Storage,191.32,1,0.15,20.98
+ORD-11476,2023-09-04,Standard Class,Corporate,North America,Office Supplies,Storage,113.03,8,0.0,37.38
+ORD-11477,2023-09-04,Standard Class,Home Office,North America,Office Supplies,Art,44.58,5,0.2,5.49
+ORD-11478,2023-09-04,Same Day,Consumer,North America,Office Supplies,Paper,210.79,7,0.1,3.29
+ORD-11479,2023-09-04,First Class,Corporate,Europe,Furniture,Tables,178.84,1,0.1,3.98
+ORD-11480,2023-09-04,Standard Class,Corporate,North America,Office Supplies,Paper,64.92,2,0.2,-5.18
+ORD-11481,2023-09-04,Standard Class,Consumer,Latin America,Technology,Machines,147.27,1,0.3,4.63
+ORD-11482,2023-09-05,Same Day,Corporate,Europe,Furniture,Tables,365.74,5,0.1,66.5
+ORD-11483,2023-09-05,Standard Class,Consumer,Europe,Technology,Machines,211.38,6,0.0,73.12
+ORD-11484,2023-09-05,Standard Class,Corporate,North America,Technology,Laptops,37.43,9,0.2,1.74
+ORD-11485,2023-09-05,Second Class,Consumer,Europe,Furniture,Bookcases,189.71,8,0.1,41.34
+ORD-11486,2023-09-05,Same Day,Corporate,Europe,Furniture,Furnishings,281.89,7,0.3,-4.81
+ORD-11487,2023-09-05,Standard Class,Corporate,Asia Pacific,Office Supplies,Binders,361.19,5,0.3,26.09
+ORD-11488,2023-09-06,Standard Class,Consumer,Asia Pacific,Furniture,Tables,233.21,3,0.0,62.11
+ORD-11489,2023-09-06,Same Day,Consumer,Europe,Furniture,Chairs,51.44,9,0.3,0.15
+ORD-11490,2023-09-06,Standard Class,Home Office,Latin America,Technology,Laptops,287.46,5,0.0,63.11
+ORD-11491,2023-09-06,Standard Class,Consumer,Asia Pacific,Furniture,Chairs,263.86,3,0.15,38.76
+ORD-11492,2023-09-06,Second Class,Corporate,Asia Pacific,Technology,Phones,20.44,3,0.0,3.6
+ORD-11493,2023-09-06,First Class,Home Office,North America,Technology,Machines,131.73,3,0.2,-10.67
+ORD-11494,2023-09-07,Standard Class,Corporate,North America,Office Supplies,Art,104.08,6,0.15,-6.04
+ORD-11495,2023-09-07,Same Day,Corporate,North America,Office Supplies,Paper,258.51,1,0.15,19.05
+ORD-11496,2023-09-07,Second Class,Corporate,Europe,Office Supplies,Storage,68.57,4,0.3,-0.7
+ORD-11497,2023-09-07,Standard Class,Home Office,Europe,Furniture,Furnishings,211.62,8,0.1,-1.34
+ORD-11498,2023-09-07,Same Day,Consumer,Europe,Furniture,Chairs,552.73,3,0.1,30.99
+ORD-11499,2023-09-07,Standard Class,Consumer,Asia Pacific,Office Supplies,Paper,366.67,5,0.2,-4.91

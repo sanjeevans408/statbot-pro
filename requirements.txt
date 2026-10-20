@@ -1,0 +1,16 @@
+langchain
+langchain-experimental
+langchain-openai
+langchain_nvidia_ai_endpoints
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+streamlit
+altair
+openpyxl
+pyarrow
+scipy
+scikit-learn
+tabulate
